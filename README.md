@@ -3,7 +3,7 @@
 > Today I Learned
 
 
-A collection of software engineering tips that I learn every day.
+A collection of tips that I learn every day.
 
 ---
 
