@@ -17,7 +17,7 @@ A collection of software engineering tips that I learn every day.
 
 ### markdown
 
-- [How_to_use_latex](markdown/how_to_use_latex.md)
+- [How To Use Latex](markdown/how-to-use-latex.md)
 
 ### meta
 
