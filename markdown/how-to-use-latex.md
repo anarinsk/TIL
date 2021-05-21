@@ -10,6 +10,8 @@
 ## Solution 1 
 
 + [Chome extension](https://chrome.google.com/webstore/detail/purple-pi/ingbbliecffofmmokknelnijicfcgolb/related)을 깐다. 
+  + 브라우저(크롬, 엣지 크로미움 기반) 기반으로 설치하고 계정 로그인된 상태라면 깔린 클라이언트(컴퓨터)에 관계 없이 익스텐션을 동기화하므로 설치하고 잊으면 된다. 
+  + 도구모음에서 숨겨 놓아도 좋다. 
 + 페이지 어딘가에 아래의 링크를 넣어둔다. 
 
 ```md
