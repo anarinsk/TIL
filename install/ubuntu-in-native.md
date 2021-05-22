@@ -22,3 +22,7 @@
 ## 한영 전환 
 
 + https://webnautes.tistory.com/1199
+
+## Docker 설치 
+
+https://docs.docker.com/engine/install/ubuntu/#install-using-the-repository
