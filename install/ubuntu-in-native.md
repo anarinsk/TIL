@@ -5,6 +5,10 @@
 + Hardware: 한성 세잔 5800H
 + Ubuntu 20.04 LTS 
 
+## Unsolved 
+
++ nvidia driver problem 
+  + 메인 노트북 화면이 죽고 외부 디스플레이만 활성화되는 문제 
 
 ## Skipped 
 
@@ -50,7 +54,7 @@ https://syssurr.tistory.com/270
 + [도커 설치](https://docs.docker.com/engine/install/ubuntu/)
 + [도커 콤포즈 설치](https://docs.docker.com/compose/install/)
 
-### 운용 
+### 운용
 
 
 
