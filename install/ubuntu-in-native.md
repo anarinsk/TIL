@@ -2,7 +2,7 @@
 
 ## Setting 
 
-+ Hardware: 한성 ....
++ Hardware: 한성 세잔 5800H
 + Ubuntu 20.04 LTS 
 
 
