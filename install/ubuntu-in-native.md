@@ -17,7 +17,8 @@
 + grub 부트로더의 0번이 ubuntu 실행이다. 그냥 둬서 잘 되면 OK 
 + 만일 제대로 작동하지 않는다면, 두번째 세부 설정으로 들어간다. 
   + 여기서는 linux kernel version을 선택할 수 있다. 다른 버전으로 잘 된다면 그대로 하면 된다. 
-+ 내가 경우는 커널 업데이트로 해결했다. [여기](https://codechacha.com/ko/ubuntu-update-kerenl/) 참고 
++ 내가 경우는 커널 업데이트로 해결했다. [여기](https://codechacha.com/ko/ubuntu-update-kerenl/) 참고 https://kibua20.tistory.com/128
++ [Grub customize](https://kibua20.tistory.com/128)
 
 ## 한영 전환 
 
