@@ -11,6 +11,11 @@
 + 설치 관련 자질구레한 사항 
   + 부팅 디스크 만들기 
   + 이미지 넣기 
+ 
+ ## Linux Kernel Update 
+ 
+ https://blog.daum.net/kssoft/151
+ 
 
 ## Booting failure 
 
