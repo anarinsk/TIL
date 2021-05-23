@@ -21,7 +21,7 @@
 
 ## 한영 전환 
 
-+ https://webnautes.tistory.com/1199
++ https://codechacha.com/ko/ubunutu-uim-keyboard/
 
 ## Docker 설치 
 
