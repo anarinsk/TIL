@@ -31,4 +31,5 @@ A collection of software engineering tips that I learn every day.
 ### rsc-stat
 
 - [Statproofbook](rsc-stat/statproofbook.md)
+- [Tidystat](rsc-stat/tidystat.md)
 
