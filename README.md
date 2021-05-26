@@ -7,6 +7,10 @@ A collection of software engineering tips that I learn every day.
 
 ---
 
+### concept-stats
+
+- [Berson Pardox](concept-stats/Berson-pardox.md)
+
 ### github
 
 - [Github Actions](github/github-actions.md)
