@@ -30,7 +30,7 @@ A collection of software engineering tips that I learn every day.
 
 ### resource-stats
 
-- [Dummy](resource-stats/dummy.md)
+- [Statproofbook](resource-stats/statproofbook.md)
 - [Tidystat](resource-stats/tidystat.md)
 
 ### rsc-stat
