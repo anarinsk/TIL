@@ -33,8 +33,3 @@ A collection of software engineering tips that I learn every day.
 - [Statproofbook](resource-stats/statproofbook.md)
 - [Tidystat](resource-stats/tidystat.md)
 
-### rsc-stat
-
-- [Statproofbook](rsc-stat/statproofbook.md)
-- [Tidystat](rsc-stat/tidystat.md)
-
