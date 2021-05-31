@@ -32,6 +32,10 @@ A collection of software engineering tips that I learn every day.
 - [Today I Learned](meta/today-i-learned.md)
 - [My Fork Test](meta/my-fork-test.md)
 
+### resource-rstat
+
+- [Ivreg](resource-rstat/ivreg.md)
+
 ### resource-stats
 
 - [Statproofbook](resource-stats/statproofbook.md)
