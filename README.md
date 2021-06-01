@@ -14,6 +14,7 @@ A collection of software engineering tips that I learn every day.
 ### github
 
 - [Github Actions](github/github-actions.md)
+- [How To Copy Repo](github/how-to-copy-repo.md)
 
 ### install
 
