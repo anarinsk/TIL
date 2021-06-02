@@ -8,7 +8,7 @@ HEADER="""# TIL
 > Today I Learned
 
 
-A collection of software engineering tips that I learn every day.
+A collection of every tips that I learn every day.
 
 ---
 
