@@ -37,6 +37,10 @@ A collection of every tips that I learn every day.
 
 - [Epigenesis](newly/epigenesis.md)
 
+### resource-python
+
+- [Agentpy](resource-python/agentpy.md)
+
 ### resource-rstat
 
 - [Ivreg](resource-rstat/ivreg.md)
