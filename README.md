@@ -38,6 +38,10 @@ A collection of every tips that I learn every day.
 
 - [Epigenesis](newly/epigenesis.md)
 
+### resource-machine_learning
+
+- [Dive Into Deep Learning](resource-machine_learning/dive-into-deep-learning.md)
+
 ### resource-python
 
 - [Agentpy](resource-python/agentpy.md)
