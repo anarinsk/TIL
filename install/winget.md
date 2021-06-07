@@ -11,6 +11,6 @@ winget install -e --id Docker.DockerDesktop
 winget install -e --id Microsoft.WindowsTerminal
 ```
 
-https://winstall.app/apps/Canonical.Ubuntu 
+https://winstall.app/
 
 광범위한 윈겟 활용방법. 버전 별 설치 등등이 나열되어 있다. 
