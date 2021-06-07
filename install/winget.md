@@ -35,6 +35,8 @@ https://winstall.app/
 Add-AppxPackage <file.appx> 
 ```
 
+## Winget을 설치하자. 
+
 - 같은 방식으로 winget을 설치할 수 있다. 파일 경우른 다음과 같다. 
 - https://github.com/microsoft/winget-cli/releases
 - 여기서 `appxbundle` 확장자 파일을 다운로드 받는다. 
