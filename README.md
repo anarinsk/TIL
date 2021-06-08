@@ -42,6 +42,10 @@ A collection of every tips that I learn every day.
 
 - [Dive Into Deep Learning](resource-machine_learning/dive-into-deep-learning.md)
 
+### resource-math
+
+- [Nbgla](resource-math/NBGLA.md)
+
 ### resource-python
 
 - [Agentpy](resource-python/agentpy.md)
