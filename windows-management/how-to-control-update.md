@@ -16,9 +16,13 @@ http://forum.ru-board.com/topic.cgi?forum=5&topic=48142#2
 
 - 일단 윈도 설정에서 업데이트를 멈춰 놓는다.
 - WUMT에서 "업데이트" 아이콘을 누르면 어떤 업데이트 및 상태를 있는지 볼 수 있다. 
-  + 
+
+![](https://github.com/anarinsk/til/blob/master/windows-management/image.png)
+
 - 문제가 있는 업데이트를 선택한 후 휴지통으로 보낸다.
-- 업데이트를 재개하면, 해당 업데이트는 목록에서 제외된다. 
+  + Hidden 항목으로 간다. 
+- 업데이트를 재개하면, 해당 업데이트는 목록에서 알아서 제외된다. 
+- 설치를 원할 경우 스크린 샷의 아이콘의 설치 아이콘을 통해 설치가 가능하다. 
 
 
 # Reference 
