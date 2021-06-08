@@ -17,3 +17,8 @@ http://forum.ru-board.com/topic.cgi?forum=5&topic=48142#2
 - 일단 윈도 설정에서 업데이트를 멈춰 놓는다.
 - wuMT를 열어서 문제가 되는 업데이트를 선택한 후 휴지통으로 보낸다.
 - 업데이트를 재개하면, 해당 업데이트는 목록에서 제외된다. 
+
+
+# Reference 
+
+https://zkim0115.tistory.com/966
