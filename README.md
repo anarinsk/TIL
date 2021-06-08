@@ -55,3 +55,7 @@ A collection of every tips that I learn every day.
 - [Statproofbook](resource-stats/statproofbook.md)
 - [Tidystat](resource-stats/tidystat.md)
 
+### windows-management
+
+- [How To Control Update](windows-management/how-to-control-update.md)
+
