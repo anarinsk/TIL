@@ -45,3 +45,10 @@ $$
 
 ![](https://github.com/anarinsk/til/blob/master/concept-stats/image.png?raw=true)
 
+## Examples 
+
+- 평균 정보만 가지고 확률의 바운드를 측정할 수 있다. 
+
+https://datalabbit.tistory.com/23
+
+https://datalabbit.tistory.com/23
