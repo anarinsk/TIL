@@ -16,9 +16,9 @@
 https://mathinsight.org/double_integral_change_order_integration_examples
 
 - 적분의 순서를 바꾸는 것이다. 
-- 만일 $dx dy$ 순으로 적분이 이루진다고 하자. 이때, 먼저 적분되는 변수에 따라서 뒤에 적분되는 변수가 연동된다. 
+- 만일 $dx\,dy$ 순으로 적분이 이루진다고 하자. 이때, 먼저 적분되는 변수에 따라서 뒤에 적분되는 변수가 연동된다. 
 - 순서를 바꾼다면 어떻게 될까? 변수에 따라서 적분의 순서가 바뀔 수 있다. 
-- 아래 예에서 1-CDF -> $E(X)$가 가능한 이유 역시 직관적으로은 여기에 있다. 
+- 아래 예에서 1-CDF &rarr; $E(X)$가 가능한 이유 역시 직관적으로은 여기에 있다. 
 
 
 ## From CDF to Expectation 
