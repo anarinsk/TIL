@@ -39,15 +39,8 @@ $$
 
 $$
 \begin{align*}
-& x < t < \infty \\
-& 0 < x < \infty 
-\end{align*}
-$$
-
-$$
-\begin{align*} 
-2x - 5y &=  8 \\ 
-3x + 9y &=  -12
+x < t < \infty \\
+0 < x < \infty 
 \end{align*}
 $$
 
