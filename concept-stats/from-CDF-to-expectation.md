@@ -43,7 +43,7 @@ $$
 $$
 
 $$
-\int_{0}^{\infty}\[xf_X(t)\]_{0}^{t} dx = \int_{0}^{\infty} \int_{0}^{t} f_X(t) dx dt 
+\int_{0}^{\infty} \left[ xf_X(t)\right]_0^t dx 
 $$
 
 
