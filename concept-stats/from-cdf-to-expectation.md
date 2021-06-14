@@ -39,7 +39,7 @@ $$
 $$
 
 $$
-= \int_{0}^{\infty} \left\[xf_X(t)\right\]_0^t dt = \int_{0}^{\infty} t f_X(t) dt  
+= \int_{0}^{\infty} \left\bracket xf_X(t)\right\bracket_0^t dt = \int_{0}^{\infty} t f_X(t) dt  
 $$
 
 - 이 식이 성립하려면 RV이 비음이어야 한다는 점에 주목하자. 
