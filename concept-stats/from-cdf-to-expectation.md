@@ -38,9 +38,11 @@ $$
 \int_{0}^{\infty} (1-F_X(x)) dx = \int_{0}^{\infty} \int_{t}^{0} f_X(t) dx dt 
 $$
 
+
 $$
 \int_{0}^{\infty} t dt = \int_{0}^{\infty} t f_X(t) dt  
 $$
+
 
 - 이 식이 성립하려면 RV이 비음이어야 한다는 점에 주목하자. 
 
