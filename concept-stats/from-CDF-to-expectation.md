@@ -45,6 +45,20 @@ $$
 0 < x < \infty 
 $$
 
+- $dx dt$의 경우 
+
+$x < t$ 조건이 그대로 오고, 아래에서 $0 < x$ 조건이 온다고 보자. 그리고 $0 < t < \infty$이 따라온다. 즉, 
+
+$$
+0 < x < t
+$$
+
+$$
+0 < t < \infty 
+$$
+
+따라서, 
+
 $$
 \int_{0}^{\infty} (1-F_X(x)) dx = \int_{0}^{\infty} \int_{0}^{t} f_X(t) dx dt = \int_{0}^{\infty} \left[ xf_X(t)\right]_0^t dt = \int_0^\infty t f_X(t) dt = \int_0^\infty x f_x(x) dx = E(X) 
 $$
