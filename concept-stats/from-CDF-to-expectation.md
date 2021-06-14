@@ -45,6 +45,13 @@ x < t < \infty \\
 $$
 
 $$
+\begin{gather*} 
+2x - 5y =  8 \\ 
+3x^2 + 9y =  3a + c
+\end{gather*}
+$$
+
+$$
 \int_{0}^{\infty} (1-F_X(x)) dx = \int_{0}^{\infty} \int_{0}^{t} f_X(t) dx dt = \int_{0}^{\infty} \left[ xf_X(t)\right]_0^t dt = \int_0^\infty t f_X(t) dt = \int_0^\infty x f_x(x) dx = E(X) 
 $$
 
