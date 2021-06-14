@@ -39,7 +39,7 @@ $$
 $$
 
 $$
-\int_{0}^{\infty} {\left\[x f_X(t)\right\]}_0^{t} dx = \int_{0}^{\infty} \int_{0}^{t} f_X(t) dx dt 
+\int_{0}^{\infty} {\lbracket x f_X(t)\rbracket}_{0}^{t} dx = \int_{0}^{\infty} \int_{0}^{t} f_X(t) dx dt 
 $$
 
 
