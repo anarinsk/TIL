@@ -39,6 +39,10 @@ $$
 $$
 
 $$
+\left[\frac{x^3}{3}+x\right]_1^2
+$$
+
+$$
 \int_{0}^{\infty}\[xf_X(t)\]_{0}^{t} dx = \int_{0}^{\infty} \int_{0}^{t} f_X(t) dx dt 
 $$
 
