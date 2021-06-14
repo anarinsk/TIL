@@ -35,7 +35,7 @@ $$
 여기서 적분 순서를 바꿔보자. $dx$가 앞으로 오면, 앞의 내용을 응용해서 적분 구간을 설정할 수 있다. 
 
 $$
-\int_{0}^{\infty} (1-F_X(x)) dx = \int_{0}^{\infty} \int_{t}^{0} f_X(t) dx dt = \int_{0}^{\infty}{\lbracket x f_X(t) \rbracket}^t_0 dt = \int_{0}^{\infty} t f_X(t) dt  
+\int_{0}^{\infty} (1-F_X(x)) dx = \int_{0}^{\infty} \int_{t}^{0} f_X(t) dx dt = \int_{0}^{\infty} \[ lbracket x f_X(t) \]^t_0 dt = \int_{0}^{\infty} t f_X(t) dt  
 $$
 
 - 이 식이 성립하려면 RV이 비음이어야 한다는 점에 주목하자. 
