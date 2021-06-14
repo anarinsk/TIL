@@ -39,8 +39,8 @@ $$
 
 $$
 \begin{aligned}
-x < t < /infty //
-0 < x < /infty 
+x < & t < \infty \\
+0 < & x < \infty 
 \end{aligned}
 $$
 
