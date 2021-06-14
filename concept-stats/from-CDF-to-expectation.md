@@ -38,17 +38,11 @@ $$
 - $dt dx$의 경우 
 
 $$
-\begin{align*}
-x < t < \infty \\
-0 < x < \infty 
-\end{align*}
+x < t < \infty 
 $$
 
 $$
-\begin{gather*} 
-2x - 5y =  8 \\ 
-3x^2 + 9y =  3a + c
-\end{gather*}
+0 < x < \infty 
 $$
 
 $$
