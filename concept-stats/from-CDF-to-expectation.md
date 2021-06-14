@@ -35,15 +35,7 @@ $$
 여기서 적분 순서를 바꿔보자. $dx$가 앞으로 오면, 앞의 내용을 응용해서 적분 구간을 설정할 수 있다. 
 
 $$
-\int_{0}^{\infty} (1-F_X(x)) dx = \int_{0}^{\infty} \int_{0}^{t} f_X(t) dx dt 
-$$
-
-$$
-\left[\frac{x^3}{3}+x\right]_1^2
-$$
-
-$$
-\int_{0}^{\infty} \left[ xf_X(t)\right]_0^t dx 
+\int_{0}^{\infty} (1-F_X(x)) dx = \int_{0}^{\infty} \int_{0}^{t} f_X(t) dx dt = \int_{0}^{\infty} \left[ xf_X(t)\right]_0^t dt = \int_0^\infty t f_x(t) dt = \E(X) 
 $$
 
 
