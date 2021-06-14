@@ -38,10 +38,10 @@ $$
 - $dt dx$의 경우 
 
 $$
-\begin{align}
+\begin{align*}
 & x < t < \infty \\
 & 0 < x < \infty 
-\end{align}
+\end{align*}
 $$
 
 $$
