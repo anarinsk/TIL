@@ -30,7 +30,7 @@ $$
 $$
 
 $$
-\int_{0}^{\infty} (1-F_X(x)) dx = \int_{0}^{\infty} P(X \geq x) dx = \int_{0}^{\infty} \int_{\infty}^{x} f_X(t) dt dx
+\int_{0}^{\infty} (1-F_X(x)) dx = \int_{0}^{\infty} P(X \geq x) dx = \int_{0}^{\infty} \int_{x}^{\infty} f_X(t) dt dx
 $$
 
 여기서 적분 순서를 바꿔보자. $dx$가 앞으로 오면, 앞의 내용을 응용해서 적분 구간을 설정할 수 있다. 
