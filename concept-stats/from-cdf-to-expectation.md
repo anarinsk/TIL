@@ -39,3 +39,5 @@ $$
 
 # Visual Proof of Markov Inequality 
 
+![](https://github.com/anarinsk/til/blob/master/concept-stats/image.png?raw=true)
+
