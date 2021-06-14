@@ -1,3 +1,6 @@
+[![purple-pi](https://img.shields.io/badge/Rendered%20with-Purple%20Pi-bd00ff?style=flat-square)](https://github.com/nschloe/purple-pi?activate)
+
+
 # What 
 
 - CDF에서 Expectation을 구할 수 있는 방법을 알아보자. 
