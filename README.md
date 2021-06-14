@@ -11,6 +11,10 @@ A collection of every tips that I learn every day.
 
 - [Berson Pardox](concept-stats/Berson-pardox.md)
 
+### economics
+
+- [Task Automation Wage Inequality](economics/task-automation-wage-inequality.md)
+
 ### github
 
 - [Github Actions](github/github-actions.md)
