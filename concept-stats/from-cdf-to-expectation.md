@@ -39,7 +39,7 @@ $$
 $$
 
 $$
-\int_{0}^{\infty} t dt = \int_{0}^{\infty} t f_X(t) dt  
+\int_{0}^{\infty} (1-F_X(x)) dx = \int_{0}^{\infty} \int_{0}^{t} f_X(t) dx dt 
 $$
 
 
