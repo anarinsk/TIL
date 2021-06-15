@@ -12,11 +12,6 @@ A collection of every tips that I learn every day.
 - [From Cdf To Expectation](concept-stats/from-CDF-to-expectation.md)
 - [Berson Pardox](concept-stats/Berson-pardox.md)
 
-### image
-
-- [Cdf](image/cdf.png)
-- [Dummy](image/dummy)
-
 ### github
 
 - [Github Actions](github/github-actions.md)
