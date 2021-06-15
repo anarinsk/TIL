@@ -14,6 +14,7 @@ A collection of every tips that I learn every day.
 
 ### image
 
+- [Cdf](image/cdf.png)
 - [Dummy](image/dummy)
 
 ### github
