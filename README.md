@@ -9,7 +9,6 @@ A collection of every tips that I learn every day.
 
 ### concept-stats
 
-- [Image](concept-stats/image.png)
 - [From Cdf To Expectation](concept-stats/from-CDF-to-expectation.md)
 - [Berson Pardox](concept-stats/Berson-pardox.md)
 
