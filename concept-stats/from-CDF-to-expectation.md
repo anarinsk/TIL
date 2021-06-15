@@ -67,7 +67,7 @@ $$
 
 # Visual Proof of Markov Inequality 
 
-![](https://github.com/anarinsk/til/blob/master/concept-stats/image/cdf.png?raw=true)
+![](https://github.com/anarinsk/images/blob/main/til/cdf.png?raw=true)
 
 ## Examples 
 
