@@ -40,6 +40,10 @@ A collection of every tips that I learn every day.
 
 - [Epigenesis](newly/epigenesis.md)
 
+### resource-econometrics
+
+- [Hyndman Text Book](resource-econometrics/hyndman-text-book.md)
+
 ### resource-machine_learning
 
 - [Dive Into Deep Learning](resource-machine_learning/dive-into-deep-learning.md)
