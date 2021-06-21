@@ -13,19 +13,19 @@ A collection of every tips that I learn every day.
 
 ### concept-stats
 
-- [From Cdf To Expectation](concept-stats/from-CDF-to-expectation.md)
 - [Berson Pardox](concept-stats/Berson-pardox.md)
+- [From Cdf To Expectation](concept-stats/from-CDF-to-expectation.md)
 
 ### github
 
-- [Github Actions](github/github-actions.md)
 - [Git From Master To Main](github/git-from-master-to-main.md)
+- [Github Actions](github/github-actions.md)
 - [How To Copy Repo](github/how-to-copy-repo.md)
 
 ### install
 
-- [Winget](install/winget.md)
 - [Ubuntu In Native](install/ubuntu-in-native.md)
+- [Winget](install/winget.md)
 
 ### macos
 
@@ -37,8 +37,8 @@ A collection of every tips that I learn every day.
 
 ### meta
 
-- [Today I Learned](meta/today-i-learned.md)
 - [My Fork Test](meta/my-fork-test.md)
+- [Today I Learned](meta/today-i-learned.md)
 
 ### newly
 
@@ -66,8 +66,8 @@ A collection of every tips that I learn every day.
 
 ### resource-stats
 
-- [Statproofbook](resource-stats/statproofbook.md)
 - [Tidystat](resource-stats/tidystat.md)
+- [Statproofbook](resource-stats/statproofbook.md)
 
 ### vscode
 
