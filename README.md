@@ -63,6 +63,7 @@ A collection of every tips that I learn every day.
 ### resource-rstat
 
 - [Ivreg](resource-rstat/ivreg.md)
+- [Tidyverse Cookbook](resource-rstat/tidyverse-cookbook.md)
 
 ### resource-stats
 
