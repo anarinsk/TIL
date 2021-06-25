@@ -18,9 +18,9 @@ A collection of every tips that I learn every day.
 
 ### github
 
-- [Git From Master To Main](github/git-from-master-to-main.md)
-- [Github Actions](github/github-actions.md)
 - [How To Copy Repo](github/how-to-copy-repo.md)
+- [Github Actions](github/github-actions.md)
+- [Git From Master To Main](github/git-from-master-to-main.md)
 
 ### install
 
@@ -37,8 +37,8 @@ A collection of every tips that I learn every day.
 
 ### meta
 
-- [My Fork Test](meta/my-fork-test.md)
 - [Today I Learned](meta/today-i-learned.md)
+- [My Fork Test](meta/my-fork-test.md)
 
 ### newly
 
@@ -59,16 +59,17 @@ A collection of every tips that I learn every day.
 ### resource-python
 
 - [Agentpy](resource-python/agentpy.md)
+- [Time Series Handling 1](resource-python/time-series-handling-1.md)
 
 ### resource-rstat
 
-- [Ivreg](resource-rstat/ivreg.md)
 - [Tidyverse Cookbook](resource-rstat/tidyverse-cookbook.md)
+- [Ivreg](resource-rstat/ivreg.md)
 
 ### resource-stats
 
-- [Tidystat](resource-stats/tidystat.md)
 - [Statproofbook](resource-stats/statproofbook.md)
+- [Tidystat](resource-stats/tidystat.md)
 
 ### vscode
 
