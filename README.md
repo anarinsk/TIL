@@ -13,14 +13,14 @@ A collection of every tips that I learn every day.
 
 ### concept-stats
 
-- [Berson Pardox](concept-stats/Berson-pardox.md)
 - [From Cdf To Expectation](concept-stats/from-CDF-to-expectation.md)
+- [Berson Pardox](concept-stats/Berson-pardox.md)
 
 ### github
 
-- [How To Copy Repo](github/how-to-copy-repo.md)
 - [Github Actions](github/github-actions.md)
 - [Git From Master To Main](github/git-from-master-to-main.md)
+- [How To Copy Repo](github/how-to-copy-repo.md)
 
 ### install
 
@@ -37,8 +37,8 @@ A collection of every tips that I learn every day.
 
 ### meta
 
-- [Today I Learned](meta/today-i-learned.md)
 - [My Fork Test](meta/my-fork-test.md)
+- [Today I Learned](meta/today-i-learned.md)
 
 ### newly
 
@@ -51,6 +51,7 @@ A collection of every tips that I learn every day.
 ### resource-machine_learning
 
 - [Dive Into Deep Learning](resource-machine_learning/dive-into-deep-learning.md)
+- [Intro To Ml Ms](resource-machine_learning/intro-to-ml-ms.md)
 
 ### resource-math
 
@@ -63,8 +64,8 @@ A collection of every tips that I learn every day.
 
 ### resource-rstat
 
-- [Tidyverse Cookbook](resource-rstat/tidyverse-cookbook.md)
 - [Ivreg](resource-rstat/ivreg.md)
+- [Tidyverse Cookbook](resource-rstat/tidyverse-cookbook.md)
 
 ### resource-stats
 
