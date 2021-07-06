@@ -69,6 +69,7 @@ A collection of every tips that I learn every day.
 
 ### resource-stats
 
+- [All Of Statistics](resource-stats/all-of-statistics.md)
 - [Statproofbook](resource-stats/statproofbook.md)
 - [Tidystat](resource-stats/tidystat.md)
 
