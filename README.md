@@ -57,6 +57,7 @@ A collection of every tips that I learn every day.
 
 - [Interactive Linear Algebra](resource-math/interactive-linear-algebra.md)
 - [Nbgla](resource-math/NBGLA.md)
+- [Understanding Analysis Abott](resource-math/understanding-analysis-abott.md)
 
 ### resource-python
 
