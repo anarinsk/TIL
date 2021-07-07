@@ -55,6 +55,7 @@ A collection of every tips that I learn every day.
 
 ### resource-math
 
+- [Interactive Linear Algebra](resource-math/interactive-linear-algebra.md)
 - [Nbgla](resource-math/NBGLA.md)
 
 ### resource-python
