@@ -77,6 +77,7 @@ A collection of every tips that I learn every day.
 
 ### resources-econmetrics
 
+- [Causal Inference Mixtape](resources-econmetrics/causal-inference-mixtape.md)
 - [The Effect Book](resources-econmetrics/the-effect-book.md)
 
 ### vscode
