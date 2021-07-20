@@ -75,6 +75,10 @@ A collection of every tips that I learn every day.
 - [Statproofbook](resource-stats/statproofbook.md)
 - [Tidystat](resource-stats/tidystat.md)
 
+### resources-econmetrics
+
+- [The Effect Book](resources-econmetrics/the-effect-book.md)
+
 ### vscode
 
 - [Github Extension](vscode/github-extension.md)
