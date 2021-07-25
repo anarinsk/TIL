@@ -19,6 +19,7 @@ A collection of every tips that I learn every day.
 ### github
 
 - [Github Actions](github/github-actions.md)
+- [Init In Existing Dir](github/init-in-existing-dir.md)
 - [Git From Master To Main](github/git-from-master-to-main.md)
 - [How To Update Git Ubuntu](github/how-to-update-git-ubuntu.md)
 - [How To Copy Repo](github/how-to-copy-repo.md)
