@@ -32,7 +32,7 @@ $ git remote -v
 $ git push origin main
 # Pushes the changes in your local repository up to the remote repository you specified as the origin
 ```
-- `git init -b main` 명령을 쓰려면 git version이 2.32.0 이상이어야 한다. 필요한 경우 git을 업그레이드해줘야 한다. [여기] 참고. 
+- `git init -b main` 명령을 쓰려면 git version이 2.32.0 이상이어야 한다. 필요한 경우 git을 업그레이드해줘야 한다. [여기](https://github.com/anarinsk/til/blob/master/github/how-to-update-git-ubuntu.md) 참고. 
 - 리포 생성과정에서 `.gitignore`와 같이 로컬에 없는 파일을 생성했다면 push가 되지 않을 수 있다. 
 - 이런 경우에는 pull을 한번 하고 푸시를 한다. 
 - 이때 pull도 원활하지 않을 수 있는데, 이 경우 해당 메시지를 git이 보여주니 이걸 보고 대처하면 되겠다. 
