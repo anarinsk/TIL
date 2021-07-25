@@ -52,4 +52,4 @@ hint: or --ff-only on the command line to override the configured default per
 hint: invocation.
 ```
 
-- 갈라진 브랜치를 어떻게 처리할 것인지의 디폴트 액션에 관한 것이다. `git config pull.rebase true` 선택하도 큰 문제는 없을 것이다. 
+- 갈라진 브랜치를 어떻게 처리할 것인지의 디폴트 액션에 관한 것이다. `git config pull.rebase true` 선택 큰 문제는 없을 것이다. 
