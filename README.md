@@ -19,15 +19,15 @@ A collection of every tips that I learn every day.
 ### github
 
 - [Github Actions](github/github-actions.md)
-- [Init In Existing Dir](github/init-in-existing-dir.md)
-- [Git From Master To Main](github/git-from-master-to-main.md)
-- [How To Update Git Ubuntu](github/how-to-update-git-ubuntu.md)
 - [How To Copy Repo](github/how-to-copy-repo.md)
+- [Init In Existing Dir](github/init-in-existing-dir.md)
+- [How To Update Git Ubuntu](github/how-to-update-git-ubuntu.md)
+- [Git From Master To Main](github/git-from-master-to-main.md)
 
 ### install
 
-- [Ubuntu In Native](install/ubuntu-in-native.md)
 - [Winget](install/winget.md)
+- [Ubuntu In Native](install/ubuntu-in-native.md)
 
 ### macos
 
@@ -52,14 +52,14 @@ A collection of every tips that I learn every day.
 
 ### resource-machine_learning
 
-- [Dive Into Deep Learning](resource-machine_learning/dive-into-deep-learning.md)
 - [Intro To Ml Ms](resource-machine_learning/intro-to-ml-ms.md)
+- [Dive Into Deep Learning](resource-machine_learning/dive-into-deep-learning.md)
 
 ### resource-math
 
-- [Interactive Linear Algebra](resource-math/interactive-linear-algebra.md)
 - [Nbgla](resource-math/NBGLA.md)
 - [Understanding Analysis Abott](resource-math/understanding-analysis-abott.md)
+- [Interactive Linear Algebra](resource-math/interactive-linear-algebra.md)
 
 ### resource-python
 
@@ -79,8 +79,8 @@ A collection of every tips that I learn every day.
 
 ### resources-econmetrics
 
-- [Causal Inference Mixtape](resources-econmetrics/causal-inference-mixtape.md)
 - [The Effect Book](resources-econmetrics/the-effect-book.md)
+- [Causal Inference Mixtape](resources-econmetrics/causal-inference-mixtape.md)
 
 ### resources-julia
 
@@ -92,6 +92,7 @@ A collection of every tips that I learn every day.
 
 ### windows-management
 
+- [Winget](windows-management/winget.md)
 - [How To Control Update](windows-management/how-to-control-update.md)
 - [Image](windows-management/image.png)
 
