@@ -7,6 +7,10 @@ A collection of every tips that I learn every day.
 
 ---
 
+### blogging
+
+- [Fastpages](blogging/fastpages.md)
+
 ### causal-inference
 
 - [Ope Example 1](causal-inference/OPE-example-1.md)
