@@ -10,6 +10,7 @@ A collection of every tips that I learn every day.
 ### blogging
 
 - [Fastpages](blogging/fastpages.md)
+- [Katex](blogging/katex.md)
 
 ### causal-inference
 
