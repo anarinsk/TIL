@@ -9,8 +9,8 @@ A collection of every tips that I learn every day.
 
 ### blogging
 
-- [Fastpages](blogging/fastpages.md)
 - [Katex](blogging/katex.md)
+- [Fastpages](blogging/fastpages.md)
 
 ### causal-inference
 
@@ -18,16 +18,16 @@ A collection of every tips that I learn every day.
 
 ### concept-stats
 
-- [From Cdf To Expectation](concept-stats/from-CDF-to-expectation.md)
 - [Berson Pardox](concept-stats/Berson-pardox.md)
+- [From Cdf To Expectation](concept-stats/from-CDF-to-expectation.md)
 
 ### github
 
-- [Github Actions](github/github-actions.md)
-- [How To Copy Repo](github/how-to-copy-repo.md)
-- [Init In Existing Dir](github/init-in-existing-dir.md)
-- [How To Update Git Ubuntu](github/how-to-update-git-ubuntu.md)
 - [Git From Master To Main](github/git-from-master-to-main.md)
+- [How To Update Git Ubuntu](github/how-to-update-git-ubuntu.md)
+- [Github Actions](github/github-actions.md)
+- [Init In Existing Dir](github/init-in-existing-dir.md)
+- [How To Copy Repo](github/how-to-copy-repo.md)
 
 ### install
 
@@ -51,6 +51,10 @@ A collection of every tips that I learn every day.
 
 - [Epigenesis](newly/epigenesis.md)
 
+### podman
+
+- [Basic](podman/basic.md)
+
 ### resource-econometrics
 
 - [Hyndman Text Book](resource-econometrics/hyndman-text-book.md)
@@ -62,14 +66,14 @@ A collection of every tips that I learn every day.
 
 ### resource-math
 
-- [Nbgla](resource-math/NBGLA.md)
 - [Understanding Analysis Abott](resource-math/understanding-analysis-abott.md)
 - [Interactive Linear Algebra](resource-math/interactive-linear-algebra.md)
+- [Nbgla](resource-math/NBGLA.md)
 
 ### resource-python
 
-- [Agentpy](resource-python/agentpy.md)
 - [Time Series Handling 1](resource-python/time-series-handling-1.md)
+- [Agentpy](resource-python/agentpy.md)
 
 ### resource-rstat
 
@@ -78,14 +82,14 @@ A collection of every tips that I learn every day.
 
 ### resource-stats
 
-- [All Of Statistics](resource-stats/all-of-statistics.md)
 - [Statproofbook](resource-stats/statproofbook.md)
+- [All Of Statistics](resource-stats/all-of-statistics.md)
 - [Tidystat](resource-stats/tidystat.md)
 
 ### resources-econmetrics
 
-- [The Effect Book](resources-econmetrics/the-effect-book.md)
 - [Causal Inference Mixtape](resources-econmetrics/causal-inference-mixtape.md)
+- [The Effect Book](resources-econmetrics/the-effect-book.md)
 
 ### resources-julia
 
@@ -98,8 +102,8 @@ A collection of every tips that I learn every day.
 ### windows-management
 
 - [Winget](windows-management/winget.md)
-- [How To Control Update](windows-management/how-to-control-update.md)
 - [Image](windows-management/image.png)
+- [How To Control Update](windows-management/how-to-control-update.md)
 
 ### zsh
 
