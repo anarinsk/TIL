@@ -8,7 +8,7 @@
 - podman의 모든 명령어는 docker와 호환된다. 따라서 podman 자체로 바꾸는 데에는 큰 문제가 없다. 
 - podman >= 3.0 이상 부터 설치가 간편하다. 
 
-기본적으로 [여기](https://wbhegedus.me/running-podman-on-wsl2/)가 거의 완벽하다. 다만 진행 순서가 틀렸다. 
+기본적으로 [여기](https://wbhegedus.me/running-podman-on-wsl2/) 가이드가 완벽하다. 다만 진행 순서가 틀렸다. 
 
 ```shell
 1> cat /etc/lsb-release
