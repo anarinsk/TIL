@@ -71,7 +71,7 @@ EOF
 apt update
 ```
 
-#### Ginie & docker-compose 
+#### Genie & docker-compose 
 
 ```shell
 sudo apt update
@@ -85,9 +85,10 @@ sudo apt install -y systemd-genie
 - 포드맨에서 docker-compose를 실행하기 위해서는 우선 systemd가 활성화되어야 한다. 이를 위해서 Powershell에서 다음과 같이 실행하자. 
 
 ```shell
-> wsl ginie -s
+> wsl genie -s
 ```
 
+- 가끔 대기가 걸릴 떄가 있는데 무시하고 다시 실행해주면 대개 잘 된다. 
 - 이제 이 상태에서 두 개의 일을 해준다. 
 
 ```shell
@@ -95,7 +96,7 @@ sudo apt install -y systemd-genie
 2> export DOCKER_HOST=unix://$XDG_RUNTIME_DIR/podman/podman.sock
 ```
 
-1. systemctl 명령을 통해서 podman의 소켓을 개시하는 것이다. 소켓의 상태를 보고 싶다면, start` &rarr; `status`
+1. systemctl 명령을 통해서 podman의 소켓을 개시하는 것이다. 소켓의 상태를 보고 싶다면, `start` &rarr; `status`
 2. docker를 지웠으므로 이를 대신할 가상화 앱을 지정해야 한다. 이를 포드맨 소켓과 연결한다. 
 
 - 이 상태에서 `docker-comppose`를 얹으면 잘 돌아간다. 
