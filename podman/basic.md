@@ -103,6 +103,7 @@ sudo apt install -y systemd-genie
 
 - WSL 부팅 시 자동으로 준비가 되게 하려면 1,2를 .bashrc에 넣는다. 
     + 단 `wsl genie -s` 상태가 아니라면 systemd 사용이 제한되기 때문에 경고 메시지를 볼 수 있다.  
+    + `Failed to connect to bus: No such file or directory`
 
 ## Problem left 
 
