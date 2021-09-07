@@ -51,6 +51,8 @@ cgroup_manager="cgroupfs"
 
 가이드에 있는 대로 
 
+#### 사전 설치 
+
 - [.net 런타임 설치](https://docs.microsoft.com/en-us/dotnet/core/install/linux-ubuntu)
 - [wsl-transdevian 설치](https://arkane-systems.github.io/wsl-transdebian/)
     + lsb_release를 먼저 설치하자. `apt-get install lsb`
@@ -61,12 +63,21 @@ wget -O /etc/apt/trusted.gpg.d/wsl-transdebian.gpg https://arkane-systems.github
 
 chmod a+r /etc/apt/trusted.gpg.d/wsl-transdebian.gpg
 
+
 cat << EOF > /etc/apt/sources.list.d/wsl-transdebian.list
 deb https://arkane-systems.github.io/wsl-transdebian/apt/ $(lsb_release -cs) main
 deb-src https://arkane-systems.github.io/wsl-transdebian/apt/ $(lsb_release -cs) main
 EOF
 apt update
 ```
+
+#### Ginie & docker-compose 
+
+```shell
+sudo apt update
+sudo apt install -y systemd-genie
+```
+
 - docker-compose 설치 `apt-get install docker-compose`
 
 ### To run docker-compose with podman 
