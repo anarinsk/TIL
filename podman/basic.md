@@ -1,8 +1,8 @@
-# Docker Desktop 유료화 
+# Podman in WSL 2 
 
-## Podman in WSL 2 
+- Docker Desktop 유료화되서 쓴다!  
 
-### Installation 
+## Installation 
 
 - 어차피 WSL 2에서 밖에 안 쓰게 되지 않을까 싶다. 
 - podman의 모든 명령어는 docker와 호환된다. 따라서 podman 자체로 바꾸는 데에는 큰 문제가 없다. 
@@ -30,7 +30,7 @@ DISTRIB_DESCRIPTION="Ubuntu 20.04.2 LTS"
 2. `VERSION_ID` 항목의 버전을 확인해서 넣어준다. 
 - 이후는 포드맨을 설치하는 절차다. 
 
-### ENV 
+## ENV 
 
 - 환경 설정을 위해서 아래의 두 작업을 한다. 
     + `~/.config/containers` 디렉토리를 만든다. 
@@ -44,14 +44,14 @@ cgroup_manager="cgroupfs"
 
 - 위의 내용을 넣어주고 저장한 후 재 부팅
 
-### With `docker-compose`
+## With `docker-compose`
 
 - 도커 컴포즈와 쓰기 위해서는 조금 복잡하다. systemd를 설정해주는 과정이 필요하기 때문이다. 이를 위해서 ginie를 설치해야 한다. 
 - 기본 절차는 [여기](https://github.com/arkane-systems/genie)를 참고하자. 
 
 가이드에 있는 대로 
 
-#### 사전 설치 
+### 사전 설치 
 
 - [.net 런타임 설치](https://docs.microsoft.com/en-us/dotnet/core/install/linux-ubuntu)
 - [wsl-transdevian 설치](https://arkane-systems.github.io/wsl-transdebian/)
@@ -71,7 +71,7 @@ EOF
 apt update
 ```
 
-#### Genie & docker-compose 
+### Genie & docker-compose 
 
 ```shell
 sudo apt update
@@ -80,7 +80,7 @@ sudo apt install -y systemd-genie
 
 - docker-compose 설치 `apt-get install docker-compose`
 
-### To run docker-compose with podman 
+## To run docker-compose with podman 
 
 - 포드맨에서 docker-compose를 실행하기 위해서는 우선 systemd가 활성화되어야 한다. 이를 위해서 Powershell에서 다음과 같이 실행하자. 
 
@@ -100,6 +100,9 @@ sudo apt install -y systemd-genie
 2. docker를 지웠으므로 이를 대신할 가상화 앱을 지정해야 한다. 이를 포드맨 소켓과 연결한다. 
 
 - 이 상태에서 `docker-comppose`를 얹으면 잘 돌아간다. 
+
+- WSL 부팅 시 자동으로 준비가 되게 하려면 1,2를 .bashrc에 넣는다. 
+    + 단 `wsl genie -s` 상태가 아니라면 systemd 사용이 제한되기 때문에 경고 메시지를 볼 수 있다.  
 
 ## Problem left 
 
