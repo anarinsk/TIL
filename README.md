@@ -53,6 +53,7 @@ A collection of every tips that I learn every day.
 
 ### podman
 
+- [Fix Nvidia Cuda](podman/fix-nvidia-cuda.md)
 - [Basic](podman/basic.md)
 
 ### resource-econometrics
