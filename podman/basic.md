@@ -34,7 +34,12 @@ DISTRIB_DESCRIPTION="Ubuntu 20.04.2 LTS"
 
 - 환경 설정을 위해서 아래의 두 작업을 한다. 
     + `~/.config/containers` 디렉토리를 만든다. 
-    + `nano ~/.config/containers/containers.conf` 파일을 생성한다. 
+    + `~/.config/containers/containers.conf` 파일을 생성한다. 
+
+```shell
+> mkdir -p ~/.config/containers
+> sudo nano ~/.config/containers/containers.conf
+```
 
 ```shell
 [engine]
