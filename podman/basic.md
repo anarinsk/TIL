@@ -21,9 +21,9 @@ DISTRIB_DESCRIPTION="Ubuntu 20.04.2 LTS"
 
 > echo "deb https://download.opensuse.org/repositories/devel:/kubic:/libcontainers:/stable/xUbuntu_${VERSION_ID}/ /" | sudo tee /etc/apt/sources.list.d/devel:kubic:libcontainers:stable.list
 > curl -L https://download.opensuse.org/repositories/devel:/kubic:/libcontainers:/stable/xUbuntu_${VERSION_ID}/Release.key | sudo apt-key add -
->sudo apt-get update
->sudo apt-get -y upgrade
->sudo apt-get -y install podman
+> sudo apt-get update
+> sudo apt-get -y upgrade
+> sudo apt-get -y install podman
 ```
 
 1. Ubuntu의 버전을 확인한다. 
