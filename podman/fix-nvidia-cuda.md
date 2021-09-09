@@ -28,7 +28,7 @@ https://docs.nvidia.com/datacenter/cloud-native/container-toolkit/install-guide.
 
 ### Testing Module 
 
-- 아래 콘테이너들을 실행해보자. 
+- 아래 컨테이너들을 실행해보자. 
 
 #### nvidia-smi 
 
