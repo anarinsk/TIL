@@ -17,15 +17,18 @@ https://docs.nvidia.com/cuda/wsl-user-guide/index.html#ch02-sub03-installing-wsl
 
 ### Podman 설치 
 
-- 앞선 가이드에 따라서 통상적으로 포드맨을 설치한다. 
+- [기본 가이드](https://github.com/anarinsk/til/blob/master/podman/basic.md)에 따라서 통상적으로 포드맨을 설치한다. 
 
 ### Podman tuned for nvidia 
 
-- 아래 가이드에 따라서 podman에 맞게 nvidia 드라이버가 활용될 수 있도록 걸어준다. 
+- 아래 가이드에 따라서 podman에 맞게 nvidia 드라이버가 활용될 수 있도록 설정을 잡아준다. 
+    + 해당 디렉토리나 파일이 없는 경우는 만들면 된다.  
 
 https://docs.nvidia.com/datacenter/cloud-native/container-toolkit/install-guide.html#id8
 
 ### Testing Module 
+
+- 아래 콘테이너들을 실행해보자. 
 
 #### nvidia-smi 
 
