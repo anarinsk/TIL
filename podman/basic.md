@@ -37,8 +37,8 @@ DISTRIB_DESCRIPTION="Ubuntu 20.04.2 LTS"
     + `~/.config/containers/containers.conf` 파일을 생성한다. 
 
 ```shell
-> mkdir -p ~/.config/containers
-> sudo nano ~/.config/containers/containers.conf
+$ mkdir -p ~/.config/containers
+$ sudo nano ~/.config/containers/containers.conf
 ```
 
 ```shell
@@ -79,8 +79,8 @@ apt update
 ### Genie & docker-compose 
 
 ```shell
-sudo apt update
-sudo apt install -y systemd-genie
+$ sudo apt update
+$ sudo apt install -y systemd-genie
 ```
 
 - docker-compose 설치 `apt-get install docker-compose`
@@ -97,8 +97,8 @@ sudo apt install -y systemd-genie
 - 이제 이 상태에서 두 개의 일을 해준다. 
 
 ```shell
-1> systemctl --user start podman.socket
-2> export DOCKER_HOST=unix://$XDG_RUNTIME_DIR/podman/podman.sock
+1$ systemctl --user start podman.socket
+2$ export DOCKER_HOST=unix://$XDG_RUNTIME_DIR/podman/podman.sock
 ```
 
 1. systemctl 명령을 통해서 podman의 소켓을 개시하는 것이다. 소켓의 상태를 보고 싶다면, `start` &rarr; `status`
