@@ -96,6 +96,12 @@ sudo sed -i 's/^#no-cgroups = false/no-cgroups = true/;' /etc/nvidia-container-r
 podman run --rm --security-opt=label=disable nvidia/cuda:11.0-base nvidia-smi
 ```
 
+- 테스트 기기에 맞는 최신 버전을 끌어와보자. 
+
+```shell
+podman run --rm --security-opt=label=disable nvidia/cuda:11.4.1-base-ubuntu20.04 nvidia-smi
+```
+
 #### FP16 GEMM
 
 ```shell
