@@ -93,7 +93,7 @@ sudo sed -i 's/^#no-cgroups = false/no-cgroups = true/;' /etc/nvidia-container-r
 #### nvidia-smi 
 
 ```shell
-$ podman run --rm --security-opt=label=disable nvidia/cuda:11.0-base nvidia-smi
+podman run --rm --security-opt=label=disable nvidia/cuda:11.0-base nvidia-smi
 ```
 
 ### FP16 GEMM
@@ -117,7 +117,7 @@ podman run --rm --security-opt=label=disable \
 - 현재 디렉토리에 `data` 하위 디렉토리를 만들어야 한다. 
 
 ```shell
-$ sudo podman run --env NVIDIA_DISABLE_REQUIRE=1 -d -it -p 127.0.0.1:8888:8888 -v $(pwd)/data:/mnt/space/ml -e GRANT_SUDO=yes -e JUPYTER_ENABLE_LAB=yes -e JUPYTER_TOKEN=1234 --name tf-devel-gpu tensorflow/tensorflow:latest-gpu-jupyter
+sudo podman run --env NVIDIA_DISABLE_REQUIRE=1 -d -it -p 127.0.0.1:8888:8888 -v $(pwd)/data:/mnt/space/ml -e GRANT_SUDO=yes -e JUPYTER_ENABLE_LAB=yes -e JUPYTER_TOKEN=1234 --name tf-devel-gpu tensorflow/tensorflow:latest-gpu-jupyter
 ```
 
 - 자세한 것은 [여기]를 참고 
