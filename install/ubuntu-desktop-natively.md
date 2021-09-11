@@ -38,7 +38,7 @@ sudo apt-get install fcitx-hangul
 
 ### 화면 폰트 크기 전체 조정 
 
-  ```
+  ```shell
   gsettings set org.gnome.desktop.interface text-scaling-factor 1.2
   ```
 
@@ -46,13 +46,31 @@ sudo apt-get install fcitx-hangul
 
 #### D2Coding Ligature & Powerline 
 
-https://syssurr.tistory.com/270https://proni.tistory.com/entry/%F0%9F%90%A7-Ubuntu-D2Coding-%ED%8F%B0%ED%8A%B8-%EC%84%A4%EC%B9%98-%EB%B0%8F-Powerline-symbol-%EC%84%A4%EC%A0%95
-
 - D2Coding Liagature는 코딩에 필요한 글꼴, Powerline은 CLI에서 화살표 등을 제대로 나오게 하는데 필요하다. 
+- D2Coding 설치하기 
+
+```shell
+mkdir ~/.local/share/fonts
+cd ~/.local/share/fonts
+wget https://github.com/naver/d2codingfont/releases/download/VER1.3.2/D2Coding-Ver1.3.2-20180524.zip
+unzip D2Coding-Ver1.3.2-20180524.zip
+```
+
+- `fc-cache -f -v` 폰트 인식 
+- `fc-list | grep "D2Coding"` 설치 확인 
+- `rm -rf D2Coding*` 다운로드 파일 지우기 
+
 
 #### Nanum Font 설치 
 
 https://syssurr.tistory.com/270 
+
+
+```shell
+sudo add-apt-repository "deb http://dev.naver.com/repos deb/"
+sudo apt-get update
+sudo apt-get install ttf-nanum ttf-nanum-coding
+```
 
 ## Booting failure 
 
