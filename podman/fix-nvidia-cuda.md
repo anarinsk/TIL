@@ -48,7 +48,7 @@ https://docs.nvidia.com/datacenter/cloud-native/container-toolkit/install-guide.
 
 
 ```shell
-$ sudo install install -y nvidia-container-toolkit
+$ sudo apt install -y nvidia-container-toolkit
 ```
 
 - nvidia-container-toolkit을 설치한다. 
