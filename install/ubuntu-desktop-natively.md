@@ -18,6 +18,7 @@
 메뉴 > Software Update 선택 
 
 - Ubuntu Software 탭에서 Downloable ... 조정 
+- 여기서 얻데이트 서버를 선택할 수 있다. 
 
 ### 키보드 한영 전환 
 
