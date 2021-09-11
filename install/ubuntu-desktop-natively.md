@@ -67,9 +67,8 @@ https://syssurr.tistory.com/270
 
 
 ```shell
-sudo add-apt-repository "deb http://dev.naver.com/repos deb/"
-sudo apt-get update
-sudo apt-get install ttf-nanum ttf-nanum-coding
+sudo apt-get install fonts-nanum*
+sudo fc-cache -fv
 ```
 
 ## Booting failure 
