@@ -35,6 +35,9 @@ $ sudo apt-get -y install cuda
     + 아래 설명이 RHEL에 관한 설명이라서 고쳐서 써야 한다. 
     + 해당 디렉토리나 파일이 없는 경우는 만들면 된다.  
 
+
+#### Install nvidia-docker 
+
 https://nvidia.github.io/nvidia-docker/
 
 ```shell
@@ -44,6 +47,8 @@ $ curl -s -L https://nvidia.github.io/nvidia-docker/$distribution/nvidia-docker.
 $ sudo apt-get update
 ```
 
+#### nvidia docker to podman 
+
 https://docs.nvidia.com/datacenter/cloud-native/container-toolkit/install-guide.html#id8
 
 
@@ -52,10 +57,34 @@ $ sudo apt install -y nvidia-container-toolkit
 ```
 
 - nvidia-container-toolkit을 설치한다. 
-    + 설치가 잘 안되면 위 패키지 저장소 설정 과정에서 뭔가 문제가 생긴 것이다. 
+    + 설치가 잘 안되면 위 nvidia-docker 패키지 저장소 설정 과정에서 뭔가 문제가 생긴 것이다. 
 
 
+- `cat /usr/share/containers/oci/hooks.d/oci-nvidia-hook.json` 파일이 존재하는지 확인해 본다. 없다면 하나 만들도록 하자. 
 
+```json
+{
+    "version": "1.0.0",
+    "hook": {
+        "path": "/usr/bin/nvidia-container-toolkit",
+        "args": ["nvidia-container-toolkit", "prestart"],
+        "env": [
+            "PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin"
+        ]
+    },
+    "when": {
+        "always": true,
+        "commands": [".*"]
+    },
+    "stages": ["prestart"]
+}
+```
+
+- podman 실행을 위해 설정 변경 
+
+```shell
+sudo sed -i 's/^#no-cgroups = false/no-cgroups = true/;' /etc/nvidia-container-runtime/config.toml
+```
 
 ### Testing Module 
 
@@ -67,10 +96,19 @@ $ sudo apt install -y nvidia-container-toolkit
 $ podman run --rm --security-opt=label=disable nvidia/cuda:11.0-base nvidia-smi
 ```
 
+### FP16 GEMM
+
+```shell
+podman run --rm --security-opt=label=disable \
+     --hooks-dir=/usr/share/containers/oci/hooks.d/ \
+     --cap-add SYS_ADMIN nvidia/samples:dcgmproftester-2.0.10-cuda11.0-ubuntu18.04 \
+     --no-dcgm-validation -t 1004 -d 30
+```
+
 #### nbody problem 
 
 ```shell
- $ podman run --env NVIDIA_DISABLE_REQUIRE=1 nvcr.io/nvidia/k8s/cuda-sample:nbody nbody -gpu -benchmark
+ podman run --env NVIDIA_DISABLE_REQUIRE=1 nvcr.io/nvidia/k8s/cuda-sample:nbody nbody -gpu -benchmark
 ```
 
 #### Tensorflow 
