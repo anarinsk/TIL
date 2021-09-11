@@ -52,6 +52,10 @@ A collection of every tips that I learn every day.
 
 - [Epigenesis](newly/epigenesis.md)
 
+### nvidia
+
+- [Cuda](nvidia/cuda.md)
+
 ### podman
 
 - [Basic](podman/basic.md)
