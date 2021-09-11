@@ -32,6 +32,7 @@ A collection of every tips that I learn every day.
 ### install
 
 - [Winget](install/winget.md)
+- [Ubuntu Cuda Podman](install/ubuntu-cuda-podman.md)
 - [Ubuntu Desktop Natively](install/ubuntu-desktop-natively.md)
 
 ### macos
