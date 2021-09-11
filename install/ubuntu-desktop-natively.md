@@ -39,6 +39,8 @@ sudo apt-get install fcitx-hangul
 
 ### 화면 폰트 크기 전체 조정 
 
+- 그냥 Display Settings에서 fractional setting을 150%로 쓰는 게 나은 듯도 싶다. 
+
   ```shell
   gsettings set org.gnome.desktop.interface text-scaling-factor 1.2
   ```
