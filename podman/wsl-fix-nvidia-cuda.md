@@ -96,7 +96,7 @@ sudo sed -i 's/^#no-cgroups = false/no-cgroups = true/;' /etc/nvidia-container-r
 podman run --rm --security-opt=label=disable nvidia/cuda:11.0-base nvidia-smi
 ```
 
-### FP16 GEMM
+#### FP16 GEMM
 
 ```shell
 podman run --rm --security-opt=label=disable \
@@ -125,7 +125,7 @@ sudo podman run --env NVIDIA_DISABLE_REQUIRE=1 -d -it -p 127.0.0.1:8888:8888 -v 
 
 GPU는 잘 잡혀 있나? 
 
-- `localhost:8888`로 접속해서 jupyter 아래 노트북을 하나 띄운다. 
+- `localhost:8888` 혹은 `127.0.0.1:8888`로 접속해서 jupyter 아래 노트북을 하나 띄운다. 
 
 ```jupyter
 import tensorflow
