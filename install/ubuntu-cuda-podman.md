@@ -176,3 +176,10 @@ incarnation: 8317357823441426046
 physical_device_desc: "device: 0, name: NVIDIA GeForce RTX 3070 Laptop GPU, pci bus id: 0000:01:00.0, compute capability: 8.6"
 ]
 ```
+
+## CUDA 설치 
+
+https://developer.nvidia.com/cuda-toolkit-archive
+
+- 여기서 필요한 조건을 선택하면 인스톨 방법을 알려준다. 
+- 마지막에 runfile로 실행하도록 하자. 
