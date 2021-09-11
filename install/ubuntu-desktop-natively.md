@@ -28,14 +28,7 @@
 sudo apt-get update
 sudo apt-get install fcitx-hangul
 ```
-
-- 메뉴 > setting > Region&Language 
-  - Input Source에서 "+"(추가) 버튼 
-  - Korean, Korean(Hangul) 추가 
-  - 리부팅 
-- 메뉴 fcitx config
-  - Input Method 탭에서 "+"로 Hangul 추가 
-  - Global Config 탭에서 Hotkey에서 Shift + Space 변경 
+- 나머지는 여기를 참고 하자. https://movment.tistory.com/4 
 
 ### 화면 폰트 크기 전체 조정 
 
