@@ -4,7 +4,6 @@
 
 ## Installation 
 
-- 어차피 WSL 2에서 밖에 안 쓰게 되지 않을까 싶다. 
 - podman의 모든 명령어는 docker와 호환된다. 따라서 podman 자체로 바꾸는 데에는 큰 문제가 없다. 
 - podman >= 3.0 이상 부터 설치가 간편하다. 
 
