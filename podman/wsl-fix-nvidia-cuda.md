@@ -1,42 +1,30 @@
-# Nvidia CUDA를 podman과 써보자. 
+# WSL 환경에서 Nvidia GPU를 podman과 써보자. 
 
 ## Why 
 
 - WSL $\neq$ Ubuntu 
+- WSL 2에 특화된 podman + nvidia GPU 환경을 설정하자.  
 
 
-## Key Process 
-
-### WSL 2에 맞는 CUDA 설정
+## WSL 2에 맞는 CUDA 설정
 
 - Ubuntu 내에 별도의 nvidia 드라이버를 깔지 않는다. 
-- CUDA만 잡아주면 된다. 
+- CUDA 안 잡아도 된다. ~~CUDA만 잡아주면 된다.~~ 
 
-https://docs.nvidia.com/cuda/wsl-user-guide/index.html#ch02-sub03-installing-wsl2
+## Podman 설치 
 
+- [기본 가이드](https://github.com/anarinsk/til/blob/master/podman/basic.md)에 따라서 WSL에 적합하게 podman을 설치한다. 
 
-```shell
-$ wget https://developer.download.nvidia.com/compute/cuda/repos/wsl-ubuntu/x86_64/cuda-wsl-ubuntu.pin
-$ sudo mv cuda-wsl-ubuntu.pin /etc/apt/preferences.d/cuda-repository-pin-600
-$ wget https://developer.download.nvidia.com/compute/cuda/11.4.0/local_installers/cuda-repo-wsl-ubuntu-11-4-local_11.4.0-1_amd64.deb
-$ sudo dpkg -i cuda-repo-wsl-ubuntu-11-4-local_11.4.0-1_amd64.deb
-$ sudo apt-key add /var/cuda-repo-wsl-ubuntu-11-4-local/7fa2af80.pub
-$ sudo apt-get update
-$ sudo apt-get -y install cuda
-```
+## nvidia docker 2
 
-### Podman 설치 
-
-- [기본 가이드](https://github.com/anarinsk/til/blob/master/podman/basic.md)에 따라서 통상적으로 포드맨을 설치한다. 
-
-#### Podman tuned for nvidia 
-
+- nvidia docker 2를 설치한다. 
+    + 이름은 도커지만 컨테이너 환경 일반에 적용 가능하다. 
 - 기본 아래 가이드에 따라서 podman에 맞게 nvidia 드라이버가 활용될 수 있도록 설정을 잡아준다.
-    + 아래 설명이 RHEL에 관한 설명이라서 고쳐서 써야 한다. 
+    + 아래 링크는 RHEL에 관한 가이드지만 적당히 고쳐 쓸 수 있다. 
     + 해당 디렉토리나 파일이 없는 경우는 만들면 된다.  
 
 
-#### Install nvidia-docker 
+### Install nvidia-docker 
 
 https://nvidia.github.io/nvidia-docker/
 
@@ -47,7 +35,7 @@ $ curl -s -L https://nvidia.github.io/nvidia-docker/$distribution/nvidia-docker.
 $ sudo apt-get update
 ```
 
-#### nvidia docker to podman 
+### nvidia docker to podman 
 
 https://docs.nvidia.com/datacenter/cloud-native/container-toolkit/install-guide.html#id8
 
@@ -80,17 +68,18 @@ $ sudo apt install -y nvidia-container-toolkit
 }
 ```
 
-- podman 실행을 위해 설정 변경 
+- podman 실행을 위해 설정을 아래와 같이 변경한다. 
+    + `config.toml` 파일을 직접 열어 수정해도 된다. 
 
 ```shell
 sudo sed -i 's/^#no-cgroups = false/no-cgroups = true/;' /etc/nvidia-container-runtime/config.toml
 ```
 
-### Testing Module 
+## Testing Module 
 
 - 아래 컨테이너들을 실행해보자. 
 
-#### nvidia-smi 
+### nvidia-smi 
 
 ```shell
 podman run --rm --security-opt=label=disable nvidia/cuda:11.0-base nvidia-smi
@@ -102,7 +91,7 @@ podman run --rm --security-opt=label=disable nvidia/cuda:11.0-base nvidia-smi
 podman run --rm --security-opt=label=disable nvidia/cuda:11.4.1-base-ubuntu20.04 nvidia-smi
 ```
 
-#### FP16 GEMM
+### FP16 GEMM
 
 ```shell
 podman run --rm --security-opt=label=disable \
@@ -111,13 +100,13 @@ podman run --rm --security-opt=label=disable \
      --no-dcgm-validation -t 1004 -d 30
 ```
 
-#### nbody problem 
+### nbody problem 
 
 ```shell
  podman run --env NVIDIA_DISABLE_REQUIRE=1 nvcr.io/nvidia/k8s/cuda-sample:nbody nbody -gpu -benchmark
 ```
 
-#### Tensorflow 
+### Tensorflow 
 
 - 토큰번호: 1234 
 - 현재 디렉토리에 `data` 하위 디렉토리를 만들어야 한다. 
