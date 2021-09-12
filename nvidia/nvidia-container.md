@@ -178,6 +178,8 @@ $ cat /etc/nvidia-container-runtime/config.toml
 - 아래 컨테이너들을 실행해보자. 
 - 제대로 실행되었다면 nvidia-smi가 실행될 것이다. 
     + WSL 내에 CUDA를 설치한 적이 없다는 사실을 기억하자. 이 프로그램은 컨테이너 내에서 돌아가는 것이다.  
+- 보다 많은 사례는 다음을 참고하자. 
+    + https://hub.docker.com/r/nvidia/samples/tags
 
 ### nvidia-smi 
 
@@ -192,6 +194,8 @@ podman run --rm --security-opt=label=disable nvidia/cuda:11.4.1-base-ubuntu20.04
 ```
 
 ### FP16 GEMM
+
+- Ubuntu native에서는 제대로 실행되었지만, WSL 2에서 제대로 실행되지 않았다. 
 
 ```shell
 podman run --rm --security-opt=label=disable \
