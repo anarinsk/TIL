@@ -21,6 +21,10 @@ A collection of every tips that I learn every day.
 - [Berson Pardox](concept-stats/Berson-pardox.md)
 - [From Cdf To Expectation](concept-stats/from-CDF-to-expectation.md)
 
+### docker
+
+- [Dummy](docker/dummy.md)
+
 ### github
 
 - [Git From Master To Main](github/git-from-master-to-main.md)
