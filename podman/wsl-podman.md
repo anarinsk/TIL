@@ -48,6 +48,14 @@ cgroup_manager="cgroupfs"
 
 - 위의 내용을 넣어주고 저장한 후 재 부팅
 
+## Testing 
+
+- docker의 hell-world를 테스트해보자. 
+ 
+```shell
+podman run hello-world 
+```
+
 ## With `docker-compose`
 
 - 도커 컴포즈와 쓰기 위해서는 조금 복잡하다. systemd를 설정해주는 과정이 필요하기 때문이다. 이를 위해서 ginie를 설치해야 한다. 
