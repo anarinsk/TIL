@@ -102,6 +102,10 @@ A collection of every tips that I learn every day.
 
 - [Thinkjulia](resources-julia/thinkjulia.md)
 
+### ubuntu
+
+- [Dummy](ubuntu/dummy.md)
+
 ### vscode
 
 - [Github Extension](vscode/github-extension.md)
