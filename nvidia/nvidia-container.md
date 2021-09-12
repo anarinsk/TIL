@@ -3,8 +3,8 @@
 ## Why 
 
 - docker, podman 등의 컨테이너를 통해서 nvidia 관련 GPU 모듈을 사용한다. 
-- 이 방법의 장점은 플랫폼 상에서 nvidia driver 이외 다른 것을 설치할 필요가 없다는 것이다. 
-- 컨테이너란 OS 위에 OS가 올라가는 개념이라는 것을 염두해두자. 
+- 이 방법의 장점은 플랫폼에 nvidia driver 이외 다른 것을 설치할 필요가 없다는 것이다. 
+    + 컨테이너란 OS 위에 OS가 올라가는 개념이라는 것을 염두해두자. 
 
 ## Which Container 
 
@@ -107,14 +107,14 @@ os.environ["CUDA_VISIBLE_DEVICES"] = "-1"
 - 기본적으로 WSL 2, native ubuntu에서건 활용법은 같다. 
     + 다만 podman 설치를 하는 것에서 차이가 있다. 
 
-### nvidia docker 2
+### nvidia-container-toolkit
 
-- 이름은 도커지만 컨테이너 환경 일반에 적용 가능하다. 
-- 기본 아래 가이드에 따라서 podman에 맞게 nvidia 드라이버가 활용될 수 있도록 설정을 잡아준다.
+- nvidia gpu를 컨테이너와 연결해주는 도구  
+- 아래 가이드에 따라서 podman에 맞게 nvidia 드라이버가 활용될 수 있도록 설정을 잡아준다.
     + 아래 링크는 RHEL에 관한 가이드지만 적당히 고쳐 쓸 수 있다. 
     + 해당 디렉토리나 파일이 없는 경우는 만들면 된다.  
 
-#### Install nvidia-docker 
+#### Setup apt for nvidia-container-toolkit 
 
 https://nvidia.github.io/nvidia-docker/
 
@@ -125,7 +125,7 @@ curl -s -L https://nvidia.github.io/nvidia-docker/$distribution/nvidia-docker.li
 sudo apt-get update
 ```
 
-### From nvidia docker to podman 
+### From toolkit to podman 
 
 https://docs.nvidia.com/datacenter/cloud-native/container-toolkit/install-guide.html#id8
 
@@ -225,12 +225,11 @@ podman run --env NVIDIA_DISABLE_REQUIRE=1 -d -it -p 127.0.0.1:8888:8888 -v $(pwd
 GPU는 잘 잡혀 있나? 
 
 - `localhost:8888` 혹은 `127.0.0.1:8888`로 접속해서 jupyter 아래 노트북을 하나 띄운다. 
-
-```jupyter
-import tensorflow
-from tensorflow.python.client import device_lib
-tensorflow.config.list_physical_devices('GPU')
-print(device_lib.list_local_devices())
+- 활성화된 디바이스 보기 
+```python
+tf.config.get_visible_devices(
+    device_type=None
+)
 ```
 
 - 아래와 같이 GPU가 잡혀 있으면 설정이 제대로 들어간 것이다. 
