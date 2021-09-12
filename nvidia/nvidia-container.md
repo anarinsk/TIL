@@ -166,9 +166,11 @@ sudo nano /usr/share/containers/oci/hooks.d/oci-nvidia-hook.json
 
 - podman 실행을 위해 설정을 아래와 같이 변경한다. 
     + `config.toml` 파일을 직접 열어 수정해도 된다. 
+- cat 명령어로 확인해보자. 
 
 ```shell
-sudo sed -i 's/^#no-cgroups = false/no-cgroups = true/;' /etc/nvidia-container-runtime/config.toml
+$ sudo sed -i 's/^#no-cgroups = false/no-cgroups = true/;' /etc/nvidia-container-runtime/config.toml
+$ cat /etc/nvidia-container-runtime/config.toml
 ```
 
 ## Testing Module 
