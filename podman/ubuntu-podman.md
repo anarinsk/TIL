@@ -45,9 +45,15 @@ podman run hello-world
 
 ## docker-compose + podman
 
-https://docs.docker.com/compose/install/#install-compose-on-linux-systems
+- 이하의 과정은 WSL 2와 동일하다. 
 
-- 도커 컴포즈를 설치하자. 
+```shell
+sudo apt-get update 
+sudo apt-get install docker-compose 
+```
+
+- 공식 가이드대로 설치하니 에러가 나더라. 뭔가 빼먹은 듯.   
+    + https://docs.docker.com/compose/install/#install-compose-on-linux-systems
 
 ### docker_host to podman
 
@@ -61,5 +67,6 @@ https://stackoverflow.com/a/68142112
 1. systemctl 명령을 통해서 podman의 소켓을 개시하는 것이다. 소켓의 상태를 보고 싶다면, `start` &rarr; `status`
 2. docker를 지웠으므로 이를 대신할 가상화 앱을 지정해야 한다. 이를 포드맨 소켓과 연결한다. 
 
-- 이 상태에서 `docker-comppose`를 얹으면 잘 돌아간다. 
+- 이 상태에서 docker-comppose를 얹으면 잘 돌아간다. 
 - 부팅 시 자동으로 준비가 되게 하려면 1,2를 .bashrc에 넣는다. 
+    + wsl에서와 달리 `.bashrc`에 넣어도 큰 문제가 생기지 않는다. 
