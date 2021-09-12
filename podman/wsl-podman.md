@@ -64,9 +64,10 @@ https://sarc.io/index.php/cloud/2158-wsl2-podman
 podman run hello-world 
 ```
 
-## With `docker-compose`
+## With docker-compose
 
-- 도커 컴포즈와 쓰기 위해서는 조금 복잡하다. systemd를 설정해주는 과정이 필요하기 때문이다. 이를 위해서 ginie를 설치해야 한다. 
+- WSL에서 도커 컴포즈와 쓰는 것이 조금 복잡하다.    
+    + wsl 활용하지 않는 systemd를 설정해주는 과정이 필요하기 때문이다. 이를 위해서 ginie를 설치해야 한다. 
 - 기본 절차는 [여기](https://github.com/arkane-systems/genie)를 참고하자. 
 
 가이드에 있는 대로 
