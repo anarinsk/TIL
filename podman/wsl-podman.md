@@ -109,6 +109,13 @@ $ sudo apt install -y systemd-genie
     + 단 `wsl genie -s` 상태가 아니라면 systemd 사용이 제한되기 때문에 경고 메시지를 볼 수 있다.  
     + `Failed to connect to bus: No such file or directory`
 
+## nvidia GPU 
+
+- 아래 링크를 참고하자. 
+- Ubuntu에서의 설정과 동일하다. 
+
+https://github.com/anarinsk/til/blob/master/nvidia/nvidia-container.md#podman
+
 ## Problem left 
 
 - 이전 docker dssktop에서와 같은 편리한 VS Code 접속은 한동안 기다려야 할 것 같다. 
