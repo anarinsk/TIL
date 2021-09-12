@@ -116,35 +116,37 @@ sudo podman run --env NVIDIA_DISABLE_REQUIRE=1 -d -it -p 127.0.0.1:8888:8888 -v 
 - 자세한 것은 [여기]를 참고 
 - 테스트할 내용만 적어보자. 
 
-GPU는 잘 잡혀 있나? 
+#### GPU는 잘 잡혀 있나? 
 
 - `localhost:8888` 혹은 `127.0.0.1:8888`로 접속해서 jupyter 아래 노트북을 하나 띄운다. 
 
 ```jupyter
-import tensorflow
-from tensorflow.python.client import device_lib
-tensorflow.config.list_physical_devices('GPU')
-print(device_lib.list_local_devices())
+# 조회 모듈 
+import tensorflow as tf 
+tf.config.get_visible_devices(
+    device_type=None
+)
 ```
 
-- 아래와 같이 GPU가 잡혀 있으면 설정이 제대로 들어간 것이다. 
+- 아래처럼 GPU가 잡혀 있으면 설정이 제대로 들어간 것이다. 
 
 ```txt
-[name: "/device:CPU:0"
-device_type: "CPU"
-memory_limit: 268435456
-locality {
-}
-incarnation: 11577691364291760396
-, name: "/device:GPU:0"
-device_type: "GPU"
-memory_limit: 5721423872
-locality {
-  bus_id: 1
-  links {
-  }
-}
-incarnation: 8317357823441426046
-physical_device_desc: "device: 0, name: NVIDIA GeForce RTX 3070 Laptop GPU, pci bus id: 0000:01:00.0, compute capability: 8.6"
-]
+[PhysicalDevice(name='/physical_device:CPU:0', device_type='CPU')]
 ```
+
+- GPU를 끄고 싶다면? 
+
+```python
+#physical_devices = tf.config.list_physical_devices('GPU')
+try:
+  # Disable all GPUS
+  tf.config.set_visible_devices([], 'GPU')
+  visible_devices = tf.config.get_visible_devices()
+  for device in visible_devices:
+    assert device.device_type != 'GPU'
+except:
+  # Invalid device or cannot modify virtual devices once initialized.
+  pass
+```
+
+- GPU를 다시 켜고 싶다면 커널을 다시 시작하자. 
