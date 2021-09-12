@@ -38,9 +38,9 @@ sudo apt-get install fcitx-hangul
   gsettings set org.gnome.desktop.interface text-scaling-factor 1.2
   ```
 
-### 폰트 설치 
+## 폰트 설치 
 
-#### D2Coding Ligature & Powerline 
+### D2Coding Ligature & Powerline 
 
 - D2Coding Liagature는 코딩에 필요한 글꼴, Powerline은 CLI에서 화살표 등을 제대로 나오게 하는데 필요하다. 
 - D2Coding 설치하기 
@@ -56,8 +56,7 @@ unzip D2Coding-Ver1.3.2-20180524.zip
 - `fc-list | grep "D2Coding"` 설치 확인 
 - `rm -rf D2Coding*` 다운로드 파일 지우기 
 
-
-#### Nanum Font 설치 
+### Nanum Font 설치 
 
 https://syssurr.tistory.com/270 
 
@@ -66,6 +65,9 @@ https://syssurr.tistory.com/270
 sudo apt-get install fonts-nanum*
 sudo fc-cache -fv
 ```
+## podman 
+
+https://github.com/anarinsk/til/blob/master/podman/ubuntu-podman.md
 
 ## Booting failure 
 
