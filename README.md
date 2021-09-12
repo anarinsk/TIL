@@ -59,8 +59,8 @@ A collection of every tips that I learn every day.
 
 ### podman
 
-- [Basic](podman/basic.md)
 - [Wsl Nvidia Podman](podman/wsl-nvidia-podman.md)
+- [Wsl Podman](podman/wsl-podman.md)
 
 ### resource-econometrics
 
