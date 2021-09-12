@@ -125,7 +125,7 @@ curl -s -L https://nvidia.github.io/nvidia-docker/$distribution/nvidia-docker.li
 sudo apt-get update
 ```
 
-### nvidia docker to podman 
+### From nvidia docker to podman 
 
 https://docs.nvidia.com/datacenter/cloud-native/container-toolkit/install-guide.html#id8
 
@@ -196,12 +196,6 @@ podman run --rm --security-opt=label=disable nvidia/cuda:11.4.1-base-ubuntu20.04
 ```shell
 podman run --rm --security-opt=label=disable \
      --hooks-dir=/usr/share/containers/oci/hooks.d/ \
-     --cap-add SYS_ADMIN nvidia/samples:dcgmproftester-2.0.10-cuda11.0-ubuntu18.04 \
-     --no-dcgm-validation -t 1004 -d 30
-```
-
-```
-podman run --rm --security-opt=label=disable \
      --cap-add SYS_ADMIN nvidia/samples:dcgmproftester-2.0.10-cuda11.0-ubuntu18.04 \
      --no-dcgm-validation -t 1004 -d 30
 ```
