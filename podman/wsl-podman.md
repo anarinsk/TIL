@@ -29,6 +29,9 @@ sudo apt-get -y install podman
 2. `VERSION_ID` 항목의 버전을 확인해서 넣어준다. 
 - 이후는 포드맨을 설치하는 절차다. 
 
+- 사실 Ubuntu 설치 절차와 동일하다. 
+    + https://podman.io/getting-started/installation#installing-development-versions-of-podman
+
 ## ENV 
 
 - 환경 설정을 위해서 아래의 두 작업을 한다. 
