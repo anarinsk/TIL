@@ -104,6 +104,7 @@ A collection of every tips that I learn every day.
 
 ### ubuntu
 
+- [Ubuntu Desktop Natively](ubuntu/ubuntu-desktop-natively.md)
 - [Dummy](ubuntu/dummy.md)
 
 ### vscode
