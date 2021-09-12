@@ -1,8 +1,7 @@
 # WSL 환경에서 Nvidia GPU를 podman과 써보자. 
 
 ## Why 
-
-- WSL $\neq$ Ubuntu 
+ 
 - WSL 2에 특화된 podman + nvidia GPU 환경을 설정하자.  
 
 
