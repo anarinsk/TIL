@@ -13,10 +13,11 @@
 
 ## docker 
 
-- Windows의 경우 docker desktop을 설치하고 WSL 2와 연동하는 것으로 대충 다 해결된다. 
+- Windows의 경우 docker desktop을 설치하고 WSL 2와 연동하는 것으로 대충 다 해결된다.
+    + nvidia docker를 별도로 설치하지 않아도 된다. 
     + WSL 2와 연동될 경우 안에 사실상 3개의 컨테이너를 돌리고 있는 셈이다. 
-
 - Linux의 경우 docker CE를 설치한다. 
+    + nvidia 도커 설치 여부는 확인이 필요하다. 
 
 ### Test run 
 
@@ -191,7 +192,7 @@ podman run --rm --security-opt=label=disable \
 ### nbody problem 
 
 ```shell
- podman run --env NVIDIA_DISABLE_REQUIRE=1 nvcr.io/nvidia/k8s/cuda-sample:nbody nbody -gpu -benchmark
+podman run --env NVIDIA_DISABLE_REQUIRE=1 nvcr.io/nvidia/k8s/cuda-sample:nbody nbody -gpu -benchmark
 ```
 
 ### Tensorflow 
@@ -200,7 +201,7 @@ podman run --rm --security-opt=label=disable \
 - 현재 디렉토리에 `data` 하위 디렉토리를 만들어야 한다. 
 
 ```shell
-sudo podman run --env NVIDIA_DISABLE_REQUIRE=1 -d -it -p 127.0.0.1:8888:8888 -v $(pwd)/data:/mnt/space/ml -e GRANT_SUDO=yes -e JUPYTER_ENABLE_LAB=yes -e JUPYTER_TOKEN=1234 --name tf-devel-gpu tensorflow/tensorflow:latest-gpu-jupyter
+podman run --env NVIDIA_DISABLE_REQUIRE=1 -d -it -p 127.0.0.1:8888:8888 -v $(pwd)/data:/mnt/space/ml -e GRANT_SUDO=yes -e JUPYTER_ENABLE_LAB=yes -e JUPYTER_TOKEN=1234 --name tf-devel-gpu tensorflow/tensorflow:latest-gpu-jupyter
 ```
 
 - 자세한 것은 [여기]를 참고 
