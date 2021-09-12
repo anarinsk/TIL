@@ -60,7 +60,7 @@ A collection of every tips that I learn every day.
 ### podman
 
 - [Basic](podman/basic.md)
-- [Wsl Fix Nvidia Cuda](podman/wsl-fix-nvidia-cuda.md)
+- [Wsl Nvidia Podman](podman/wsl-nvidia-podman.md)
 
 ### resource-econometrics
 
