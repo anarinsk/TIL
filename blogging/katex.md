@@ -19,4 +19,4 @@ https://anarinsk.github.io/lostineconomics-v2-1/2021/08/31/Testing-Katex.html
 ## Another problem 
 
 - Katex의 경우 $\LaTeX$ 문서의 여러가지 옵션을 줄 수 있는데, 이게 불가능해진다. 
-- 수식의 생성이 느라다, 고 하는데... (체험이 될 정도는 아닌 듯)
+- 수식의 생성이 느다, 고 하는데... (체험이 될 정도는 아닌 듯)
