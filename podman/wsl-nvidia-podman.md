@@ -12,7 +12,7 @@
 
 ## Podman 설치 
 
-- [기본 가이드](https://github.com/anarinsk/til/blob/master/podman/basic.md)에 따라서 WSL에 적합하게 podman을 설치한다. 
+- [WSL을 위한 가이드](https://github.com/anarinsk/til/blob/master/podman/wsl-podman.md)에 따라서 podman을 설치한다. 
 
 ## nvidia docker 2
 
