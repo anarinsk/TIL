@@ -24,7 +24,6 @@ A collection of every tips that I learn every day.
 ### docker
 
 - [Docker Compose](docker/docker-compose.md)
-- [Dummy](docker/dummy.md)
 
 ### github
 
