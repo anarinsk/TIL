@@ -10,19 +10,19 @@
 기본적으로 [여기](https://wbhegedus.me/running-podman-on-wsl2/) 가이드가 완벽하다. 다만 진행 순서가 틀렸다. 
 
 ```shell
-1> cat /etc/lsb-release
+1$ cat /etc/lsb-release
 DISTRIB_ID=Ubuntu
 DISTRIB_RELEASE=20.04
 DISTRIB_CODENAME=focal
 DISTRIB_DESCRIPTION="Ubuntu 20.04.2 LTS"
 
-2> export VERSION_ID="20.04"
+2$ export VERSION_ID="20.04"
 
-> echo "deb https://download.opensuse.org/repositories/devel:/kubic:/libcontainers:/stable/xUbuntu_${VERSION_ID}/ /" | sudo tee /etc/apt/sources.list.d/devel:kubic:libcontainers:stable.list
-> curl -L https://download.opensuse.org/repositories/devel:/kubic:/libcontainers:/stable/xUbuntu_${VERSION_ID}/Release.key | sudo apt-key add -
-> sudo apt-get update
-> sudo apt-get -y upgrade
-> sudo apt-get -y install podman
+echo "deb https://download.opensuse.org/repositories/devel:/kubic:/libcontainers:/stable/xUbuntu_${VERSION_ID}/ /" | sudo tee /etc/apt/sources.list.d/devel:kubic:libcontainers:stable.list
+curl -L https://download.opensuse.org/repositories/devel:/kubic:/libcontainers:/stable/xUbuntu_${VERSION_ID}/Release.key | sudo apt-key add -
+sudo apt-get update
+sudo apt-get -y upgrade
+sudo apt-get -y install podman
 ```
 
 1. Ubuntu의 버전을 확인한다. 
