@@ -22,8 +22,19 @@
 
 https://developer.nvidia.com/cuda-downloads
 
+### Documentation 
+
+https://docs.nvidia.com/cuda/cuda-quick-start-guide/index.html#introduction
+
 ## Sample 
 
 - 테스트하는 용도다. 
 - 빌드를 한 후에 실행하는 개념이다. 
+
+```shell
+$ cuda-install-samples-11.4.sh ~
+$ cd ~/NVIDIA_CUDA-11.4_Samples/5_Simulations/nbody
+$ make
+$ ./nbody
+```
 
