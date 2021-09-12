@@ -138,7 +138,13 @@ $ sudo apt install -y nvidia-container-toolkit
     + 설치가 잘 안되면 위 nvidia-docker 패키지 저장소 설정 과정에서 뭔가 문제가 생긴 것이다. 
 
 - `cat /usr/share/containers/oci/hooks.d/oci-nvidia-hook.json` 파일이 존재하는지 확인해 본다. 없다면 하나 만들도록 하자. 
-- `sudo nano /usr/share/containers/oci/hooks.d/oci-nvidia-hook.json`
+
+```shell
+sudo mkdir -p /usr/share/containers/oci/hooks.d
+sudo nano /usr/share/containers/oci/hooks.d/oci-nvidia-hook.json
+```
+
+- json 파일은 아래와 같다. 
 
 ```json
 {
