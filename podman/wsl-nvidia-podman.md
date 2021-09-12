@@ -66,6 +66,7 @@ $ sudo apt install -y nvidia-container-toolkit
 ```
 
 - podman 실행을 위해 설정을 아래와 같이 변경한다. 
+    +  `cat /etc/nvidia-container-runtime/config.toml` 내용을 직접 확인해봐도 좋겠다. 
     + `config.toml` 파일을 직접 열어 수정해도 된다. 
 
 ```shell
