@@ -59,6 +59,7 @@ A collection of every tips that I learn every day.
 
 ### podman
 
+- [Ubuntu Podman](podman/ubuntu-podman.md)
 - [Wsl Nvidia Podman](podman/wsl-nvidia-podman.md)
 - [Wsl Podman](podman/wsl-podman.md)
 
