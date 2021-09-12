@@ -49,6 +49,11 @@ events_logger="file"
 cgroup_manager="cgroupfs"
 ```
 
+https://sarc.io/index.php/cloud/2158-wsl2-podman
+
+- 다른 안내 
+- 뭐가 맞는 것일까? 
+
 - 위의 내용을 넣어주고 저장한 후 재 부팅
 
 ## Testing 
