@@ -113,6 +113,10 @@ A collection of every tips that I learn every day.
 - [Image](windows-management/image.png)
 - [How To Control Update](windows-management/how-to-control-update.md)
 
+### wsl
+
+- [Basics](wsl/basics.md)
+
 ### zsh
 
 - [Set Alias](zsh/set-alias.md)
