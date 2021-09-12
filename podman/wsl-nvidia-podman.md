@@ -14,18 +14,18 @@
 
 - [WSL을 위한 가이드](https://github.com/anarinsk/til/blob/master/podman/wsl-podman.md)에 따라서 podman을 설치한다. 
 
-## nvidia docker 2
-
-- nvidia docker 2를 설치한다. 
-    + 이름은 도커지만 컨테이너 환경 일반에 적용 가능하다. 
-- 기본 아래 가이드에 따라서 podman에 맞게 nvidia 드라이버가 활용될 수 있도록 설정을 잡아준다.
+## nvidia-container-toolkit 
+ 
+- 아래 가이드에 따라서 podman에 맞게 nvidia 드라이버가 활용될 수 있도록 설정을 잡아준다.
     + 아래 링크는 RHEL에 관한 가이드지만 적당히 고쳐 쓸 수 있다. 
     + 해당 디렉토리나 파일이 없는 경우는 만들면 된다.  
 
 
-### Install nvidia-docker 
+### Installation 
 
 https://nvidia.github.io/nvidia-docker/
+
+- container-toolkit을 설치할 수 있도록 리포지토리 주소를 설정하자. 
 
 ```shell
 $ curl -s -L https://nvidia.github.io/nvidia-docker/gpgkey | sudo apt-key add -
@@ -33,9 +33,6 @@ $ distribution=$(. /etc/os-release;echo $ID$VERSION_ID)
 $ curl -s -L https://nvidia.github.io/nvidia-docker/$distribution/nvidia-docker.list | sudo tee /etc/apt/sources.list.d/nvidia-docker.list
 $ sudo apt-get update
 ```
-
-### nvidia docker to podman 
-
 https://docs.nvidia.com/datacenter/cloud-native/container-toolkit/install-guide.html#id8
 
 
@@ -46,6 +43,7 @@ $ sudo apt install -y nvidia-container-toolkit
 - nvidia-container-toolkit을 설치한다. 
     + 설치가 잘 안되면 위 nvidia-docker 패키지 저장소 설정 과정에서 뭔가 문제가 생긴 것이다. 
 
+### Setups 
 
 - `cat /usr/share/containers/oci/hooks.d/oci-nvidia-hook.json` 파일이 존재하는지 확인해 본다. 없다면 하나 만들도록 하자. 
 
