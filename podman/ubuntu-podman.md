@@ -41,5 +41,4 @@ podman run hello-world
 
 ## nvidia docker 
 
-- 여기부터 설정과정은 Wsl 2와 동일하다. 
 - [여기](https://github.com/anarinsk/til/blob/master/nvidia/nvidia-container.md#podman)를 참고하자. 
