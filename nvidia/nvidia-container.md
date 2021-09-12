@@ -200,7 +200,7 @@ podman run --rm --security-opt=label=disable \
      --no-dcgm-validation -t 1004 -d 30
 ```
 
-``
+```
 podman run --rm --security-opt=label=disable \
      --cap-add SYS_ADMIN nvidia/samples:dcgmproftester-2.0.10-cuda11.0-ubuntu18.04 \
      --no-dcgm-validation -t 1004 -d 30
