@@ -140,8 +140,8 @@ $ sudo apt install -y nvidia-container-toolkit
 - `cat /usr/share/containers/oci/hooks.d/oci-nvidia-hook.json` 파일이 존재하는지 확인해 본다. 없다면 하나 만들도록 하자. 
 
 ```shell
-sudo mkdir -p /usr/share/containers/oci/hooks.d
-sudo nano /usr/share/containers/oci/hooks.d/oci-nvidia-hook.json
+$ sudo mkdir -p /usr/share/containers/oci/hooks.d
+$ sudo nano /usr/share/containers/oci/hooks.d/oci-nvidia-hook.json
 ```
 
 - json 파일은 아래와 같다. 
