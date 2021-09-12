@@ -101,7 +101,7 @@ $ sudo apt install -y systemd-genie
 
 - docker-compose 설치 `apt-get install docker-compose`
 
-## To run docker-compose with podman 
+### To run docker-compose with podman 
 
 - 포드맨에서 docker-compose를 실행하기 위해서는 우선 systemd가 활성화되어야 한다. 이를 위해서 Powershell에서 다음과 같이 실행하자. 
 
@@ -110,6 +110,7 @@ $ sudo apt install -y systemd-genie
 ```
 
 - 가끔 대기가 걸릴 떄가 있는데 무시하고 다시 실행해주면 대개 잘 된다. 
+- `-s`는 Shell을 의미한다. sudo를 뜻하지 않는다. 
 - 이제 이 상태에서 두 개의 일을 해준다. 
 
 ```shell
@@ -125,6 +126,14 @@ $ sudo apt install -y systemd-genie
 - WSL 부팅 시 자동으로 준비가 되게 하려면 1,2를 .bashrc에 넣는다. 
     + 단 `wsl genie -s` 상태가 아니라면 systemd 사용이 제한되기 때문에 경고 메시지를 볼 수 있다.  
     + `Failed to connect to bus: No such file or directory`
+
+### compose in action 
+
+https://github.com/anarinsk/setup-docker_compose/blob/main/5600H/podman-anari-ds.yml
+
+- 여기 파일을 참고하자. 
+- 현재 사용하는 기기에서 테스트를 마친 yml 파일이다. 파일 아래 나온 내용으로 적용하면 자주 쓰는 세 개의 콘테이너가 올라간다. 
+
 
 ## nvidia GPU 
 
