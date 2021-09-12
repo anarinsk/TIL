@@ -69,7 +69,12 @@ sudo fc-cache -fv
 ```
 ## podman 
 
+### Installation 
+
 https://github.com/anarinsk/til/blob/master/podman/ubuntu-podman.md
+
+### nvidia setting 
+
 
 ## Booting failure 
 
