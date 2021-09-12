@@ -46,15 +46,17 @@ sudo apt-get install fcitx-hangul
 - D2Coding 설치하기 
 
 ```shell
-mkdir ~/.local/share/fonts
-cd ~/.local/share/fonts
+apt-get install unzip
 wget https://github.com/naver/d2codingfont/releases/download/VER1.3.2/D2Coding-Ver1.3.2-20180524.zip
 unzip D2Coding-Ver1.3.2-20180524.zip
+mkdir /usr/share/fonts/truetype/D2Coding
+cp ./D2Coding/*.ttf /usr/share/fonts/truetype/D2Coding/
+fc-cache -v
 ```
 
 - `fc-cache -f -v` 폰트 인식 
 - `fc-list | grep "D2Coding"` 설치 확인 
-- `rm -rf D2Coding*` 다운로드 파일 지우기 
+- 다운로드 및 zip 푼 디렉토리에서 `rm -rf D2Coding*` 다운로드 파일 지우기 
 
 ### Nanum Font 설치 
 
