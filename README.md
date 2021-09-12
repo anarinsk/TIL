@@ -34,11 +34,6 @@ A collection of every tips that I learn every day.
 - [Init In Existing Dir](github/init-in-existing-dir.md)
 - [How To Copy Repo](github/how-to-copy-repo.md)
 
-### install
-
-- [Ubuntu Cuda Podman](install/ubuntu-cuda-podman.md)
-- [Ubuntu Desktop Natively](install/ubuntu-desktop-natively.md)
-
 ### macos
 
 - [One Button Do Not Disturb](macos/one-button-do-not-disturb.md)
