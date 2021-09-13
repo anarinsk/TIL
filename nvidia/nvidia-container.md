@@ -80,25 +80,7 @@ docker run --gpus=all --env NVIDIA_DISABLE_REQUIRE=1 -d -it -p 127.0.0.1:8888:88
 
 ### How to check 
 
-- tf 노트북에서 아래의 명령을 실행해 본다. 
-
-```python
-import tensorflow
-from tensorflow.python.client import device_lib
-tensorflow.config.list_physical_devices('GPU')
-print(device_lib.list_local_devices())
-```
-
-- gpu가 잘 잡혔는지 확인해볼 수 있다. 
-- gpu 옵션을 끄고 싶다면? 
-
-```python
-import os
-os.environ["CUDA_VISIBLE_DEVICES"] = "-1"
-```
-
-- 노트북 맨 위에 올리자. 전환이 필요하면 커널 리로딩을 해야 한다. 
-- "0"은 GPU 1개 일 때 해당 GPU를 쓴다는 이야기다. "-1"은 GPU를 죽인다는 뜻. 
+https://github.com/anarinsk/til/blob/master/nvidia/nvidia-container.md#gpu%EB%8A%94-%EC%9E%98-%EC%9E%A1%ED%98%80-%EC%9E%88%EB%82%98
 
 ## podman 
 
