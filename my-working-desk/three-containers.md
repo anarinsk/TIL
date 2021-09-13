@@ -15,6 +15,8 @@
 
 ### prerequisite 
 
+https://github.com/anarinsk/setup-wsl-daily_use
+
 - wsl 2를 쓸 수 있는 기본 환경 
 
 ### To-do list 
