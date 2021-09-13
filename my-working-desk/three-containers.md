@@ -27,4 +27,20 @@
 
 https://github.com/anarinsk/til/blob/master/podman/wsl-podman.md#installation
 
-- 환경설정이 꼭 필요한지는 모르겠다... 
+- 별도의 환경설정이 꼭 필요한지는 모르겠다... 
+
+### docker-compose 이슈 해결 
+
+https://github.com/anarinsk/til/blob/master/podman/wsl-podman.md#with-docker-compose
+
+- wsl 2에서 systemd를 지원하지 않기 때문에 번거로운 절차를 거쳐야 한다. 
+
+#### 개요 
+
+- systemd를 쓸 수 있도록 필요한 런타임, genie 설치 
+- wsl 가동을 `wsl genie -s` 여기서 `-s`는 shell을 뜻한다. 
+- docker-composer 설치 
+
+### container image setups 
+
+- 여기서부터는 docker와 동일하다. 
