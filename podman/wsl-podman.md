@@ -49,12 +49,27 @@ events_logger="file"
 cgroup_manager="cgroupfs"
 ```
 
+- 위의 내용을 넣어주고 저장한 후 재 부팅
+
 https://sarc.io/index.php/cloud/2158-wsl2-podman
 
-- 다른 안내 
-- 뭐가 맞는 것일까? 
+- 다른 안내에 따르면, 
 
-- 위의 내용을 넣어주고 저장한 후 재 부팅
+```shell
+sudo nano /usr/share/containers/containers.conf
+```
+
+- 아래의 설정을 고치라고 되어 있는데, 문제가 되는 설정은 해당 파일에서 이미 비활성화되어 있다.  
+
+```txt
+......
+cgroup_manager = "cgroupfs"
+......
+events_logger = "file"
+
+```
+
+- 디폴트로 두어도 괜찮은게 아닐까? 
 
 ## Testing 
 
@@ -89,6 +104,7 @@ cat << EOF > /etc/apt/sources.list.d/wsl-transdebian.list
 deb https://arkane-systems.github.io/wsl-transdebian/apt/ $(lsb_release -cs) main
 deb-src https://arkane-systems.github.io/wsl-transdebian/apt/ $(lsb_release -cs) main
 EOF
+
 apt update
 ```
 
