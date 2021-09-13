@@ -245,13 +245,20 @@ tf.config.get_visible_devices(
 - gpu 비활성화 하기 
 
 ```python
-try:
-  # Disable all GPUS
-  tf.config.set_visible_devices([], 'GPU')
-  visible_devices = tf.config.get_visible_devices()
-  for device in visible_devices:
-    assert device.device_type != 'GPU'
-except:
-  # Invalid device or cannot modify virtual devices once initialized.
-  pass
+import tensorflow as tf
+
+physical_devices = tf.config.get_visible_devices(
+    device_type=None
+)
+
+# CPU Only 
+# tf.config.set_visible_devices(physical_devices[0])
+# Initial state is achieved by "shutdown - restart" in Kernel menu 
+print(physical_devices)
 ```
+
+- GPU 활성/비활성을 오가는 방법 
+    + 최초 활성화된 상태 (위의 방법으로 확인 가능)
+    + 위의 코드를 위쪽에 넣고 `# tf.config...` 주석을 해제한다.
+    + GPU가 제외되었음을 확인할 수 있다. 이 상태에서 해당 셀 아래 실행을 통해 GPU를 제외한 작업을 지시할 수 있다. 
+    + 만일 다시 GPU를 활성화하고 싶으면 kernel 메뉴에서 restart를 선택하면 된다.   
