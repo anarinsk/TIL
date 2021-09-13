@@ -10,8 +10,18 @@
 - RStudio + Tidyverse 
 - Tensorflow + Jupyter 
 
+## WSL-Ubutu vs Ubuntu native 
 
-## wsl 2 
+- 둘 간에 비교를 해보는 게 의미가 있을 듯 싶다. 
+
+|제목|내용|설명|
+|------|---|---|
+|테스트1|테스트2|테스트3|
+|테스트1|테스트2|테스트3|
+|테스트1|테스트2|테스트3|
+
+
+## WSL-Ubuntu
 
 ### prerequisite 
 
