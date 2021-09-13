@@ -75,6 +75,13 @@ https://github.com/anarinsk/til/blob/master/podman/ubuntu-podman.md
 
 ### nvidia setting 
 
+https://github.com/anarinsk/til/blob/master/nvidia/nvidia-container.md
+
+### podman + docker-compose
+
+- 실제로 활용하는 용례 정리 
+
+https://github.com/anarinsk/til/blob/master/podman/ubuntu-podman.md#docker-compose--podman
 
 ## Booting failure 
 
@@ -83,6 +90,3 @@ https://github.com/anarinsk/til/blob/master/podman/ubuntu-podman.md
   + 여기서는 linux kernel version을 선택할 수 있다. 다른 버전으로 잘 된다면 그대로 하면 된다. 
 + 내가 경우는 커널 업데이트로 해결했다. [여기](https://codechacha.com/ko/ubuntu-update-kerenl/) 참고
 + [Grub customize](https://kibua20.tistory.com/128)
-
-
-
