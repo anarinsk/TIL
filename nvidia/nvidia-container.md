@@ -195,6 +195,7 @@ podman run --rm --security-opt=label=disable nvidia/cuda:11.4.1-base-ubuntu20.04
 
 ### FP16 GEMM
 
+- 원래 한참 반응이 없는 것이 정상이다. 
 - Ubuntu native에서는 제대로 실행되었지만, WSL 2에서 제대로 실행되지 않았다. 
 
 ```shell
