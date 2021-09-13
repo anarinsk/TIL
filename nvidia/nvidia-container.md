@@ -227,7 +227,9 @@ GPU는 잘 잡혀 있나?
 
 - `localhost:8888` 혹은 `127.0.0.1:8888`로 접속해서 jupyter 아래 노트북을 하나 띄운다. 
 - 활성화된 디바이스 보기 
+
 ```python
+import tensorflow as tf
 tf.config.get_visible_devices(
     device_type=None
 )
@@ -236,21 +238,20 @@ tf.config.get_visible_devices(
 - 아래와 같이 GPU가 잡혀 있으면 설정이 제대로 들어간 것이다. 
 
 ```txt
-[name: "/device:CPU:0"
-device_type: "CPU"
-memory_limit: 268435456
-locality {
-}
-incarnation: 11577691364291760396
-, name: "/device:GPU:0"
-device_type: "GPU"
-memory_limit: 5721423872
-locality {
-  bus_id: 1
-  links {
-  }
-}
-incarnation: 8317357823441426046
-physical_device_desc: "device: 0, name: NVIDIA GeForce RTX 3070 Laptop GPU, pci bus id: 0000:01:00.0, compute capability: 8.6"
-]
+[PhysicalDevice(name='/physical_device:CPU:0', device_type='CPU'),
+ PhysicalDevice(name='/physical_device:GPU:0', device_type='GPU')]
+```
+
+- gpu 비활성화 하기 
+
+```python
+try:
+  # Disable all GPUS
+  tf.config.set_visible_devices([], 'GPU')
+  visible_devices = tf.config.get_visible_devices()
+  for device in visible_devices:
+    assert device.device_type != 'GPU'
+except:
+  # Invalid device or cannot modify virtual devices once initialized.
+  pass
 ```
