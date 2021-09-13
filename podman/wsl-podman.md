@@ -90,6 +90,13 @@ podman run hello-world
 ### 사전 설치 
 
 - [.net 런타임 설치](https://docs.microsoft.com/en-us/dotnet/core/install/linux-ubuntu)
+
+```shell
+wget https://packages.microsoft.com/config/ubuntu/20.04/packages-microsoft-prod.deb -O packages-microsoft-prod.deb
+sudo dpkg -i packages-microsoft-prod.deb
+rm packages-microsoft-prod.deb
+```
+
 - [wsl-transdevian 설치](https://arkane-systems.github.io/wsl-transdebian/)
     + lsb_release를 먼저 설치하자. `apt-get install lsb`
     + 아래 스크립트를 `sudo -s` 상태에서 실행한다. 
@@ -113,9 +120,8 @@ apt update
 ```shell
 $ sudo apt update
 $ sudo apt install -y systemd-genie
+$ sudo apt install docker-compose
 ```
-
-- docker-compose 설치 `apt-get install docker-compose`
 
 ### To run docker-compose with podman 
 
