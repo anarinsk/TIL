@@ -85,6 +85,7 @@ A collection of every tips that I learn every day.
 
 - [Time Series Handling 1](resource-python/time-series-handling-1.md)
 - [Agentpy](resource-python/agentpy.md)
+- [Itertools](resource-python/itertools.md)
 
 ### resource-rstat
 
