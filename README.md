@@ -27,11 +27,11 @@ A collection of every tips that I learn every day.
 
 ### github
 
+- [How To Copy Repo](github/how-to-copy-repo.md)
 - [Git From Master To Main](github/git-from-master-to-main.md)
 - [How To Update Git Ubuntu](github/how-to-update-git-ubuntu.md)
-- [Github Actions](github/github-actions.md)
 - [Init In Existing Dir](github/init-in-existing-dir.md)
-- [How To Copy Repo](github/how-to-copy-repo.md)
+- [Github Actions](github/github-actions.md)
 
 ### macos
 
@@ -62,9 +62,9 @@ A collection of every tips that I learn every day.
 
 ### podman
 
-- [Ubuntu Podman](podman/ubuntu-podman.md)
-- [Wsl Nvidia Podman](podman/wsl-nvidia-podman.md)
 - [Wsl Podman](podman/wsl-podman.md)
+- [Wsl Nvidia Podman](podman/wsl-nvidia-podman.md)
+- [Ubuntu Podman](podman/ubuntu-podman.md)
 
 ### resource-econometrics
 
@@ -72,20 +72,20 @@ A collection of every tips that I learn every day.
 
 ### resource-machine_learning
 
-- [Intro To Ml Ms](resource-machine_learning/intro-to-ml-ms.md)
 - [Dive Into Deep Learning](resource-machine_learning/dive-into-deep-learning.md)
+- [Intro To Ml Ms](resource-machine_learning/intro-to-ml-ms.md)
 
 ### resource-math
 
-- [Understanding Analysis Abott](resource-math/understanding-analysis-abott.md)
 - [Interactive Linear Algebra](resource-math/interactive-linear-algebra.md)
+- [Understanding Analysis Abott](resource-math/understanding-analysis-abott.md)
 - [Nbgla](resource-math/NBGLA.md)
 
 ### resource-python
 
 - [Time Series Handling 1](resource-python/time-series-handling-1.md)
-- [Agentpy](resource-python/agentpy.md)
 - [Itertools](resource-python/itertools.md)
+- [Agentpy](resource-python/agentpy.md)
 
 ### resource-rstat
 
@@ -95,8 +95,8 @@ A collection of every tips that I learn every day.
 ### resource-stats
 
 - [Statproofbook](resource-stats/statproofbook.md)
-- [All Of Statistics](resource-stats/all-of-statistics.md)
 - [Tidystat](resource-stats/tidystat.md)
+- [All Of Statistics](resource-stats/all-of-statistics.md)
 
 ### resources-econmetrics
 
@@ -109,8 +109,8 @@ A collection of every tips that I learn every day.
 
 ### ubuntu
 
-- [Ubuntu Desktop Natively](ubuntu/ubuntu-desktop-natively.md)
 - [Generate Dummy File](ubuntu/generate-dummy-file.md)
+- [Ubuntu Desktop Natively](ubuntu/ubuntu-desktop-natively.md)
 
 ### vscode
 
@@ -118,9 +118,9 @@ A collection of every tips that I learn every day.
 
 ### windows-management
 
+- [How To Control Update](windows-management/how-to-control-update.md)
 - [Winget](windows-management/winget.md)
 - [Image](windows-management/image.png)
-- [How To Control Update](windows-management/how-to-control-update.md)
 
 ### wsl
 
