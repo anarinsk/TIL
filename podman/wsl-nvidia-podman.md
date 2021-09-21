@@ -98,6 +98,8 @@ podman run --rm --security-opt=label=disable \
      --no-dcgm-validation -t 1004 -d 30
 ```
 
+- Ubuntu 20.04에서는 잘 돌고, WSL2-Ubuntu 20.04에서는 OCI 에러 발생 
+
 ### nbody problem 
 
 ```shell
