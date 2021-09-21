@@ -140,16 +140,18 @@ tf.config.get_visible_devices(
 - GPU를 끄고 싶다면? 
 
 ```python
-#physical_devices = tf.config.list_physical_devices('GPU')
-try:
-  # Disable all GPUS
-  tf.config.set_visible_devices([], 'GPU')
-  visible_devices = tf.config.get_visible_devices()
-  for device in visible_devices:
-    assert device.device_type != 'GPU'
-except:
-  # Invalid device or cannot modify virtual devices once initialized.
-  pass
+import tensorflow as tf
+
+physical_devices = tf.config.get_visible_devices(
+    device_type=None
+)
+
+# CPU Only 
+tf.config.set_visible_devices(physical_devices[0])
+# Initial state is achieved by "shutdown - restart" in Kernel menu 
+print(physical_devices)
 ```
 
+- 2번 실행해야 결과를 확인할 수 있다. (이유는...)
+    - GPU가 죽은 걸 확인하고 코드를 다시 실행하면 된다. 
 - GPU를 다시 켜고 싶다면 커널을 다시 시작하자. 
