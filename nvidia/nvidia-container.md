@@ -173,6 +173,7 @@ podman run --rm --security-opt=label=disable nvidia/cuda:11.0-base nvidia-smi
 
 ```shell
 podman run --rm --security-opt=label=disable nvidia/cuda:11.4.1-base-ubuntu20.04 nvidia-smi
+podman run --rm --security-opt=label=disable nvidia/cuda nvidia-smi
 ```
 
 ### FP16 GEMM
