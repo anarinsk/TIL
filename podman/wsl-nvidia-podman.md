@@ -133,7 +133,8 @@ tf.config.get_visible_devices(
 - 아래처럼 GPU가 잡혀 있으면 설정이 제대로 들어간 것이다. 
 
 ```txt
-[PhysicalDevice(name='/physical_device:CPU:0', device_type='CPU')]
+[PhysicalDevice(name='/physical_device:CPU:0', device_type='CPU'),
+ PhysicalDevice(name='/physical_device:GPU:0', device_type='GPU')]
 ```
 
 - GPU를 끄고 싶다면? 
