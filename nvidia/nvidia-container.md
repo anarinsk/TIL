@@ -228,15 +228,18 @@ tf.config.get_visible_devices(
 - gpu 비활성화 하기 
 
 ```python
+# Following script is to remove GPU on jupyter 
+# 
+# Initial state is achieved by "shutdown - restart" in Kernel menu 
+
 import tensorflow as tf
 
 physical_devices = tf.config.get_visible_devices(
     device_type=None
 )
 
-# CPU Only 
+# To activate CPU only 
 # tf.config.set_visible_devices(physical_devices[0])
-# Initial state is achieved by "shutdown - restart" in Kernel menu 
 print(physical_devices)
 ```
 
