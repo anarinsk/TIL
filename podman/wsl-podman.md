@@ -123,6 +123,12 @@ $ sudo apt install -y systemd-genie
 $ sudo apt install docker-compose
 ```
 
+- systemd와 WSLg의 x11 GUI가 충돌하는 경우가 있다. 아래와 같이 실행해주자. 
+
+```shell
+sudo mount --bind /mnt/wslg/.X11-unix /tmp/.X11-unix
+```
+
 ### To run docker-compose with podman 
 
 - 포드맨에서 docker-compose를 실행하기 위해서는 우선 systemd가 활성화되어야 한다. 이를 위해서 Powershell에서 다음과 같이 실행하자. 
