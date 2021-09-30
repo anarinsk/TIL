@@ -30,6 +30,13 @@ sudo apt-get install fcitx-hangul
 ```
 - 나머지는 여기를 참고 하자. https://movment.tistory.com/4 
 
+- uim도 설치하자. 
+
+- 크로미움 기반 브라우저에서 일부 서비스에서 문제가 생긴다. 
+  + 예를 들어 Twitter 
+
+https://codechacha.com/ko/ubunutu-uim-keyboard/
+
 ### 화면 폰트 크기 전체 조정 
 
 - 그냥 Display Settings에서 fractional setting을 150%로 쓰는 게 나은 듯도 싶다. 
@@ -90,9 +97,11 @@ sudo apt-get install slimbookbattery
 
 ### 절전 모드 후 먹통 현상 
 
-https://kylexid.github.io/20190418ubuntu_suspend_issue/
+- 아직 해결이 안 된 듯... 
 
-- 잘 되는지는 모르겠지만, Hansung 머신에서 1번 방법으로 성공 
+### 뚜껑 닫았을 때 하이버네이션 모드 조정 
+
+https://ubunlog.com/ko/como-hacer-que-ubuntu-se-suspenda-cuando-cerramos-la-tapa-del-portatil/
 
 ## podman 
 
