@@ -67,6 +67,28 @@ https://syssurr.tistory.com/270
 sudo apt-get install fonts-nanum*
 sudo fc-cache -fv
 ```
+
+## Misc 
+
+### 전원 관리 
+
+https://itlearningcenter.tistory.com/entry/%E3%80%90Ubuntu-2004-LTS%E3%80%91%EB%85%B8%ED%8A%B8%EB%B6%81-%EC%A0%84%EC%9B%90-%EA%B4%80%EB%A6%AC-%EB%8F%84%EA%B5%AC-%EC%84%A4%EC%B9%98
+
+- TLP 설치 
+
+```shell
+sudo apt-get install tlp -y
+```
+
+- slim battery 
+
+```shell
+sudo add-apt-repository ppa:slimbook/slimbook
+sudo apt-get update
+sudo apt-get install slimbookbattery
+```
+
+
 ## podman 
 
 ### Installation 
