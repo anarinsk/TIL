@@ -88,6 +88,11 @@ sudo apt-get update
 sudo apt-get install slimbookbattery
 ```
 
+### 절전 모드 후 먹통 현상 
+
+https://kylexid.github.io/20190418ubuntu_suspend_issue/
+
+- 잘 되는지는 모르겠지만, Hansung 머신에서 1번 방법으로 성공 
 
 ## podman 
 
