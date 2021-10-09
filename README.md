@@ -9,8 +9,8 @@ A collection of every tips that I learn every day.
 
 ### blogging
 
-- [Katex](blogging/katex.md)
 - [Fastpages](blogging/fastpages.md)
+- [Katex](blogging/katex.md)
 
 ### causal-inference
 
@@ -27,11 +27,11 @@ A collection of every tips that I learn every day.
 
 ### github
 
-- [How To Copy Repo](github/how-to-copy-repo.md)
+- [Github Actions](github/github-actions.md)
 - [Git From Master To Main](github/git-from-master-to-main.md)
 - [How To Update Git Ubuntu](github/how-to-update-git-ubuntu.md)
+- [How To Copy Repo](github/how-to-copy-repo.md)
 - [Init In Existing Dir](github/init-in-existing-dir.md)
-- [Github Actions](github/github-actions.md)
 
 ### macos
 
@@ -43,13 +43,13 @@ A collection of every tips that I learn every day.
 
 ### meta
 
-- [My Fork Test](meta/my-fork-test.md)
 - [Today I Learned](meta/today-i-learned.md)
+- [My Fork Test](meta/my-fork-test.md)
 
 ### my-working-desk
 
-- [Three Containers](my-working-desk/three-containers.md)
 - [Dummy](my-working-desk/dummy.md)
+- [Three Containers](my-working-desk/three-containers.md)
 
 ### newly
 
@@ -62,9 +62,9 @@ A collection of every tips that I learn every day.
 
 ### podman
 
+- [Ubuntu Podman](podman/ubuntu-podman.md)
 - [Wsl Podman](podman/wsl-podman.md)
 - [Wsl Nvidia Podman](podman/wsl-nvidia-podman.md)
-- [Ubuntu Podman](podman/ubuntu-podman.md)
 
 ### resource-econometrics
 
@@ -72,25 +72,26 @@ A collection of every tips that I learn every day.
 
 ### resource-machine_learning
 
-- [Dive Into Deep Learning](resource-machine_learning/dive-into-deep-learning.md)
 - [Intro To Ml Ms](resource-machine_learning/intro-to-ml-ms.md)
+- [Dive Into Deep Learning](resource-machine_learning/dive-into-deep-learning.md)
 
 ### resource-math
 
-- [Interactive Linear Algebra](resource-math/interactive-linear-algebra.md)
-- [Understanding Analysis Abott](resource-math/understanding-analysis-abott.md)
 - [Nbgla](resource-math/NBGLA.md)
+- [Understanding Analysis Abott](resource-math/understanding-analysis-abott.md)
+- [Interactive Linear Algebra](resource-math/interactive-linear-algebra.md)
 
 ### resource-python
 
 - [Time Series Handling 1](resource-python/time-series-handling-1.md)
-- [Itertools](resource-python/itertools.md)
 - [Agentpy](resource-python/agentpy.md)
+- [Itertools](resource-python/itertools.md)
 
 ### resource-rstat
 
 - [Ivreg](resource-rstat/ivreg.md)
 - [Tidyverse Cookbook](resource-rstat/tidyverse-cookbook.md)
+- [Container Ubuntu](resource-rstat/container-ubuntu.md)
 
 ### resource-stats
 
@@ -100,8 +101,8 @@ A collection of every tips that I learn every day.
 
 ### resources-econmetrics
 
-- [Causal Inference Mixtape](resources-econmetrics/causal-inference-mixtape.md)
 - [The Effect Book](resources-econmetrics/the-effect-book.md)
+- [Causal Inference Mixtape](resources-econmetrics/causal-inference-mixtape.md)
 
 ### resources-julia
 
@@ -118,9 +119,9 @@ A collection of every tips that I learn every day.
 
 ### windows-management
 
-- [How To Control Update](windows-management/how-to-control-update.md)
-- [Winget](windows-management/winget.md)
 - [Image](windows-management/image.png)
+- [Winget](windows-management/winget.md)
+- [How To Control Update](windows-management/how-to-control-update.md)
 
 ### wsl
 
