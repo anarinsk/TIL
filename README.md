@@ -25,6 +25,12 @@ A collection of every tips that I learn every day.
 
 - [Docker Compose](docker/docker-compose.md)
 
+### econometrics
+
+- [Hyndman Text Book](econometrics/hyndman-text-book.md)
+- [The Effect Book](econometrics/the-effect-book.md)
+- [Causal Inference Mixtape](econometrics/causal-inference-mixtape.md)
+
 ### github
 
 - [Github Actions](github/github-actions.md)
@@ -33,6 +39,15 @@ A collection of every tips that I learn every day.
 - [How To Copy Repo](github/how-to-copy-repo.md)
 - [Init In Existing Dir](github/init-in-existing-dir.md)
 
+### julia
+
+- [Thinkjulia](julia/thinkjulia.md)
+
+### machine_learning
+
+- [Intro To Ml Ms](machine_learning/intro-to-ml-ms.md)
+- [Dive Into Deep Learning](machine_learning/dive-into-deep-learning.md)
+
 ### macos
 
 - [One Button Do Not Disturb](macos/one-button-do-not-disturb.md)
@@ -40,6 +55,12 @@ A collection of every tips that I learn every day.
 ### markdown
 
 - [How To Use Latex](markdown/how-to-use-latex.md)
+
+### math
+
+- [Nbgla](math/NBGLA.md)
+- [Understanding Analysis Abott](math/understanding-analysis-abott.md)
+- [Interactive Linear Algebra](math/interactive-linear-algebra.md)
 
 ### meta
 
@@ -66,47 +87,23 @@ A collection of every tips that I learn every day.
 - [Wsl Podman](podman/wsl-podman.md)
 - [Wsl Nvidia Podman](podman/wsl-nvidia-podman.md)
 
-### resource-econometrics
+### python
 
-- [Hyndman Text Book](resource-econometrics/hyndman-text-book.md)
+- [Time Series Handling 1](python/time-series-handling-1.md)
+- [Agentpy](python/agentpy.md)
+- [Itertools](python/itertools.md)
 
-### resource-machine_learning
+### rstat
 
-- [Intro To Ml Ms](resource-machine_learning/intro-to-ml-ms.md)
-- [Dive Into Deep Learning](resource-machine_learning/dive-into-deep-learning.md)
+- [Ivreg](rstat/ivreg.md)
+- [Tidyverse Cookbook](rstat/tidyverse-cookbook.md)
+- [Container Ubuntu](rstat/container-ubuntu.md)
 
-### resource-math
+### statistics
 
-- [Nbgla](resource-math/NBGLA.md)
-- [Understanding Analysis Abott](resource-math/understanding-analysis-abott.md)
-- [Interactive Linear Algebra](resource-math/interactive-linear-algebra.md)
-
-### resource-python
-
-- [Time Series Handling 1](resource-python/time-series-handling-1.md)
-- [Agentpy](resource-python/agentpy.md)
-- [Itertools](resource-python/itertools.md)
-
-### resource-rstat
-
-- [Ivreg](resource-rstat/ivreg.md)
-- [Tidyverse Cookbook](resource-rstat/tidyverse-cookbook.md)
-- [Container Ubuntu](resource-rstat/container-ubuntu.md)
-
-### resource-stats
-
-- [Statproofbook](resource-stats/statproofbook.md)
-- [Tidystat](resource-stats/tidystat.md)
-- [All Of Statistics](resource-stats/all-of-statistics.md)
-
-### resources-econmetrics
-
-- [The Effect Book](resources-econmetrics/the-effect-book.md)
-- [Causal Inference Mixtape](resources-econmetrics/causal-inference-mixtape.md)
-
-### resources-julia
-
-- [Thinkjulia](resources-julia/thinkjulia.md)
+- [Statproofbook](statistics/statproofbook.md)
+- [Tidystat](statistics/tidystat.md)
+- [All Of Statistics](statistics/all-of-statistics.md)
 
 ### ubuntu
 
