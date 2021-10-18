@@ -108,7 +108,8 @@ A collection of every tips that I learn every day.
 ### ubuntu
 
 - [Generate Dummy File](ubuntu/generate-dummy-file.md)
-- [Ubuntu Desktop Natively](ubuntu/ubuntu-desktop-natively.md)
+- [Ubuntu Desktop 21](ubuntu/ubuntu-desktop-21.10.md)
+- [Ubuntu Desktop 20](ubuntu/ubuntu-desktop-20.04-LTS.md)
 
 ### vscode
 
