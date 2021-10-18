@@ -22,17 +22,18 @@
 
 ### 키보드 한영 전환 
 
-- fcitx를 설치한다. 
+- ~~fcitx를 설치한다. 
+- 그냥 uim을 설치하도록 하자! 
 
 ```
-sudo apt-get update
+sudo apt-get updat1e
 sudo apt-get install fcitx-hangul
 ```
 - 나머지는 여기를 참고 하자. https://movment.tistory.com/4 
 
 - uim도 설치하자. 
 
-- 크로미움 기반 브라우저에서 일부 서비스에서 문제가 생긴다. 
+- fcitx의 경우 크로미움 기반 브라우저에서 일부 서비스에서 문제가 생긴다. 
   + 예를 들어 Twitter 
 
 https://codechacha.com/ko/ubunutu-uim-keyboard/
