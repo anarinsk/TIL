@@ -36,7 +36,7 @@ $ sudo apt-get -y install podman
 - docker의 hello-world를 실행해보자. 
 
 ```shell
-podman run hello-world 
+podman run --rm hello-world 
 ```
 
 ## nvidia container  
