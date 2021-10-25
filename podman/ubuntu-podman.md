@@ -78,3 +78,43 @@ https://stackoverflow.com/a/68142112
 - VS Code 콘테이너 접속도 무리 없이 잘 된다. 
     + settings.json에서 Docker Path를 바꾸지 않아도 된다. 
     + 아마도 docker-compose를 깔았기 때문인 듯... 
+
+### Rocker 컨테이너 이미지 권한 문제 
+
+#### dockerfile 
+
+- container 계정이 rstudio를 쓰고 있다고 가정하자. 
+- container가 시작해서 volume이 마운트될 때 기본으로 root와 된다. 
+- 따라서 rstudio를 root group안에 넣어야 마운트된 폴더에서 작업이 가능하다. 
+- 도커 차일 마지막에 아래와 같이 삽입하자. 
+
+```shell
+&& usermod -G root rstudio 
+```
+
+- 명령어 해설 
+    + `usermod`: 계정을 특정한 그룹이 넣는다. 
+    + `-G`: 주 그룹을 그대로 두고 계정을 부 그룹에 넣는 옵션 
+    + `root`: 계정을 넣을 그룹
+    + `rstudio`: 대상 계정 
+
+#### yml part 
+
+- 단순한 권한 문제가 아니다. 이게 해결이 안되면 project와 renv를 제대로 쓸 수 없다. 
+- WSL을 활용할 때는 yml에 아래와 같이 enviroment를 설정한다. 
+
+```shell
+volumes: 
+            - /mnt/e/github:/home/rstudio/github-anari
+            - /mnt/e/renv:/home/rstudio/renv
+        ports: 
+            - "8787:8787"
+        environment: 
+            - PASSWORD=1022
+            - UMASK=000
+            - ROOT=TRUE
+            - RENV_PATHS_CACHE=/home/rstudio/renv
+```
+
+- volume의 두 번째 부분은 renv 환경에서 패키지 파일을 물리적으로 host에 저정하기 위한 것이다. 
+- 핵심은 `UMASK=000`이다. 생성되는 폴더의 권한을 바꿔주는 부분이다. 
