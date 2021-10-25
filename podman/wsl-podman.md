@@ -172,4 +172,27 @@ https://github.com/anarinsk/til/blob/master/nvidia/nvidia-container.md#podman
 
 ## Problem left 
 
+### VS Code Container 연동
+
 - 이전 docker dssktop에서와 같은 편리한 VS Code 접속은 한동안 기다려야 할 것 같다. 
+
+### Rocker 컨테이너 이미지 권한 문제 
+
+- 단순한 권한 문제가 아니다. 이게 해결이 안되면 project와 renv를 제대로 쓸 수 없다. 
+- WSL을 활용할 때는 yml에 아래와 같이 enviroment를 설정한다. 
+
+```shell
+volumes: 
+            - /mnt/e/github:/home/rstudio/github-anari
+            - /mnt/e/renv:/home/rstudio/renv
+        ports: 
+            - "8787:8787"
+        environment: 
+            - PASSWORD=1022
+            - UMASK=000
+            - ROOT=TRUE
+            - RENV_PATHS_CACHE=/home/rstudio/renv
+```
+
+- volume의 두 번째 부분은 renv 환경에서 패키지 파일을 물리적으로 host에 저정하기 위한 것이다. 
+- 핵심은 `UMASK=000`이다. 생성되는 폴더의 권한을 바꿔주는 부분이다. 
