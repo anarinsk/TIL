@@ -178,6 +178,24 @@ https://github.com/anarinsk/til/blob/master/nvidia/nvidia-container.md#podman
 
 ### Rocker 컨테이너 이미지 권한 문제 
 
+#### dockerfile 
+
+- 컨테이너의 계정을 rstudio를 쓴다고 가정 
+- 이때 Rocker의 경우 volume이 마운트되는 순간 root가 한 것으로 간주해 볼륨을 처리한다. 
+- 따라서 rstudio가 root group에 속해 있어야 연결된 디렉토리에 관한 조작이 자유롭다. 
+- dockerfile에 아래의 명령어를 추가하자. 
+
+```shell
+&& usermod -G root rstudio 
+```
+
+- 해설 
+    + `usermod`: 계정이 속한 그룹을 조작하는 명령어 
+    + `-G`: 계정이 속한 주 그룹은 그대로 두고 부 그룹을 확장 
+    + `root`: 계정이 속하게 될 그룹 
+    + `rstudio`: 계정명 
+
+#### yml part
 - 단순한 권한 문제가 아니다. 이게 해결이 안되면 project와 renv를 제대로 쓸 수 없다. 
 - WSL을 활용할 때는 yml에 아래와 같이 enviroment를 설정한다. 
 
