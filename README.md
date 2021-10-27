@@ -97,6 +97,7 @@ A collection of every tips that I learn every day.
 
 - [Ivreg](rstat/ivreg.md)
 - [Tidyverse Cookbook](rstat/tidyverse-cookbook.md)
+- [Podman Issues](rstat/podman-issues.md)
 - [Container Ubuntu](rstat/container-ubuntu.md)
 
 ### statistics
