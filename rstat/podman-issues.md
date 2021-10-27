@@ -1,6 +1,9 @@
 # Podman Issues 
 
-## renv permission problem 
+## project + renv in podman 
+
+https://github.com/anarinsk/setup-docker_compose 
+- `.yml` 및 dockerfile 참고 
 
 ### What 
 
@@ -40,3 +43,22 @@ RUN R -e "install.packages(c('renv', 'devtools'))" \
 - 아마 에러가 뜰 것이다. 
     + 상단 메뉴 둘째 줄에서 해당 프로젝트를 클릭해서 프로젝트를 다시 로드한다. 
 - 이제 renv를 활성화해보자. 큰 이슈가 없을 것이다. 
+
+## Permission in Ubuntu 
+
+### What 
+
+- Ubuntu에서 구동되는 rocker 컨테이너 이미지에서 연결된 디렉토리를 조작할 수 없는 문제 
+    + 디렉토리의 생성, 디렉토리/파일 삭제 등 불가 
+
+### How: solution 
+
+- 도커 생성시 권한을 조정해주자. 
+
+```shell
+&& usermod -G root rstudio \
+&& umask 000
+```
+
+- rstudio 이용자를 root에 편입 
+- 새로 생성되는 디렉토리 및 파일의 권한을 최소한으로 설정 
