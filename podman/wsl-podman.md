@@ -202,15 +202,20 @@ https://github.com/anarinsk/til/blob/master/nvidia/nvidia-container.md#podman
 ```shell
 volumes: 
             - /mnt/e/github:/home/rstudio/github-anari
-            - /mnt/e/renv:/home/rstudio/renv
         ports: 
             - "8787:8787"
         environment: 
             - PASSWORD=1022
-            - UMASK=000
             - ROOT=TRUE
-            - RENV_PATHS_CACHE=/home/rstudio/renv
 ```
 
-- volume의 두 번째 부분은 renv 환경에서 패키지 파일을 물리적으로 host에 저정하기 위한 것이다. 
-- 핵심은 `UMASK=000`이다. 생성되는 폴더의 권한을 바꿔주는 부분이다. 
+- 결론부터 말하면 rocker와 podman은 전혀 어울리지 않는다. 
+    + RStudio에서 project을 활성화하고 renv를 함께 쓰면 권한 이슈가 발생한다. 
+    + 이슈를 해결해주기 위해서는 project 아래 생성하는 `.Rprofile` 파일 내에 
+
+    ```
+    Sys.setenv(R_INSTALL_STAGED = FALSE)
+    ```
+
+    을 넣어주고 프로젝트를 다시 로드하면 된다. 
+- 그런데 이렇게까지 해서 renv와 project를 쓸 이유가 있을까? R + Podman은 가볍게 쓰는 것이 좋을 듯 싶다. 
