@@ -106,6 +106,10 @@ A collection of every tips that I learn every day.
 - [Tidystat](statistics/tidystat.md)
 - [All Of Statistics](statistics/all-of-statistics.md)
 
+### streamlit
+
+- [Form](streamlit/form.md)
+
 ### ubuntu
 
 - [Generate Dummy File](ubuntu/generate-dummy-file.md)
