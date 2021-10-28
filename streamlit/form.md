@@ -20,9 +20,23 @@ https://twitter.com/andfanilo/status/1453346492605820930
 
 ## How 
 
+- streamlit 실행 방법 등은 생략한다. 
+- 아래 패키지의 설치 따위도 생략한다. 
+- 간혹 일부 패키지의 다운그레이드가 필요할 수 있다. 내 경우는 다음과 같이 해결했다. 
+
+```shell
+!pip install streamlit # Install streamlit  
+!pip uninstall --yes click # Uninstall click 8.0 
+!pip install click==7.0 # Reinstall click 7.0
+```
+
 ### Without Form 
 
+- 아래 코드에서 보듯이 Form 없이 쓰면 매번 slider에 변화가 있을 때 마다 다시 계산한다. 
+
 ```py
+### This is app1.py to run with streamlit 
+
 import streamlit as st
 from sklearn import datasets
 from sklearn.ensemble import RandomForestClassifier
@@ -57,7 +71,11 @@ st.write(f"Your model was trained **{st.session_state.counter}** times :scream:"
 
 ### With Form 1 
 
+- `with`를 통해서 컨텍스트와 함께 쓰는 방법이다.  
+
 ```py
+### This is app2.py to run with streamlit 
+
 import streamlit as st
 from sklearn import datasets
 from sklearn.ensemble import RandomForestClassifier
@@ -81,8 +99,6 @@ st.title("Forms")
 
 # Slide 2
 
-- 컨텍스트 매니저를 활용할 때 
-
 with st.form(key="my_form"):
     n_estimators = st.slider("Num estimators", 1, 20)
     max_depth = st.slider("Max depth", 1, 20)
@@ -98,7 +114,11 @@ st.write(f"Your model was trained **{st.session_state.counter}** times :scream:"
 
 ### With Form 2
 
+- 컨텍스트 없이 가장 일반적인 형태로 `form`을 쓰는 방법이다. 
+
 ```py
+### This is app3.py to run with streamlit 
+
 import streamlit as st
 from sklearn import datasets
 from sklearn.ensemble import RandomForestClassifier
