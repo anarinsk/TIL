@@ -17,12 +17,13 @@ https://twitter.com/andfanilo/status/1453346492605820930
 
 - 비동기적 동작이 당연히 되어야 할 것 같은데 그간 되지 않았다. 
 - 계산량이 많으면 참 괴롭다. 슬라이드 하다 조정할 때마다 계산이 다시 된다면 사용성과 효율성 모두 손해다. 
+- 아래 예에서 `Form`을 사용해 비동기 실행을 구현해보도록 하자. 
 
 ## How 
 
 - streamlit 실행 방법 등은 생략한다. 
 - 아래 패키지의 설치 따위도 생략한다. 
-- 간혹 일부 패키지의 다운그레이드가 필요할 수 있다. 내 경우는 다음과 같이 해결했다. 
+- 간혹 일부 패키지의 다운그레이드가 필요할 수 있다. 내 환경에서는 click을 다운그레이드해야 했고, 다음과 같이 해결했다. 
 
 ```shell
 !pip install streamlit # Install streamlit  
@@ -32,7 +33,7 @@ https://twitter.com/andfanilo/status/1453346492605820930
 
 ### Without Form 
 
-- 아래 코드에서 보듯이 Form 없이 쓰면 매번 slider에 변화가 있을 때 마다 다시 계산한다. 
+- 아래 코드에서 보듯이 `Form` 없이 쓰면 매번 slider에 변화가 있을 때 마다 계산을 . 
 
 ```py
 ### This is app1.py to run with streamlit 
