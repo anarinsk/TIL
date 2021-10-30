@@ -86,7 +86,7 @@ https://stackoverflow.com/a/68142112
 - container 계정이 rstudio를 쓰고 있다고 가정하자. 
 - container가 시작해서 volume이 마운트될 때 기본으로 root와 된다. 
 - 따라서 rstudio를 root group안에 넣어야 마운트된 폴더에서 작업이 가능하다. 
-- 도커 차일 마지막에 아래와 같이 삽입하자. 
+- dockerfile `RUN` 항목에 아래와 같이 삽입하자. 
 
 ```shell
 && usermod -G root rstudio 
@@ -117,4 +117,6 @@ volumes:
 ```
 
 - volume의 두 번째 부분은 renv 환경에서 패키지 파일을 물리적으로 host에 저정하기 위한 것이다. 
-- 핵심은 `UMASK=000`이다. 생성되는 폴더의 권한을 바꿔주는 부분이다. 
+- `UMASK=000`이다. 생성되는 폴더의 권한을 바꿔주는 부분이다. 
+    + 이 옵션을 설정하지 않을 경우 Rstudio 컨테이너에서 생성한 폴더가 잠기게 되고, Ubuntu의 계정 home 파일에서는 수정할 수 없게 된다. 
+    + `.Rprofile` 아래 `Sys.umask(mode=000)`으로 설정된다. dockerfile에서 해당 파일을 심어줘도 무방하다. 
