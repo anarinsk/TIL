@@ -21,6 +21,10 @@ A collection of every tips that I learn every day.
 - [Berson Pardox](concept-stats/Berson-pardox.md)
 - [From Cdf To Expectation](concept-stats/from-CDF-to-expectation.md)
 
+### concepts
+
+- [수학용어](concepts/수학용어.md)
+
 ### docker
 
 - [Docker Compose](docker/docker-compose.md)
