@@ -9,8 +9,8 @@ A collection of every tips that I learn every day.
 
 ### blogging
 
-- [Fastpages](blogging/fastpages.md)
 - [Katex](blogging/katex.md)
+- [Fastpages](blogging/fastpages.md)
 
 ### causal-inference
 
@@ -18,8 +18,8 @@ A collection of every tips that I learn every day.
 
 ### concept-stats
 
-- [Berson Pardox](concept-stats/Berson-pardox.md)
 - [From Cdf To Expectation](concept-stats/from-CDF-to-expectation.md)
+- [Berson Pardox](concept-stats/Berson-pardox.md)
 
 ### concepts
 
@@ -31,26 +31,30 @@ A collection of every tips that I learn every day.
 
 ### econometrics
 
-- [Hyndman Text Book](econometrics/hyndman-text-book.md)
 - [The Effect Book](econometrics/the-effect-book.md)
+- [Hyndman Text Book](econometrics/hyndman-text-book.md)
 - [Causal Inference Mixtape](econometrics/causal-inference-mixtape.md)
 
 ### github
 
 - [Github Actions](github/github-actions.md)
+- [Init In Existing Dir](github/init-in-existing-dir.md)
 - [Git From Master To Main](github/git-from-master-to-main.md)
 - [How To Update Git Ubuntu](github/how-to-update-git-ubuntu.md)
 - [How To Copy Repo](github/how-to-copy-repo.md)
-- [Init In Existing Dir](github/init-in-existing-dir.md)
 
 ### julia
 
 - [Thinkjulia](julia/thinkjulia.md)
 
+### living
+
+- [Obituary](living/obituary.md)
+
 ### machine_learning
 
-- [Intro To Ml Ms](machine_learning/intro-to-ml-ms.md)
 - [Dive Into Deep Learning](machine_learning/dive-into-deep-learning.md)
+- [Intro To Ml Ms](machine_learning/intro-to-ml-ms.md)
 
 ### macos
 
@@ -63,18 +67,18 @@ A collection of every tips that I learn every day.
 ### math
 
 - [Nbgla](math/NBGLA.md)
-- [Understanding Analysis Abott](math/understanding-analysis-abott.md)
 - [Interactive Linear Algebra](math/interactive-linear-algebra.md)
+- [Understanding Analysis Abott](math/understanding-analysis-abott.md)
 
 ### meta
 
-- [Today I Learned](meta/today-i-learned.md)
 - [My Fork Test](meta/my-fork-test.md)
+- [Today I Learned](meta/today-i-learned.md)
 
 ### my-working-desk
 
-- [Dummy](my-working-desk/dummy.md)
 - [Three Containers](my-working-desk/three-containers.md)
+- [Dummy](my-working-desk/dummy.md)
 
 ### newly
 
@@ -82,28 +86,28 @@ A collection of every tips that I learn every day.
 
 ### nvidia
 
-- [Cuda](nvidia/cuda.md)
 - [Nvidia Container](nvidia/nvidia-container.md)
+- [Cuda](nvidia/cuda.md)
 
 ### podman
 
 - [Ubuntu Podman](podman/ubuntu-podman.md)
+- [Wsl Nvidia Podman](podman/wsl-nvidia-podman.md)
 - [Basic Command](podman/basic-command.md)
 - [Wsl Podman](podman/wsl-podman.md)
-- [Wsl Nvidia Podman](podman/wsl-nvidia-podman.md)
 
 ### python
 
-- [Time Series Handling 1](python/time-series-handling-1.md)
-- [Agentpy](python/agentpy.md)
 - [Itertools](python/itertools.md)
+- [Agentpy](python/agentpy.md)
+- [Time Series Handling 1](python/time-series-handling-1.md)
 
 ### rstat
 
-- [Ivreg](rstat/ivreg.md)
-- [Tidyverse Cookbook](rstat/tidyverse-cookbook.md)
-- [Podman Issues](rstat/podman-issues.md)
 - [Container Ubuntu](rstat/container-ubuntu.md)
+- [Tidyverse Cookbook](rstat/tidyverse-cookbook.md)
+- [Ivreg](rstat/ivreg.md)
+- [Podman Issues](rstat/podman-issues.md)
 
 ### statistics
 
