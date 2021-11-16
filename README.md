@@ -99,6 +99,7 @@ A collection of every tips that I learn every day.
 ### python
 
 - [Itertools](python/itertools.md)
+- [Scientific Python](python/scientific-python.md)
 - [Agentpy](python/agentpy.md)
 - [Time Series Handling 1](python/time-series-handling-1.md)
 
