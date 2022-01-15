@@ -41,3 +41,11 @@ $$
 위에 보는 것처럼 Solution 1은 망했다. 
 
 https://github.com/nschloe/xhub
+
+### Field testing 
+
+```math
+f(a) = \frac{1}{2\pi i} \oint _{\gamma}\frac{f(z)}{z-a} dz.
+```
+
+
