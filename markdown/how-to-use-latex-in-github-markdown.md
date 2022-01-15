@@ -42,6 +42,8 @@ $$
 
 https://github.com/nschloe/xhub
 
+- 단점은 Latex 노테이션이 정상적이지 않다는 것이다. 
+
 ### Field testing 
 
 Display math is 
@@ -53,3 +55,11 @@ f(a) = \frac{1}{2\pi i} \oint _{\gamma}\frac{f(z)}{z-a} dz.
 inline math
 
 $`\alpha`$, $`\beta`$, $`\omicron`$ are all unknowns. 
+
+## Solution 3
+
+https://github.com/orsharir/github-mathjax
+
+- 조금 더 단순한 해결책 
+
+
