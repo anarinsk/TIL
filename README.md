@@ -63,7 +63,7 @@ A collection of every tips that I learn every day.
 
 ### markdown
 
-- [How To Use Latex](markdown/how-to-use-latex.md)
+- [How To Use Latex In Github](markdown/how-to-use-latex-in-github.md.md)
 
 ### math
 
