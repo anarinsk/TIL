@@ -44,8 +44,12 @@ https://github.com/nschloe/xhub
 
 ### Field testing 
 
+Display math is 
+
 ```math
 f(a) = \frac{1}{2\pi i} \oint _{\gamma}\frac{f(z)}{z-a} dz.
 ```
 
+inline math
 
+$\alpha$, $\beta$ $\omicron$ are all unknowns. 
