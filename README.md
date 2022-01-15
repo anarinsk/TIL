@@ -9,17 +9,18 @@ A collection of every tips that I learn every day.
 
 ### blogging
 
-- [Katex](blogging/katex.md)
 - [Fastpages](blogging/fastpages.md)
+- [Katex](blogging/katex.md)
 
 ### causal-inference
 
+- [Causal Inference For The Brave And True](causal-inference/causal-inference-for-the-brave-and-true.md)
 - [Ope Example 1](causal-inference/OPE-example-1.md)
 
 ### concept-stats
 
-- [From Cdf To Expectation](concept-stats/from-CDF-to-expectation.md)
 - [Berson Pardox](concept-stats/Berson-pardox.md)
+- [From Cdf To Expectation](concept-stats/from-CDF-to-expectation.md)
 
 ### concepts
 
@@ -31,17 +32,17 @@ A collection of every tips that I learn every day.
 
 ### econometrics
 
-- [The Effect Book](econometrics/the-effect-book.md)
 - [Hyndman Text Book](econometrics/hyndman-text-book.md)
+- [The Effect Book](econometrics/the-effect-book.md)
 - [Causal Inference Mixtape](econometrics/causal-inference-mixtape.md)
 
 ### github
 
-- [Github Actions](github/github-actions.md)
-- [Init In Existing Dir](github/init-in-existing-dir.md)
-- [Git From Master To Main](github/git-from-master-to-main.md)
 - [How To Update Git Ubuntu](github/how-to-update-git-ubuntu.md)
+- [Git From Master To Main](github/git-from-master-to-main.md)
+- [Github Actions](github/github-actions.md)
 - [How To Copy Repo](github/how-to-copy-repo.md)
+- [Init In Existing Dir](github/init-in-existing-dir.md)
 
 ### julia
 
@@ -53,8 +54,8 @@ A collection of every tips that I learn every day.
 
 ### machine_learning
 
-- [Dive Into Deep Learning](machine_learning/dive-into-deep-learning.md)
 - [Intro To Ml Ms](machine_learning/intro-to-ml-ms.md)
+- [Dive Into Deep Learning](machine_learning/dive-into-deep-learning.md)
 
 ### macos
 
@@ -66,14 +67,14 @@ A collection of every tips that I learn every day.
 
 ### math
 
+- [Understanding Analysis Abott](math/understanding-analysis-abott.md)
 - [Nbgla](math/NBGLA.md)
 - [Interactive Linear Algebra](math/interactive-linear-algebra.md)
-- [Understanding Analysis Abott](math/understanding-analysis-abott.md)
 
 ### meta
 
-- [My Fork Test](meta/my-fork-test.md)
 - [Today I Learned](meta/today-i-learned.md)
+- [My Fork Test](meta/my-fork-test.md)
 
 ### my-working-desk
 
@@ -91,24 +92,24 @@ A collection of every tips that I learn every day.
 
 ### podman
 
-- [Ubuntu Podman](podman/ubuntu-podman.md)
-- [Wsl Nvidia Podman](podman/wsl-nvidia-podman.md)
 - [Basic Command](podman/basic-command.md)
+- [Wsl Nvidia Podman](podman/wsl-nvidia-podman.md)
 - [Wsl Podman](podman/wsl-podman.md)
+- [Ubuntu Podman](podman/ubuntu-podman.md)
 
 ### python
 
-- [Itertools](python/itertools.md)
-- [Scientific Python](python/scientific-python.md)
 - [Agentpy](python/agentpy.md)
+- [Scientific Python](python/scientific-python.md)
 - [Time Series Handling 1](python/time-series-handling-1.md)
+- [Itertools](python/itertools.md)
 
 ### rstat
 
 - [Container Ubuntu](rstat/container-ubuntu.md)
+- [Podman Issues](rstat/podman-issues.md)
 - [Tidyverse Cookbook](rstat/tidyverse-cookbook.md)
 - [Ivreg](rstat/ivreg.md)
-- [Podman Issues](rstat/podman-issues.md)
 
 ### statistics
 
@@ -122,8 +123,8 @@ A collection of every tips that I learn every day.
 
 ### ubuntu
 
-- [Generate Dummy File](ubuntu/generate-dummy-file.md)
 - [Ubuntu Desktop 21](ubuntu/ubuntu-desktop-21.10.md)
+- [Generate Dummy File](ubuntu/generate-dummy-file.md)
 - [Ubuntu Desktop 20](ubuntu/ubuntu-desktop-20.04-LTS.md)
 
 ### vscode
@@ -133,8 +134,8 @@ A collection of every tips that I learn every day.
 ### windows-management
 
 - [Image](windows-management/image.png)
-- [Winget](windows-management/winget.md)
 - [How To Control Update](windows-management/how-to-control-update.md)
+- [Winget](windows-management/winget.md)
 
 ### wsl
 
