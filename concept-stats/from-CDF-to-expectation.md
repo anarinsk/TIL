@@ -1,6 +1,3 @@
-[![purple-pi](https://img.shields.io/badge/Rendered%20with-Purple%20Pi-bd00ff?style=flat-square)](https://github.com/nschloe/purple-pi?activate)
-
-
 # What 
 
 - CDF에서 Expectation을 구할 수 있는 방법을 알아보자. 
@@ -60,7 +57,12 @@ $$
 따라서, 
 
 $$
-\int_{0}^{\infty} (1-F_X(x)) dx = \int_{0}^{\infty} \int_{0}^{t} f_X(t) dx dt = \int_{0}^{\infty} \left[ xf_X(t)\right]_0^t dt = \int_0^\infty t f_X(t) dt = \int_0^\infty x f_x(x) dx = E(X) 
+\int_{0}^{\infty} (1-F_X(x)) dx = \int_{0}^{\infty} \int_{x}^{\infty} f_X(t) dt dx = \int_{0}^{\infty} \int_{0}^{t} f_X(t) dx dt 
+$$
+
+
+$$
+\int_{0}^{\infty} \int_{0}^{t} f_X(t) dx dt = \int_{0}^{\infty} \left[ xf_X(t)\right]_0^t dt = \int_0^\infty t f_X(t) dt = \int_0^\infty x f_x(x) dx = E(X) 
 $$
 
 - 이 식이 성립하려면 RV이 비음이어야 한다는 점에 주목하자. 
