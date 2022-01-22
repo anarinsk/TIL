@@ -30,6 +30,15 @@
 - 온라인 도서 
 - 배움을 위한 체계적인 리소스 
 
+### `til_data-resources`
+
+- 데이터 소스 
+
 ### Special Purpose Til (SPT)
 
 - 특수 목적으로 활용하는 til 
+
+#### List 
+
+- `til_causal-inference-mixtape`
+- `til_understanding_analysis_abott`
