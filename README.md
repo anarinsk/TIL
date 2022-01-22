@@ -60,6 +60,7 @@ A collection of every tips that I learn every day.
 ### macos
 
 - [One Button Do Not Disturb](macos/one-button-do-not-disturb.md)
+- [Using Terminal](macos/using-terminal.md)
 
 ### markdown
 
