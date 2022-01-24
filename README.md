@@ -145,5 +145,6 @@ A collection of every tips that I learn every day.
 
 ### zsh
 
+- [Powerlevel10k](zsh/powerlevel10k.md)
 - [Set Alias](zsh/set-alias.md)
 
