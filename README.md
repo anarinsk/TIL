@@ -61,7 +61,7 @@ A collection of every tips that I learn every day.
 
 - [One Button Do Not Disturb](macos/one-button-do-not-disturb.md)
 - [Using Terminal](macos/using-terminal.md)
-- [Tmp Podman For M1](macos/tmp-podman-for-m1.md)
+- [Podman For M1](macos/podman-for-m1.md)
 
 ### markdown
 
