@@ -46,31 +46,35 @@ podman machine init
 podman machine start 
 ```
 
-## Problem of `docker-compose`
+## Problem of docker-compose
 
-- docker-compose를 오리지널대로 쓰기 위해서는 vm안에 소켓을 열어줘야 한다. 
-- 순서는 다음과 같다. 
-    + vm에 진입 
-    + vm에서 소켓을 열어주기 
-    + https://fedoramagazine.org/use-docker-compose-with-podman-to-orchestrate-containers-on-fedora/
-- vm을 설치했을 때 한번만 열어주면 되는 것 같다. 
+- 아래 가이드가 완벽하다. 
+https://blog.bassemdy.com/2021/11/06/containers/oci/docker/podman/docker-compose/podman-and-docker-compose-on-macos.html
 
-```shell
-[macos]
-> podman machine ssh
-[vm]
-> sudo systemctl enable podman.socket
-> sudo systemctl start podman.socket
-> sudo systemctl status podman.socket 
+### 주의사항 
+
+그냥 복붙은 곤란하니, 다래의 두 포인트를 주의하자. 
+
+- host machine의 ssh를 설치할 때 
+
+<PODMAN_MACHINE_NAME>
+
+```
+export DOCKER_HOST="ssh://root@localhost:<PORT>"
 ```
 
-- 소켓에 불이 들어 와 있으면 잘 활성화된 것이다. 
+<PORT>
 
-- 확인하는 스크립트는 아래와 같다. 
+### 어이 없는 대목 
 
-```shell
-sudo curl -H "Content-Type: application/json" --unix-socket /var/run/docker.sock http://localhost/_ping
+- docker-compose 실행할 때 이상한 에러가 뜰 수 있다. 
+
 ```
+In ~/.docker/config.json change credsStore to credStore
+```
+
+- 한마디로 실행 변수에 오타가 있다. 이걸 고쳐주자. 
+
 
 ## Unistall 
 
