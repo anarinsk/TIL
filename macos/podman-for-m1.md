@@ -42,9 +42,11 @@
 - 아래 스크립트가 vm을 실행하는 스크립트다. 
 
 ```shell
-podman machine init 
+podman machine init .
 podman machine start 
 ```
+
+- 머신 세팅 단계에서 현실적인 이름을 설정하자. 
 
 ## Problem of docker-compose
 
