@@ -42,32 +42,47 @@
 - 아래 스크립트가 vm을 실행하는 스크립트다. 
 
 ```shell
-podman machine init .
-podman machine start 
+# Start a podman machine with 2 vCPUs and 4GBs of RAM and 15GBs of Disk space
+$ podman machine init --cpus 2 -m 4096 --disk-size 15
 ```
 
-- 머신 세팅 단계에서 현실적인 이름을 설정하자. 
+포드맨 시작은 아래와 같다. 
+
+```
+podman machine start 
+```
 
 ## Problem of docker-compose
 
 - 아래 가이드가 완벽하다. 
 https://blog.bassemdy.com/2021/11/06/containers/oci/docker/podman/docker-compose/podman-and-docker-compose-on-macos.html
 
+### tl; dr 
+
+- 포드맨에 ssh로 접근 
+- 포드맨 안에 설치된 가상 머신의 Fedora 안에 `DOCKER_HOST`를 바꿔주자. 
+- host macos에서 ssh 설정을 해준다. 
+- env 설정을 통해서 `DOCKER_HOST`가 ssh를 통해서 podman과 소통하도록 해주자.  
+
 ### 주의사항 
 
 그냥 복붙은 곤란하니, 다래의 두 포인트를 주의하자. 
 
-- host machine의 ssh를 설치할 때 
+- host machine의 ssh를 설치할 때 `<PODMAN_MACHINE_NAME>`
 
-<PODMAN_MACHINE_NAME>
+- <PORT>를 알아내기 위해서 아래의 명령어를 참고하자. 
 
 ```
-export DOCKER_HOST="ssh://root@localhost:<PORT>"
+> podman system connection ls 
+> export DOCKER_HOST="ssh://root@localhost:<PORT>"
 ```
 
-<PORT>
+### 부팅 후 실행 
 
-### 어이 없는 대목 
+1. `podman machine start`: vm 켜주기 
+2. `docker-compose` 실행 
+
+### 어이 없는 대목?
 
 - docker-compose 실행할 때 이상한 에러가 뜰 수 있다. 
 
@@ -95,6 +110,7 @@ In ~/.docker/config.json change credsStore to credStore
 - 그리고 brew로 언인스톨하자. 
 
 ```
-podman machine rm podman-machine-default
+podman machine stop [podman-machine-default]
+podman machine rm [podman-machine-default]
 brew uninstall podman
 ```
