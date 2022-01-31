@@ -43,5 +43,65 @@
 https://breezymind.com/slicon-m1-mac-lima-docker-desktop-alternative/
 
 
-### 설치 
+### 설치
 
+```
+brew install lima docker docker-compose
+```
+
+### VM 올리기 
+
+```
+curl -o default.yaml https://raw.githubusercontent.com/lima-vm/lima/master/examples/docker.yaml
+```
+
+- ymal 파일을 다운로드 받는다. 
+- `~` 폴더를 수정할 수 있게 고쳐준다. 
+
+```
+- location: "~"
+  writable: true
+```
+
+- lima를 통해 vm을 설치한다. 
+
+```
+limactl start default.yaml 
+```
+
+- yaml 파일 이름을 꼭 "default"로 해야 하나? 
+    + 그럴 필요는 없지만 그러는게 편리할 듯. 
+    + default로 잡아 놓아야 "lima" 명령어를 편하게 쓸 수 있다. 
+
+```
+lima docker ps
+```
+
+- VM 내에게 도커가 제대로 설치되었는지 테스트해보자. 잘 되면 큰 문제 없는 것이다. 
+
+### macos 설정 
+
+- ssh 설정을 옮겨줘야 한다. 
+
+```
+limactl show-ssh --format=config default >> ~/.ssh/config
+```
+
+- `DOCKER_HOST를 설정해줘야 한다. 
+
+```
+export DOCKER_HOST=ssh://lima-default:60006
+```
+
+- 이 녀석은 `~/.zshrc`에 넣고 쓰도록 하자. 그래야 부팅시 매번 설정해주는 번거로움이 사라진다. 
+
+### Practically 
+
+- 리부팅한 후
+  + 터미널에서 리마를 먼저 올리자. 
+  + docker-compose 실행 
+
+```shell
+limactl start default 
+docker-compose -f ~/Documents/GitHub/setup-docker_compose/MBP-M1/macos_podman_jupyter.yml -p "anari-ds" up -d
+```
