@@ -6,6 +6,15 @@
 - 포드맨을 써보자. 
 - docker-compose와는 연동이 되어야 한다. 
 
+## tl; dr 
+
+- brew를 통해서 podman, docker-compose 설치 
+- `podman machine ssh`로 vm에 진입해서 소켓 활성화해주기 
+
+## tbd 
+
+- podman 명렁어 셋 만들어 두기 
+
 ## Install
 
 - brew에서 인스톨 하자. 
