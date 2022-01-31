@@ -1,5 +1,10 @@
 # Podman for M1 
 
+## CLOSED! 
+
+- volume 마운트가 제대로 되지 않는다. 
+- 이 문제가 해결될 때까지, 일단 보류하자. 
+
 ## Why 
 
 - Docker Desktop 후지다. 
