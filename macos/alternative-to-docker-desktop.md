@@ -112,7 +112,7 @@ docker-compose -f ~/Documents/GitHub/setup-docker_compose/MBP-M1/macos_podman_ju
 
 ```shell
 limactl start 
-lima docker-compose -f /Users/anari/Documents/GitHub/setup-docker_compose/MBP-M1/macos_podman_jupyter.yml -p "anari-ds" up -d
+lima docker-compose -f /Users/anari/Documents/GitHub/setup-docker_compose/MBP-M1/macos_lima_jupyter.yml -p "anari-ds" up -d
 ```
 
 - 이미 default가 설정되어 있다면, limactl... 만으로 컨테이너를 다시 구동할 수 있다. 
