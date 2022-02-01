@@ -2,7 +2,7 @@
 
 ## tl; dr 
 
-link: [Go to quick solution](##-Way-2-2:-lima-default)
+link: [Go to quick solution](##-Way-2.2:-lima-default)
 
 ## Why 
 
@@ -109,7 +109,7 @@ export DOCKER_HOST=ssh://lima-default:60006
 limactl start default 
 docker-compose -f ~/Documents/GitHub/setup-docker_compose/MBP-M1/macos_podman_jupyter.yml -p "anari-ds" up -d
 ```
-## Way 2-1: lima + docker + docker-compose 
+## Way 2.1: lima + docker + docker-compose 
 
 - Host에 docker, docker-compose를 깔지 않는다. 
 - guest에 이 모든 것을 깔고, yaml을 올리는 것으로 docker-image를 실행한다. 
@@ -123,7 +123,7 @@ lima docker-compose -f /Users/anari/Documents/GitHub/setup-docker_compose/MBP-M1
 - `lima` 내부에서 명령 실행
 - lima 내부에 host의 /Users/anari, 즉 `$HOME` 폴더가 마운트돠어 있다. 따라서 해당 yml을 바로 돌릴 수 있다. 
 
-## Way 2-2: lima default 
+## Way 2.2: lima default 
 
 - lima에 이미 nerdctl이 내장되어 있다는 점을 기억하자. 
 - nerdctl을 runtime인 containerd의 기술을 활용하고, docker가 제공하지 않는 기능 또한 제공한다. 
