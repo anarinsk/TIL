@@ -129,6 +129,7 @@ lima docker-compose -f /Users/anari/Documents/GitHub/setup-docker_compose/MBP-M1
 - nerdctl을 runtime인 containerd의 기술을 활용하고, docker가 제공하지 않는 기능 또한 제공한다. 
   + 아울러 docker 명령어 및 docker-compose의 호환성을 상당한 수준에서 보장한다. 
   + 적어도 내가 쓰는 범위에서는 별 문제를 일으키지 않는다. 
+  + 아마도 nerdctl을 설치한다면, windows에서도 동일하게 쓸 수 있을 듯... 
 
 ### Practically
 
