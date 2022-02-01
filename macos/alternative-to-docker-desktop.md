@@ -2,7 +2,7 @@
 
 ## tl; dr 
 
-link: [Go to quick solution](##-Way-2.2:-lima-default)
+link: [Go to quick solution](## Way 2.2: lima default)
 
 ## Why 
 
