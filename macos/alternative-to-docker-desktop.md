@@ -123,7 +123,7 @@ lima docker-compose -f /Users/anari/Documents/GitHub/setup-docker_compose/MBP-M1
 - `lima` 내부에서 명령 실행
 - lima 내부에 host의 /Users/anari, 즉 `$HOME` 폴더가 마운트돠어 있다. 따라서 해당 yml을 바로 돌릴 수 있다. 
 
-## Way 2.2: lima default
+## Way 22: lima default
 
 - lima에 이미 nerdctl이 내장되어 있다는 점을 기억하자. 
 - nerdctl을 runtime인 containerd의 기술을 활용하고, docker가 제공하지 않는 기능 또한 제공한다. 
