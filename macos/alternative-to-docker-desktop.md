@@ -111,8 +111,10 @@ docker-compose -f ~/Documents/GitHub/setup-docker_compose/MBP-M1/macos_podman_ju
 - guest에 이 모든 것을 깔고, yaml을 올리는 것으로 docker-image를 실행한다. 
 
 ```shell
+limactl start 
 lima docker-compose -f /Users/anari/Documents/GitHub/setup-docker_compose/MBP-M1/macos_podman_jupyter.yml -p "anari-ds" up -d
 ```
 
+- 이미 default가 설정되어 있다면, limactl... 만으로 컨테이너를 다시 구동할 수 있다. 
 - `lima` 내부에서 명령 실행
 - lima 내부에 host의 /Users/anari, 즉 `$HOME` 폴더가 마운트돠어 있다. 따라서 해당 yml을 바로 돌릴 수 있다. 
