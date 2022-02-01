@@ -1,5 +1,9 @@
 # Alternative to Docker Desktop 
 
+## tl; dr 
+
+link: [Go to quick solution](##-Way-2-2:-lima-default)
+
 ## Why 
 
 - 유료화 정책 
@@ -118,3 +122,22 @@ lima docker-compose -f /Users/anari/Documents/GitHub/setup-docker_compose/MBP-M1
 - 이미 default가 설정되어 있다면, limactl... 만으로 컨테이너를 다시 구동할 수 있다. 
 - `lima` 내부에서 명령 실행
 - lima 내부에 host의 /Users/anari, 즉 `$HOME` 폴더가 마운트돠어 있다. 따라서 해당 yml을 바로 돌릴 수 있다. 
+
+## Way 2-2: lima default 
+
+- lima에 이미 nerdctl이 내장되어 있다는 점을 기억하자. 
+- nerdctl을 runtime인 containerd의 기술을 활용하고, docker가 제공하지 않는 기능 또한 제공한다. 
+  + 아울러 docker 명령어 및 docker-compose의 호환성을 상당한 수준에서 보장한다. 
+  + 적어도 내가 쓰는 범위에서는 별 문제를 일으키지 않는다. 
+
+### Practically 
+
+- lima default 설치 
+https://github.com/lima-vm/lima/blob/master/pkg/limayaml/default.yaml
+  + '~' 공유 부분을 수정해주자. 
+  + `writable: null` &rarr; `writable: true`
+- `nerdctl compose`를 통해서 docker-compose의 명령어를 그대로 수행해준다. 
+
+```shell
+> lima nerdctl compose -f /Users/anari/Documents/GitHub/setup-docker_compose/MBP-M1/macos_lima_jupyter.yml -p anari up -d
+```
