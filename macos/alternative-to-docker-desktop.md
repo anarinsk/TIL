@@ -147,5 +147,5 @@ https://github.com/lima-vm/lima/blob/master/pkg/limayaml/default.yaml
 
 1. 리마를 먼저 올린다. `limactl start default`
 2. 그냥 `nerdctl...`을 올리면 에러가 뜰 것이다. 
-3. `lima nerdctl restart jupyter` 에러 메시지 같은 것이 뜨지만 잘 올라간다. 
+3. `lima nerdctl start jupyter`, `lima nerdctl restart jupyter` 에러 메시지 같은 것이 뜨지만 잘 올라간다. 
 4. `lima nerdtcl ps`로 상태를 확인해보자.
