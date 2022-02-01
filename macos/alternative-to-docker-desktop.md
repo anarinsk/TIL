@@ -105,3 +105,8 @@ export DOCKER_HOST=ssh://lima-default:60006
 limactl start default 
 docker-compose -f ~/Documents/GitHub/setup-docker_compose/MBP-M1/macos_podman_jupyter.yml -p "anari-ds" up -d
 ```
+## Way 2-1: lima + docker + docker-compose 
+
+- Host에 docker, docker-compose를 깔지 않는다. 
+- guest에 이 모든 것을 깔고, yaml을 올리는 것으로 docker-image를 실행한다. 
+
