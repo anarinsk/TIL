@@ -79,3 +79,7 @@ sudo mv [x86_64-unknown-linux-gnu/]starship /usr/local/bin/
 $ vim ~/.bashrc
 eval "$(starship init bash)"
 ```
+
+### [TMI] Powershell에 깔기 
+
+https://dev.to/ganmahmud/take-your-windows-powershell-to-the-next-level-by-starship-2gb2
