@@ -33,3 +33,9 @@ nerdctl run --name mattermost-preview -d --publish 8065:8065 mattermost/mattermo
 ## 실제 운용 
 
 [setup_netcrl]()를 참고하자. 실전 파일들을 담아 두었다. 
+
+## Unsolved 
+
+- [ ] RStdio 안 돌아간다. amd64, arm64 마찬가지 
+
+`nerdctl run -d -p 8787:8787 -e PASSWORD=1022 tazovsky/rstudio-m1:R-4.1.2`
