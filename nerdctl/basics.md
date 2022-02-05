@@ -14,8 +14,9 @@
 ### OS 
 
 - Windows에서는 정신건강을 위해서 [rancher desktop](https://rancherdesktop.io/)을 쓰도록 하자. 
-- Macos에서는 lima에 기본 탑재가 되어 있으며, m1(arm64)에서도 잘 돌아간다. 
-- Ubuntu는 확인 중... 
+    + WSL 2와 잘 호환된다. 
+- Macos에서는 [lima](https://github.com/lima-vm/lima)에 기본 탑재가 되어 있으며, m1(arm64)에서도 잘 돌아간다. brew로 설치하자. 
+- [ ] Not tested in Ubuntu 
 
 ##  Quick examples 
 
