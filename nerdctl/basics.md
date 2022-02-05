@@ -32,7 +32,7 @@ nerdctl run --name mattermost-preview -d --publish 8065:8065 mattermost/mattermo
 
 ## 실제 운용 
 
-[setup_netcrl]()를 참고하자. 실전 파일들을 담아 두었다. 
+[setup_netcrl](https://github.com/anarinsk/setup_nerdctl)를 참고하자. 실전 파일들을 담아 두었다. 
 
 ## Unsolved 
 
