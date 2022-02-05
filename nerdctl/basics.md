@@ -25,7 +25,7 @@
 ```shell
 nerdctl run --rm hello-world
 ```
-- 웹 포트포워딩 
+- 가짜 웹 & 포트포워딩 
 
 ```shell
 nerdctl run --name mattermost-preview -d --publish 8065:8065 mattermost/mattermost-preview
