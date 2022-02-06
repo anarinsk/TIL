@@ -113,6 +113,10 @@ A collection of every tips that I learn every day.
 - [Itertools](python/itertools.md)
 - [Agentpy](python/agentpy.md)
 
+### setups
+
+- [Pipreqs](setups/pipreqs.md)
+
 ### rstat
 
 - [Podman Issues](rstat/podman-issues.md)
