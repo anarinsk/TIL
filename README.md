@@ -113,9 +113,9 @@ A collection of every tips that I learn every day.
 - [Itertools](python/itertools.md)
 - [Agentpy](python/agentpy.md)
 
-### python-setups
+### python_setups
 
-- [Pipreqs](python-setups/pipreqs.md)
+- [Pipreqs](python_setups/pipreqs.md)
 
 ### rstat
 
