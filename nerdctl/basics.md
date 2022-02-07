@@ -39,4 +39,7 @@ nerdctl run --name mattermost-preview -d --publish 8065:8065 mattermost/mattermo
 
 - [ ] RStdio 안 돌아간다. amd64, arm64 마찬가지 
 
-`nerdctl run -d -p 8787:8787 -e PASSWORD=1022 tazovsky/rstudio-m1:R-4.1.2`
+```shell
+nerdctl run -d -p 8787:8787 -e PASSWORD=1234 tazovsky/rstudio-m1:R-4.1.2
+nerdctl run -d -p 8787:8787 -e PASSWORD=1234 rocker/rstudio:lasest
+```
