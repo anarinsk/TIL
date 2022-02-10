@@ -41,5 +41,6 @@ nerdctl run --name mattermost-preview -d --publish 8065:8065 mattermost/mattermo
 
 ```shell
 nerdctl run -d -p 8787:8787 -e PASSWORD=1234 tazovsky/rstudio-m1:R-4.1.2
+nerdctl run -d -p 8787:8787 -e PASSWORD=1234 tschaffter/rstudio:latest
 nerdctl run -d -p 8787:8787 -e PASSWORD=1234 rocker/rstudio:lasest
 ```
