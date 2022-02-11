@@ -44,3 +44,7 @@ nerdctl run -d -p 8787:8787 -e PASSWORD=1234 tazovsky/rstudio-m1:R-4.1.2
 nerdctl run -d -p 8787:8787 -e PASSWORD=1234 tschaffter/rstudio:latest
 nerdctl run -d -p 8787:8787 -e PASSWORD=1234 rocker/rstudio:lasest
 ```
+
+### ad-hoc solution 
+
+- 결국 docker를 쓸 수 밖에 없지 않은가...
