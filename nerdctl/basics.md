@@ -48,3 +48,12 @@ nerdctl run -d -p 8787:8787 -e PASSWORD=1234 rocker/rstudio:lasest
 ### ad-hoc solution 
 
 - 결국 docker를 쓸 수 밖에 없지 않은가...
+    + podman도 가능하지만 docker-compose를 잘 쓸 수 없다. 
+- docker를 쓰는 방법 
+    + lima에 docker를 깔아서 context로 연결해서 쓴다. 
+    + https://itnext.io/replace-docker-desktop-with-lima-88ec6f9d6a19 거의 완벽한 가이드 
+
+#### My use case 
+    + https://github.com/anarinsk/setup-docker_compose/tree/main/MBP-M1
+    + 여기서 yml 및 도커 파일을 마련해 두었다. 
+    + 빠르게 확인해보는 법: `docker run -d -p 8787:8787 -e PASSWORD=1234 tazovsky/rstudio-m1:R-4.1.2` 
