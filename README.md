@@ -48,6 +48,10 @@ A collection of every tips that I learn every day.
 
 - [Thinkjulia](julia/thinkjulia.md)
 
+### kubernetes
+
+- [Kaniko](kubernetes/kaniko.md)
+
 ### living
 
 - [Obituary](living/obituary.md)
