@@ -80,6 +80,7 @@ https://github.com/anarinsk/setup_k8s/blob/main/dstools-deployment/dstools-pod.y
 
 https://github.com/anarinsk/setup_k8s/blob/main/dstools-deployment/jupyter-service.yaml
 
-- `nodePort` 설정 이외에는 특별한 게 없다. 일단은...
+- `nodePort` 설정으로 포트를 맞춰주자.
+- `selector` 항목에서  `app: jupyter-rstudio` 식으로 pod의 app 이름과 맞춰주어야 한다.  
 
 
