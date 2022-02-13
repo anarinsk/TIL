@@ -51,7 +51,7 @@ A collection of every tips that I learn every day.
 ### kubernetes
 
 - [Kaniko](kubernetes/kaniko.md)
-- [Luanch Dstools](kubernetes/luanch-dstools.md)
+- [Launch Dstools](kubernetes/launch-dstools.md)
 
 ### living
 
