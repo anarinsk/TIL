@@ -82,5 +82,6 @@ https://github.com/anarinsk/setup_k8s/blob/main/dstools-deployment/jupyter-servi
 
 - `nodePort` 설정으로 포트를 맞춰주자.
 - `selector` 항목에서  `app: jupyter-rstudio` 식으로 pod의 app 이름과 맞춰주어야 한다.  
+    + 그렇지 않으면 service가 pod를 찾아가지 못한다. 
 
 
