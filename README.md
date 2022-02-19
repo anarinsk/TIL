@@ -140,6 +140,10 @@ A collection of every tips that I learn every day.
 
 - [Form](streamlit/form.md)
 
+### terminal
+
+- [Setup](terminal/setup.md)
+
 ### ubuntu
 
 - [Ubuntu Desktop 20](ubuntu/ubuntu-desktop-20.04-LTS.md)
