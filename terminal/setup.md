@@ -14,3 +14,6 @@
 
 - https://ohmyz.sh/
 
+### powerlevel 10k 
+
+- https://github.com/romkatv/powerlevel10k#installation
