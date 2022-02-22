@@ -47,6 +47,8 @@ A collection of every tips that I learn every day.
 ### julia
 
 - [Thinkjulia](julia/thinkjulia.md)
+- [Errors Solved](julia/errors-solved.md)
+- [Add Packages](julia/add-packages.md)
 
 ### kubernetes
 
