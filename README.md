@@ -162,6 +162,7 @@ A collection of every tips that I learn every day.
 - [한영전환](windows-management/한영전환.md)
 - [Image](windows-management/image.png)
 - [Winget](windows-management/winget.md)
+- [Bash In Powershell](windows-management/bash-in-powershell.md)
 - [How To Control Update](windows-management/how-to-control-update.md)
 
 ### wsl
