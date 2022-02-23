@@ -20,6 +20,7 @@
 ### powerlevel 10k 
 
 - https://github.com/romkatv/powerlevel10k#installation
+-   + 주의할 것은 `.zshrc`에서 `ZSH_THEME` 수정할 떄 기존 것을 수정해줘야 한다. 
 - 깔고나서 다시 실행하면 자동으로 인스톨 스테이지로 들어간다. 
     + 만일 아니라면, `power10k configure`
 
