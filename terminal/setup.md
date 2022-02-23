@@ -11,7 +11,7 @@
 
 - zsh을 OS에 맞춰서 설치하자. https://github.com/ohmyzsh/ohmyzsh/wiki/Installing-ZSH
 - 기본 셸로 설정하자. 
-    + wsl에서는 설치하고 oh-my-zsh 설치하면 되는 듯? 
+    + wsl에서는 설치하고 oh-my-zsh 설치하면 zsh를 디폴트 셸로 쓸 건지 물어본다. 
     
 ### oh-my-zsh 
 
