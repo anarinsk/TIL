@@ -5,7 +5,9 @@
 - 한글 폰트는 아래 두 개를 깔자 
     + https://github.com/kelvinks/D2Coding_Nerd   
 
-## zsh 
+## WSL, Ubunutu, macos 
+
+### zsh 
 
 - zsh을 OS에 맞춰서 설치하자. https://github.com/ohmyzsh/ohmyzsh/wiki/Installing-ZSH
 - 기본 셸로 설정하자. 
@@ -18,3 +20,9 @@
 ### powerlevel 10k 
 
 - https://github.com/romkatv/powerlevel10k#installation
+- 깔고나서 다시 실행하면 자동으로 인스톨 스테이지로 들어간다. 
+    + 만일 아니라면, `power10k configure`
+
+## Powershell 
+
+https://docs.microsoft.com/en-us/windows/terminal/tutorials/custom-prompt-setup
