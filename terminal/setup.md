@@ -7,9 +7,10 @@
 
 ## zsh 
 
-- zsh을 OS에 맞춰서 설치하자. 
+- zsh을 OS에 맞춰서 설치하자. https://github.com/ohmyzsh/ohmyzsh/wiki/Installing-ZSH
 - 기본 셸로 설정하자. 
-
+    + wsl에서는 설치하고 oh-my-zsh 설치하면 되는 듯? 
+    
 ### oh-my-zsh 
 
 - https://ohmyz.sh/
