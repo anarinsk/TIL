@@ -68,6 +68,7 @@ A collection of every tips that I learn every day.
 ### macos
 
 - [Lima](macos/lima.md)
+- [Rectangle](macos/rectangle.md)
 - [One Button Do Not Disturb](macos/one-button-do-not-disturb.md)
 - [Alternative To Docker Desktop](macos/alternative-to-docker-desktop.md)
 - [Using Terminal](macos/using-terminal.md)
