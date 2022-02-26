@@ -54,6 +54,7 @@ A collection of every tips that I learn every day.
 
 - [Kaniko](kubernetes/kaniko.md)
 - [Launch Dstools](kubernetes/launch-dstools.md)
+- [K8s Vs Code](kubernetes/k8s-vs-code.md)
 - [Commands](kubernetes/commands.md)
 
 ### living
