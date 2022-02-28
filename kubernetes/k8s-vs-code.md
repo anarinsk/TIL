@@ -8,7 +8,16 @@ https://docs.microsoft.com/en-us/visualstudio/bridge/bridge-to-kubernetes-vs-cod
 
 - 좀 더 쉬운 편집? 
 
-## How to 
+## 설치 
+
+- kubernetes 확장 설치 
+- 왼쪽 탭에서 
+  + rancher desktop 
+  + workloads 
+  + pods 
+  + dstools (예시) / 여기서 해당 컨테이너를 attach한다. 
+
+## WRONG! How to 
 
 1. Brdiges to Kubernetes 확장 설치 
 2. 확장 후 palettes (command+shift+P or F1) 설치하고 
