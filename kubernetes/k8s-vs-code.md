@@ -16,6 +16,10 @@ https://docs.microsoft.com/en-us/visualstudio/bridge/bridge-to-kubernetes-vs-cod
   + workloads 
   + pods 
   + dstools (예시) / 여기서 해당 컨테이너를 attach한다. 
+- `.ipynb` 파일을 열어 아래 두 개의 확장을 설치하자.  
+  + Jupyter 확장 
+  + Python 확장
+  + Python 확장을 설치하지 않으면 Julia, R 커널이 보이지 않는다. 
 
 ## WRONG! How to 
 
