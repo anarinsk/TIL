@@ -45,6 +45,7 @@ kubectl create -f rstudio-service.yaml
 ```
 
 - 컴마로 붙여서 연속으로 실행할 수 있다. 
+- 만일 빌드는 다시 하고 싶다면, pod만 지우면 된다. service는 그대로 둬도 된다. 
 
 ## YAML 해설 
 
@@ -75,6 +76,8 @@ https://github.com/anarinsk/setup_k8s/blob/main/dstools-deployment/dstools-pod.y
 - `volumes`
     + `name`: 볼륨의 이름을 설정한다. 
     + `hostPath`: 호스트의 패스를 설정한다. 로컬의 디렉토리를  OS에 맞춰서 설정하자. 
+- `imagePullPolicy`
+    + Always: 항상 이미지를 풀링한다. 
 
 ###  Service related 
 
