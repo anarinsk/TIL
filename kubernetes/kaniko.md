@@ -45,7 +45,13 @@ kubectl -f volume-claim.yaml
 
 - `kubectl -f pod.yaml`
 
-- 제대로 실행되면 pod가 올라가면서 이미지를 빌드해서 dockerhub의 개인 저장소로 빌드된 이미지를 보낸다. 
+- 제대로 실행되면 pod가 올라가면서 이미지를 빌드해서 dockerhub의 개인 저장소로 빌드된 이미지를 보낸다.
+    + `completed` 상태가 되면 빌드, 푸시가 완료된 상태 
+
+- 기존에 completed pod가 존재하고, 빌드를 다시 원할 경우에는 pod를 지우고 다시 생성한다. 
+    ```
+    kubectl delete pod/kaniko
+    ```
 
 ### Trouble shooting 
 
