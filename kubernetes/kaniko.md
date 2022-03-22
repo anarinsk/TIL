@@ -71,6 +71,8 @@ kubectl -f volume-claim.yaml
     + 파드 생성의 진행 상황을 파악할 수 있다. 
 - `kubectl logs pod/{POD-NAME} {CONTAINER-NAME}`
     + `kubectl logs pod/kaniko build-jupyter`
+    + `-f`(follow) 옵션을 쓰면 컨테이너 빌드 상황을 계속 볼 수 있다. 
+    + `kubectl logs -f pod/kaniko build-rstudio`
     + 컨테이너 빌드의 진행상황을 보여준다. 
 
 ## Working examples 
