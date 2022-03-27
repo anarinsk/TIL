@@ -99,6 +99,7 @@ A collection of every tips that I learn every day.
 ### nerdctl
 
 - [Basics](nerdctl/basics.md)
+- [Comple From Files](nerdctl/comple-from-files.md)
 
 ### newly
 
