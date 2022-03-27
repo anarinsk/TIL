@@ -47,7 +47,13 @@ kubectl create -f volume-claim.yaml
 
 - `kubectl create -f pod.yaml`
 
-- 제대로 실행되면 pod가 올라가면서 이미지를 빌드해서 dockerhub의 개인 저장소로 빌드된 이미지를 보낸다. 
+- 제대로 실행되면 pod가 올라가면서 이미지를 빌드해서 dockerhub의 개인 저장소로 빌드된 이미지를 보낸다.
+    + `completed` 상태가 되면 빌드, 푸시가 완료된 상태 
+
+- 기존에 completed pod가 존재하고, 빌드를 다시 원할 경우에는 pod를 지우고 다시 생성한다. 
+    ```
+    kubectl delete pod/kaniko
+    ```
 
 ### Trouble shooting 
 
@@ -57,18 +63,24 @@ kubectl create -f volume-claim.yaml
     + 퍼시트턴트 볼륨 보기 
 - `kubectl get pvc`
     + 퍼시트턴트 볼륨 클레임 보기 
-- `kubectl delete pod/kaniko`
+- `kubectl delete pod/{POD-NAME}`
+    + `kubectl delete pod/kaniko`
     + 파드 삭제 
 - 퍼시스턴트 볼륨 역시 같은 방식으로 지울 수 있다. 
     + 단 문제가 생겼을 경우에는 리셋이 필요하다. (파일 참고)
-- `kubectl describe pod/kaniko`
+- `kubectl describe pod/{POD-NAME}`
+    + `kubectl describe pod/kaniko`
     + 파드 생성의 진행 상황을 파악할 수 있다. 
-- `kubectl logs pod/kaniko build-jupyter`
+- `kubectl logs pod/{POD-NAME} {CONTAINER-NAME}`
+    + `kubectl logs pod/kaniko build-jupyter`
+    + `-f`(follow) 옵션을 쓰면 컨테이너 빌드 상황을 계속 볼 수 있다. 
+    + `kubectl logs -f pod/kaniko build-rstudio`
     + 컨테이너 빌드의 진행상황을 보여준다. 
 
 ## Working examples 
 
-- https://github.com/anarinsk/setup_k8s/tree/main/build-tools/kaniko
+- https://github.com/anarinsk/setup_k8s/tree/main/build-tools
+    + amd64와 m1(arm64)로 구별 
 
 
 
