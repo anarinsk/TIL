@@ -23,17 +23,19 @@ https://github.com/GoogleContainerTools/kaniko/blob/main/docs/tutorial.md
 kubectl create secret docker-registry regcred --docker-server=https://index.docker.io/v1/ --docker-username=YOUR-ID --docker-password=YOUR-PASSWORD --docker-email=YOUR-EMAIL
 ```
 
+- 원래 한번만 설정하면 되지만, 여러가지 이유에서 사라질 수 있으니 다시 설정해주자. 
+
 ### Volume 설정 
 
 - 로컬 디스크와 연결하는 과정이다. 
 - k8s의 특성상 volume과 volume-claim 두 개를 yaml로 설정해주자. 
 - yaml 파일이 있는 로컬 디렉토리에서 실행한다고 가정하자. 
 
-- `volume.yaml` 파일 내부에 마운트되는 로컬 디렉토리에 주의하자. os별로 다를 수 있다. 
+- `volume.yaml` 파일 내부에 마운트되는 로컬 디렉토리에 주의하자. os별로 다를 수 있다. `.yaml` 파일이 존재하는 디렉토리 안에서 다음과 같이 실행한다. 
 
 ```shell
-kubectl -f volume.yaml 
-kubectl -f volume-claim.yaml 
+kubectl create -f volume.yaml 
+kubectl create -f volume-claim.yaml 
 ```
 
 ### pod 띄우기 
@@ -43,7 +45,7 @@ kubectl -f volume-claim.yaml
     + container 별로 별도의 툴을 빌드할 수 있다! 
     + 내 경우는 rstudio와 jupyter를 각각 빌드한다. 
 
-- `kubectl -f pod.yaml`
+- `kubectl create -f pod.yaml`
 
 - 제대로 실행되면 pod가 올라가면서 이미지를 빌드해서 dockerhub의 개인 저장소로 빌드된 이미지를 보낸다. 
 
