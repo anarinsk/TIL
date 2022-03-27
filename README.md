@@ -155,6 +155,10 @@ A collection of every tips that I learn every day.
 - [Generate Dummy File](ubuntu/generate-dummy-file.md)
 - [Ubuntu Desktop 21](ubuntu/ubuntu-desktop-21.10.md)
 
+### unsolved
+
+- [Datascience Tools](unsolved/datascience-tools.md)
+
 ### vscode
 
 - [Github Extension](vscode/github-extension.md)
