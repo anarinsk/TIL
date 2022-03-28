@@ -1,9 +1,11 @@
 # How to make custom build with kaniko
 
-## prereq
+## Prereq
 
 - kaniko는 google에서 개발한 빌드 툴로서 k8s kaniko를 끌어와서 이 녀석으로 빌드를 한다. 
 - docker 혹은 별도의 빌드 툴이 필요 없다. 
+- 다른 방식으로는 nerdctl을 통해서 `Dockerfile`을 직접 빌드한 후 푸시하는 방법이 있다. 
+	- [til/comple-from-files.md at master · anarinsk/til (github.com)](https://github.com/anarinsk/til/blob/master/nerdctl/comple-from-files.md)
 
 ## Why 
 

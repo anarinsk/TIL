@@ -48,6 +48,11 @@ nerdctl run -it --rm -v $PWD:/home/jovyan/work -u root -e JUPYTER_TOKEN=1022 -e 
 - `-e`: env 
 - `-p`: port forwarding 
 
+### `-u` 옵션의 의미 
+- k8s에서 컨테이너를 올릴 때에는 -u 옵션이 없다. 
+- 빌드 단계에서 `USER root`를 설정해주면 된다. 
+	- 만일 안해주면 bash에서 `sudo` 먹지 않는다. 
+
 ## Push 
 
 - dockerhub 로그인 
