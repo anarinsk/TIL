@@ -129,11 +129,8 @@ A collection of every tips that I learn every day.
 - [Scientific Python](python/scientific-python.md)
 - [Itertools](python/itertools.md)
 - [Check Matplotlb Korfont](python/check-matplotlb-korfont.md)
+- [Pipreqs](python/pipreqs.md)
 - [Agentpy](python/agentpy.md)
-
-### python_setups
-
-- [Pipreqs](python_setups/pipreqs.md)
 
 ### rstat
 
