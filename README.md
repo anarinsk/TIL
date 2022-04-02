@@ -156,6 +156,10 @@ A collection of every tips that I learn every day.
 
 - [Setup](terminal/setup.md)
 
+### test-performance
+
+- [Python](test-performance/python.md)
+
 ### ubuntu
 
 - [Ubuntu Desktop 20](ubuntu/ubuntu-desktop-20.04-LTS.md)
