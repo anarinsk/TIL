@@ -26,6 +26,11 @@ A collection of every tips that I learn every day.
 
 - [수학용어](concepts/수학용어.md)
 
+### conda
+
+- [Basics](conda/Basics.md)
+- [Env M1](conda/env-m1.md)
+
 ### docker
 
 - [Docker Compose](docker/docker-compose.md)
