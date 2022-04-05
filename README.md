@@ -30,7 +30,6 @@ A collection of every tips that I learn every day.
 
 - [Basics](conda/Basics.md)
 - [Env M1](conda/env-m1.md)
-- [Best Practices](conda/best-practices.md)
 
 ### docker
 
@@ -152,6 +151,7 @@ A collection of every tips that I learn every day.
 
 ### terminal
 
+- [Tools](terminal/tools.md)
 - [Setup](terminal/setup.md)
 
 ### test-performance
