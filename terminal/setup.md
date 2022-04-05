@@ -31,3 +31,8 @@ https://docs.microsoft.com/en-us/windows/terminal/tutorials/custom-prompt-setup
 
 파워셸에서 bash 명령어 쓰기 
 https://github.com/mikebattista/PowerShell-WSL-Interop
+
+- powershell profile의 위치는 terminal에서 
+```
+$PROFILE | Get-Member -Type NoteProperty
+```

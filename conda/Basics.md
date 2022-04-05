@@ -1,11 +1,13 @@
 # Installation 
-## m1 
+## m1, linux
 1. [Miniconda — Conda documentation](https://docs.conda.io/en/latest/miniconda.html)
 2. ~/Downloads 디렉으로 이동 
 	```
 	bash Miniconda3-latest-MacOSX-x86_64.sh
 	```
 
+## Windows
+- 윈도에 꼭 깔아야 하나? 그냥 WSL 2에 깔아서 쓰면 안될까? 
 
 # Command 
 - 업데이트 & 업그레이드 
