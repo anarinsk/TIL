@@ -26,6 +26,11 @@ A collection of every tips that I learn every day.
 
 - [수학용어](concepts/수학용어.md)
 
+### conda
+
+- [Basics](conda/Basics.md)
+- [Env M1](conda/env-m1.md)
+
 ### docker
 
 - [Docker Compose](docker/docker-compose.md)
@@ -54,6 +59,7 @@ A collection of every tips that I learn every day.
 
 - [Kaniko](kubernetes/kaniko.md)
 - [Launch Dstools](kubernetes/launch-dstools.md)
+- [Trouble Shooting](kubernetes/trouble-shooting.md)
 - [K8s Vs Code](kubernetes/k8s-vs-code.md)
 - [Commands](kubernetes/commands.md)
 
@@ -123,11 +129,8 @@ A collection of every tips that I learn every day.
 - [Scientific Python](python/scientific-python.md)
 - [Itertools](python/itertools.md)
 - [Check Matplotlb Korfont](python/check-matplotlb-korfont.md)
+- [Pipreqs](python/pipreqs.md)
 - [Agentpy](python/agentpy.md)
-
-### python_setups
-
-- [Pipreqs](python_setups/pipreqs.md)
 
 ### rstat
 
@@ -149,6 +152,10 @@ A collection of every tips that I learn every day.
 ### terminal
 
 - [Setup](terminal/setup.md)
+
+### test-performance
+
+- [Python](test-performance/python.md)
 
 ### ubuntu
 
