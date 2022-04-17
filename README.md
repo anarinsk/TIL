@@ -37,31 +37,33 @@ A collection of every tips that I learn every day.
 
 ### econometrics
 
+- [Causal Inference Mixtape](econometrics/causal-inference-mixtape.md)
 - [The Effect Book](econometrics/the-effect-book.md)
 - [Hyndman Text Book](econometrics/hyndman-text-book.md)
-- [Causal Inference Mixtape](econometrics/causal-inference-mixtape.md)
 
 ### github
 
-- [How To Update Git Ubuntu](github/how-to-update-git-ubuntu.md)
+- [How To Copy Repo](github/how-to-copy-repo.md)
 - [Github Actions](github/github-actions.md)
 - [Git From Master To Main](github/git-from-master-to-main.md)
 - [Init In Existing Dir](github/init-in-existing-dir.md)
-- [How To Copy Repo](github/how-to-copy-repo.md)
+- [How To Update Git Ubuntu](github/how-to-update-git-ubuntu.md)
 
 ### julia
 
-- [Errors Solved](julia/errors-solved.md)
 - [Thinkjulia](julia/thinkjulia.md)
+- [Symbolic Link](julia/symbolic-link.md)
+- [Local Install](julia/local-install.md)
 - [Add Packages](julia/add-packages.md)
+- [Errors Solved](julia/errors-solved.md)
 
 ### kubernetes
 
-- [K8s Vs Code](kubernetes/k8s-vs-code.md)
-- [Launch Dstools](kubernetes/launch-dstools.md)
-- [Kaniko](kubernetes/kaniko.md)
 - [Commands](kubernetes/commands.md)
+- [Launch Dstools](kubernetes/launch-dstools.md)
 - [Trouble Shooting](kubernetes/trouble-shooting.md)
+- [K8s Vs Code](kubernetes/k8s-vs-code.md)
+- [Kaniko](kubernetes/kaniko.md)
 
 ### living
 
@@ -69,17 +71,17 @@ A collection of every tips that I learn every day.
 
 ### machine_learning
 
-- [Intro To Ml Ms](machine_learning/intro-to-ml-ms.md)
 - [Dive Into Deep Learning](machine_learning/dive-into-deep-learning.md)
+- [Intro To Ml Ms](machine_learning/intro-to-ml-ms.md)
 
 ### macos
 
-- [Alternative To Docker Desktop](macos/alternative-to-docker-desktop.md)
+- [Rectangle](macos/rectangle.md)
+- [One Button Do Not Disturb](macos/one-button-do-not-disturb.md)
 - [Using Terminal](macos/using-terminal.md)
+- [Alternative To Docker Desktop](macos/alternative-to-docker-desktop.md)
 - [Podman For M1](macos/podman-for-m1.md)
 - [Lima](macos/lima.md)
-- [One Button Do Not Disturb](macos/one-button-do-not-disturb.md)
-- [Rectangle](macos/rectangle.md)
 
 ### markdown
 
@@ -87,20 +89,20 @@ A collection of every tips that I learn every day.
 
 ### math
 
+- [Understanding Analysis Abott](math/understanding-analysis-abott.md)
 - [Interactive Linear Algebra](math/interactive-linear-algebra.md)
 - [Nbgla](math/NBGLA.md)
-- [Understanding Analysis Abott](math/understanding-analysis-abott.md)
 
 ### meta
 
-- [My Til Organizer](meta/my-til-organizer.md)
-- [My Fork Test](meta/my-fork-test.md)
 - [Today I Learned](meta/today-i-learned.md)
+- [My Fork Test](meta/my-fork-test.md)
+- [My Til Organizer](meta/my-til-organizer.md)
 
 ### my-working-desk
 
-- [Dummy](my-working-desk/dummy.md)
 - [Three Containers](my-working-desk/three-containers.md)
+- [Dummy](my-working-desk/dummy.md)
 
 ### nerdctl
 
@@ -118,31 +120,31 @@ A collection of every tips that I learn every day.
 
 ### podman
 
+- [Basic Command](podman/basic-command.md)
 - [Wsl Nvidia Podman](podman/wsl-nvidia-podman.md)
 - [Ubuntu Podman](podman/ubuntu-podman.md)
 - [Wsl Podman](podman/wsl-podman.md)
-- [Basic Command](podman/basic-command.md)
 
 ### python
 
-- [Check Matplotlb Korfont](python/check-matplotlb-korfont.md)
-- [Scientific Python](python/scientific-python.md)
-- [Agentpy](python/agentpy.md)
+- [Time Series Handling 1](python/time-series-handling-1.md)
 - [Itertools](python/itertools.md)
 - [Pipreqs](python/pipreqs.md)
-- [Time Series Handling 1](python/time-series-handling-1.md)
+- [Agentpy](python/agentpy.md)
+- [Check Matplotlb Korfont](python/check-matplotlb-korfont.md)
+- [Scientific Python](python/scientific-python.md)
 
 ### rstat
 
-- [Ivreg](rstat/ivreg.md)
-- [Podman Issues](rstat/podman-issues.md)
 - [Container Ubuntu](rstat/container-ubuntu.md)
+- [Ivreg](rstat/ivreg.md)
 - [Tidyverse Cookbook](rstat/tidyverse-cookbook.md)
+- [Podman Issues](rstat/podman-issues.md)
 
 ### statistics
 
-- [Statproofbook](statistics/statproofbook.md)
 - [All Of Statistics](statistics/all-of-statistics.md)
+- [Statproofbook](statistics/statproofbook.md)
 - [Tidystat](statistics/tidystat.md)
 
 ### streamlit
@@ -151,18 +153,18 @@ A collection of every tips that I learn every day.
 
 ### terminal
 
-- [Tools](terminal/tools.md)
 - [Setup](terminal/setup.md)
+- [Tools](terminal/tools.md)
 
 ### test-performance
 
-- [Python](test-performance/python.md)
 - [Container Koreanfont](test-performance/container-koreanfont.md)
+- [Python](test-performance/python.md)
 
 ### ubuntu
 
-- [Ubuntu Desktop 20](ubuntu/ubuntu-desktop-20.04-LTS.md)
 - [Generate Dummy File](ubuntu/generate-dummy-file.md)
+- [Ubuntu Desktop 20](ubuntu/ubuntu-desktop-20.04-LTS.md)
 - [Ubuntu Desktop 21](ubuntu/ubuntu-desktop-21.10.md)
 
 ### unsolved
@@ -175,11 +177,11 @@ A collection of every tips that I learn every day.
 
 ### windows-management
 
-- [Bash In Powershell](windows-management/bash-in-powershell.md)
-- [한영전환](windows-management/한영전환.md)
 - [Winget](windows-management/winget.md)
-- [How To Control Update](windows-management/how-to-control-update.md)
+- [한영전환](windows-management/한영전환.md)
+- [Bash In Powershell](windows-management/bash-in-powershell.md)
 - [Image](windows-management/image.png)
+- [How To Control Update](windows-management/how-to-control-update.md)
 
 ### wsl
 
@@ -187,6 +189,6 @@ A collection of every tips that I learn every day.
 
 ### zsh
 
-- [Powerlevel10k](zsh/powerlevel10k.md)
 - [Set Alias](zsh/set-alias.md)
+- [Powerlevel10k](zsh/powerlevel10k.md)
 
