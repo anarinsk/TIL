@@ -52,6 +52,7 @@ A collection of every tips that I learn every day.
 ### julia
 
 - [Thinkjulia](julia/thinkjulia.md)
+- [Environment](julia/environment.md)
 - [Symbolic Link](julia/symbolic-link.md)
 - [Local Install](julia/local-install.md)
 - [Add Packages](julia/add-packages.md)
