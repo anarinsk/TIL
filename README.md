@@ -140,6 +140,11 @@ A collection of every tips that I learn every day.
 - [Check Matplotlb Korfont](python/check-matplotlb-korfont.md)
 - [Scientific Python](python/scientific-python.md)
 
+### quarto
+
+- [Basics](quarto/basics.md)
+- [Blog](quarto/blog.md)
+
 ### rstat
 
 - [Container Ubuntu](rstat/container-ubuntu.md)
