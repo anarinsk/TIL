@@ -113,7 +113,7 @@ A collection of every tips that I learn every day.
 ### nerdctl
 
 - [Basics](nerdctl/basics.md)
-- [Comple From Files](compile-from-files.md)
+- [Compile From Files](nerdctl/compile-from-files.md)
 
 ### newly
 
