@@ -41,6 +41,10 @@ A collection of every tips that I learn every day.
 - [The Effect Book](econometrics/the-effect-book.md)
 - [Hyndman Text Book](econometrics/hyndman-text-book.md)
 
+### geography
+
+- [해협](geography/해협.md)
+
 ### github
 
 - [How To Copy Repo](github/how-to-copy-repo.md)
@@ -57,6 +61,7 @@ A collection of every tips that I learn every day.
 - [Local Install](julia/local-install.md)
 - [Add Packages](julia/add-packages.md)
 - [Errors Solved](julia/errors-solved.md)
+- [Installation](julia/installation.md)
 
 ### kubernetes
 
@@ -108,7 +113,7 @@ A collection of every tips that I learn every day.
 ### nerdctl
 
 - [Basics](nerdctl/basics.md)
-- [Comple From Files](nerdctl/comple-from-files.md)
+- [Compile From Files](nerdctl/compile-from-files.md)
 
 ### newly
 
@@ -134,6 +139,11 @@ A collection of every tips that I learn every day.
 - [Agentpy](python/agentpy.md)
 - [Check Matplotlb Korfont](python/check-matplotlb-korfont.md)
 - [Scientific Python](python/scientific-python.md)
+
+### quarto
+
+- [Basics](quarto/basics.md)
+- [Blog](quarto/blog.md)
 
 ### rstat
 
@@ -167,6 +177,10 @@ A collection of every tips that I learn every day.
 - [Generate Dummy File](ubuntu/generate-dummy-file.md)
 - [Ubuntu Desktop 20](ubuntu/ubuntu-desktop-20.04-LTS.md)
 - [Ubuntu Desktop 21](ubuntu/ubuntu-desktop-21.10.md)
+
+### unclassified
+
+- [Mermaid Examples](unclassified/mermaid-examples.md)
 
 ### unsolved
 
