@@ -1,3 +1,5 @@
+# gitignore tips
+
 > :**note**:
 `.gitignore` 관련 팁을 모아보자. 
 
