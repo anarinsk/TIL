@@ -47,11 +47,12 @@ A collection of every tips that I learn every day.
 
 ### github
 
-- [How To Copy Repo](how-to-copy-repo.md)
-- [Github Actions](github-actions.md)
-- [Git From Master To Main](git-from-master-to-main.md)
-- [Init In Existing Dir](init-in-existing-dir.md)
-- [How To Update Git Ubuntu](how-to-update-git-ubuntu.md)
+- [Git And Github Windows](github/git-and-github-windows.md)
+- [How To Copy Repo](github/how-to-copy-repo.md)
+- [Github Actions](github/github-actions.md)
+- [Git From Master To Main](github/git-from-master-to-main.md)
+- [Init In Existing Dir](github/init-in-existing-dir.md)
+- [How To Update Git Ubuntu](github/how-to-update-git-ubuntu.md)
 
 ### julia
 
