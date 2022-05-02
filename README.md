@@ -51,8 +51,8 @@ A collection of every tips that I learn every day.
 - [How To Update Git Ubuntu](git-and-github/how-to-update-git-ubuntu.md)
 - [Git And Github Windows](git-and-github/git-and-github-windows.md)
 - [Git From Master To Main](git-and-github/git-from-master-to-main.md)
-- [Gitignore tips](git-and-github/gitignore tips.md)
 - [Github Actions](git-and-github/github-actions.md)
+- [Gitignore Tips](git-and-github/gitignore-tips.md)
 - [How To Copy Repo](git-and-github/how-to-copy-repo.md)
 
 ### julia
