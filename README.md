@@ -160,6 +160,10 @@ A collection of every tips that I learn every day.
 - [Tidystat](statistics/tidystat.md)
 - [Statproofbook](statistics/statproofbook.md)
 
+### stocks
+
+- [양도세신고](stocks/양도세신고.md)
+
 ### streamlit
 
 - [Form](streamlit/form.md)
