@@ -12,6 +12,6 @@ https://github.com/mikebattista/PowerShell-WSL-Interop
 2. install `Install-Module WslInterop` in Powershell 
 3. set command in Powershell; 
 
-    ```
-    Import-WslCommand "apt", "awk", "emacs", "grep", "head", "less", "ls", "man", "sed", "seq", "ssh", "sudo", "tail", "vim" 
-    ```
+```
+Import-WslCommand "apt", "awk", "emacs", "grep", "head", "less", "ls", "man", "sed", "seq", "ssh", "sudo", "tail", "vim" 
+```

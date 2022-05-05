@@ -45,11 +45,10 @@ kubectl create -f rstudio-service.yaml
 ```
 
 - 컴마로 붙여서 연속으로 실행할 수 있다. 
-- 만일 빌드는 다시 하고 싶다면, pod만 지우면 된다. service는 그대로 둬도 된다. 
+- 만일 빌드를 다시 하고 싶다면, pod만 지우면 된다. service는 그대로 둬도 된다. 
 
 ## YAML 해설 
-
-https://github.com/anarinsk/setup_k8s/blob/main/dstools-deployment/dstools-pod.yaml
+https://github.com/anarinsk/til/blob/master/kubernetes/launch-dstools.md
 
 ### Pod related 
 
