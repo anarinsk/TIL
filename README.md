@@ -41,6 +41,10 @@ A collection of every tips that I learn every day.
 - [Hyndman Text Book](econometrics/hyndman-text-book.md)
 - [Causal Inference Mixtape](econometrics/causal-inference-mixtape.md)
 
+### font
+
+- [Recommend](font/recommend.md)
+
 ### geography
 
 - [해협](geography/해협.md)
@@ -86,6 +90,7 @@ A collection of every tips that I learn every day.
 
 - [Using Terminal](macos/using-terminal.md)
 - [Podman For M1](macos/podman-for-m1.md)
+- [Fresh Install](macos/fresh-install.md)
 - [Lima](macos/lima.md)
 - [Rectangle](macos/rectangle.md)
 - [One Button Do Not Disturb](macos/one-button-do-not-disturb.md)
@@ -107,19 +112,10 @@ A collection of every tips that I learn every day.
 - [Today I Learned](meta/today-i-learned.md)
 - [My Fork Test](meta/my-fork-test.md)
 
-### my-working-desk
-
-- [Three Containers](my-working-desk/three-containers.md)
-- [Dummy](my-working-desk/dummy.md)
-
 ### nerdctl
 
 - [Compile From Files](nerdctl/compile-from-files.md)
 - [Basics](nerdctl/basics.md)
-
-### newly
-
-- [Epigenesis](newly/epigenesis.md)
 
 ### nvidia
 
