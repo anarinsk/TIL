@@ -1,3 +1,8 @@
+1. Installation 
+2. Using env
+3. Installing jupyer 
+4. Installing tensorflow
+
 # Installation 
 ## m1, linux
 1. [Miniconda — Conda documentation](https://docs.conda.io/en/latest/miniconda.html)
@@ -9,32 +14,33 @@
 ## Windows
 - 윈도에 꼭 깔아야 하나? 그냥 WSL 2에 깔아서 쓰면 안될까? 
 
-# Command 
+## After installation  
 - 업데이트 & 업그레이드 
-	- 위쪽 하나면 해주면 되는 것 같다... 
+	- 둘 중 하나만 해주면 되는 것 같다... 
+	
 ```
-conda update conda --all
-#conda upgrade --all
+$ conda update conda --all
+$ conda upgrade --all
 ```
 
-# Install mamba 
+## Install mamba 
 [mamba-org/mamba: The Fast Cross-Platform Package Manager (github.com)](https://github.com/mamba-org/mamba)
 
 ```
 conda install mamba -n base -c conda-forge
 ```
 
-# On env 
+# Using env 
 - general ref: [Managing environments — conda 4.12.0.post25+90149568 documentation](https://docs.conda.io/projects/conda/en/latest/user-guide/tasks/manage-environments.html)
 
-### create
-- tensorflow metal 환경은 3.8에서 돌아간다. 
+## create
+
 - 환경이 생성되는 위치는 /Users/username/opt/envs/env-name 아래 
 ```
 mamba create -n MY-ENV python=3.8
 ```
 
-## check env 
+## check the list of env created
 ```
 mamba env list  
 ```
@@ -46,7 +52,30 @@ conda activate MY-ENV
 conda deactivate 
 ```
 
+## Best practices 
+- 대체로 프로젝트 별로 생성해서 쓰고 버리고 하는 편이 좋겠다. 
+- 다만 일상적인 활용을 위해서 pandas 정도를 만들어두고 쓰자. 
 
+
+## Create yml file for env 
+- 일단 환경에 제대로 들어와 있는지부터 확인하자. 
+	- `mamba env list`
+```
+conda env export > MY-ENV.yml
+```
+
+## Create env from yml file 
+[Managing environments — conda 4.12.0.post25+90149568 documentation](https://docs.conda.io/projects/conda/en/latest/user-guide/tasks/manage-environments.html#removing-an-environment)
+- 환경을 먼저 지워주자. 
+```
+conda remove --name MY-ENV --all
+```
+
+- yml 파일로부터 환경 되살리기 
+[Managing environments — conda 4.12.0.post25+90149568 documentation](https://docs.conda.io/projects/conda/en/latest/user-guide/tasks/manage-environments.html#creating-an-environment-from-an-environment-yml-file)
+```
+conda env create -f MY-ENV.yml
+```
 
 # Install jupyterlab 
 
@@ -55,7 +84,7 @@ conda deactivate
 ```
 mamba install -c conda-forge jupyterlab
 ```
-
+실행은 `jupyter lab`
 
 # Install tensorflow 
 ## M1 

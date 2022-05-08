@@ -29,7 +29,7 @@ A collection of every tips that I learn every day.
 ### conda
 
 - [Basics](conda/Basics.md)
-- [Env M1](conda/env-m1.md)
+- [Env M1](tensorflow-m1.md)
 
 ### docker
 

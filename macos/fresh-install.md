@@ -41,7 +41,15 @@ brew install --cask iterm2
 
 ## Useful app 
 
+## Miniconda & mamba 
+[Miniconda — Conda documentation](https://docs.conda.io/en/latest/miniconda.html)
+- `sh FILE-NAME.sh`
 
+[GitHub - mamba-org/mamba: The Fast Cross-Platform Package Manager](https://github.com/mamba-org/mamba)
 
+```
+$ conda install mamba -n base -c conda-forge
+$mamba update --all
+```
 
 
