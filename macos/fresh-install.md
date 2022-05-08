@@ -52,4 +52,6 @@ $ conda install mamba -n base -c conda-forge
 $mamba update --all
 ```
 
-
+## App 권한 접근 
+- 사과마크 -> 시스템 환경설정 -> 보안 및 개인 정보 보호
+- 전체 디스크 접근 권한 선택 후 앱별로 선택  
