@@ -28,8 +28,8 @@ A collection of every tips that I learn every day.
 
 ### conda
 
+- [Tensorflow M1](conda/tensorflow-m1.md)
 - [Basics](conda/Basics.md)
-- [Env M1](tensorflow-m1.md)
 
 ### docker
 
@@ -191,6 +191,7 @@ A collection of every tips that I learn every day.
 ### vscode
 
 - [Mac Korean Input Error](vscode/mac-korean-input-error.md)
+- [Font 설정](vscode/font 설정.md)
 - [Github Extension](vscode/github-extension.md)
 
 ### webpt
