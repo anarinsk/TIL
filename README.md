@@ -31,6 +31,14 @@ A collection of every tips that I learn every day.
 - [Tensorflow M1](conda/tensorflow-m1.md)
 - [Basics](conda/Basics.md)
 
+### css
+
+- [D2 coding](css/D2 Coding.md)
+
+### cv
+
+- [Markdown Cv](cv/markdown-cv.md)
+
 ### docker
 
 - [Docker Compose](docker/docker-compose.md)
