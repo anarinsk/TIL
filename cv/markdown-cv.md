@@ -45,6 +45,8 @@ style:  davewhipp
 ```html
 <link href="media/styles.css" type="text/css" rel="stylesheet" media="screen">
 
+<link href="media/styles.css" type="text/css" rel="stylesheet" media="print">
+
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.10.2/dist/katex.min.css" integrity="sha384-yFRtMMDnQtDRO8rLpMIKrtPCD5jdktao2TV19YiZYWMDkUR5GQZR/NOVTdquEx1j" crossorigin="anonymous">
 
 <script defer src="https://cdn.jsdelivr.net/npm/katex@0.10.2/dist/katex.min.js" integrity="sha384-9Nhn55MVVN0/4OFx7EE5kpFBPsEMZxKTCnA+4fqDmg12eCTqGi6+BB2LjY8brQxJ" crossorigin="anonymous"></script>
@@ -53,7 +55,7 @@ style:  davewhipp
 ```
 - 이 추가 라인은 `<head>` 태그 안에 넣어주자. 
 - 뒤의 세 라인은 katex의 math engine을 로드한다. 
-- 첫 라인은 특화된 css를 로딩하기 위한 설정이다. 
+- 처음 두 라인은 특화된 css를 로딩하기 위한 설정이다. 
 
 ## media 
 
