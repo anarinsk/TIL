@@ -12,20 +12,6 @@ A collection of every tips that I learn every day.
 - [Fastpages](blogging/fastpages.md)
 - [Katex](blogging/katex.md)
 
-### causal-inference
-
-- [Ope Example 1](causal-inference/OPE-example-1.md)
-- [Causal Inference For The Brave And True](causal-inference/causal-inference-for-the-brave-and-true.md)
-
-### concept-stats
-
-- [From Cdf To Expectation](from-CDF-to-expectation.md)
-- [Berson Pardox](concept-stats/Berson-pardox.md)
-
-### concepts
-
-- [수학용어](concepts/수학용어.md)
-
 ### conda
 
 - [Tensorflow M1](conda/tensorflow-m1.md)
@@ -43,19 +29,9 @@ A collection of every tips that I learn every day.
 
 - [Docker Compose](docker/docker-compose.md)
 
-### econometrics
-
-- [The Effect Book](the-effect-book.md)
-- [Hyndman Text Book](hyndman-text-book.md)
-- [Causal Inference Mixtape](causal-inference-mixtape.md)
-
 ### font
 
 - [Recommend](font/recommend.md)
-
-### geography
-
-- [해협](해협.md)
 
 ### git-and-github
 
@@ -90,11 +66,6 @@ A collection of every tips that I learn every day.
 
 - [Obituary](living/obituary.md)
 
-### machine_learning
-
-- [Dive Into Deep Learning](dive-into-deep-learning.md)
-- [Intro To Ml Ms](ML-for_Beginner-MS.md)
-
 ### macos
 
 - [Using Terminal](macos/using-terminal.md)
@@ -108,12 +79,6 @@ A collection of every tips that I learn every day.
 ### markdown
 
 - [How To Use Latex In Github Markdown](markdown/how-to-use-latex-in-github-markdown.md)
-
-### math
-
-- [Nbgla](no-bullshit-guide-to-linear-algebra-notebooks.md)
-- [Understanding Analysis Abott](understanding-analysis-abott.md)
-- [Interactive Linear Algebra](interactive-linear-algebra.md)
 
 ### meta
 
@@ -158,12 +123,6 @@ A collection of every tips that I learn every day.
 - [Podman Issues](rstat/podman-issues.md)
 - [Container Ubuntu](rstat/container-ubuntu.md)
 - [Ivreg](rstat/ivreg.md)
-
-### statistics
-
-- [All Of Statistics](all-of-statistics.md)
-- [Tidystat](tidystat.md)
-- [Statproofbook](statproofbook.md)
 
 ### stocks
 
