@@ -19,7 +19,7 @@ A collection of every tips that I learn every day.
 
 ### concept-stats
 
-- [From Cdf To Expectation](concept-stats/from-CDF-to-expectation.md)
+- [From Cdf To Expectation](from-CDF-to-expectation.md)
 - [Berson Pardox](concept-stats/Berson-pardox.md)
 
 ### concepts
@@ -37,9 +37,9 @@ A collection of every tips that I learn every day.
 
 ### econometrics
 
-- [The Effect Book](econometrics/the-effect-book.md)
-- [Hyndman Text Book](econometrics/hyndman-text-book.md)
-- [Causal Inference Mixtape](econometrics/causal-inference-mixtape.md)
+- [The Effect Book](the-effect-book.md)
+- [Hyndman Text Book](hyndman-text-book.md)
+- [Causal Inference Mixtape](causal-inference-mixtape.md)
 
 ### font
 
@@ -47,7 +47,7 @@ A collection of every tips that I learn every day.
 
 ### geography
 
-- [해협](geography/해협.md)
+- [해협](해협.md)
 
 ### git-and-github
 
@@ -84,8 +84,8 @@ A collection of every tips that I learn every day.
 
 ### machine_learning
 
-- [Dive Into Deep Learning](machine_learning/dive-into-deep-learning.md)
-- [Intro To Ml Ms](machine_learning/intro-to-ml-ms.md)
+- [Dive Into Deep Learning](dive-into-deep-learning.md)
+- [Intro To Ml Ms](ML-for_Beginner-MS.md)
 
 ### macos
 
@@ -103,9 +103,9 @@ A collection of every tips that I learn every day.
 
 ### math
 
-- [Nbgla](math/NBGLA.md)
-- [Understanding Analysis Abott](math/understanding-analysis-abott.md)
-- [Interactive Linear Algebra](math/interactive-linear-algebra.md)
+- [Nbgla](no-bullshit-guide-to-linear-algebra-notebooks.md)
+- [Understanding Analysis Abott](understanding-analysis-abott.md)
+- [Interactive Linear Algebra](interactive-linear-algebra.md)
 
 ### meta
 
@@ -153,9 +153,9 @@ A collection of every tips that I learn every day.
 
 ### statistics
 
-- [All Of Statistics](statistics/all-of-statistics.md)
-- [Tidystat](statistics/tidystat.md)
-- [Statproofbook](statistics/statproofbook.md)
+- [All Of Statistics](all-of-statistics.md)
+- [Tidystat](tidystat.md)
+- [Statproofbook](statproofbook.md)
 
 ### stocks
 

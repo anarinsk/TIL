@@ -1,3 +1,0 @@
-Where 
-
-https://theeffectbook.net/
