@@ -19,6 +19,8 @@ dpkg -i package_file.deb
 - 그냥 설치하면 된다. 
 - 앱을  깔 때 모든 이용자 설치하면 되지 않았다. 이 점 유의!
 	- 윈도, 맥 공히 해당한다. 
+	- 설치 위치 변경 옵션을 누르면 개별 사용자 설치 화면이 뜬다. 
+		- `/Users/anari/Applications/quarto/`
 
 ### Problems 
 
