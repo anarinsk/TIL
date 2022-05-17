@@ -47,4 +47,86 @@ $ mamba activate python10+pandas
 
 ## 작업 환경 보존 
 
+- 그냥 잘 되는 것 같다... 
+
 ## 한글 폰트 설치 
+
+### 터미널 내에서 font download 
+
+- 폰트를 저장할 주소로 이동 
+
+```
+? cd /usr/share/fonts/truetype/
+? sudo mkdir d2coding 
+? cd d2coding 
+```
+
+- 폰트를 다운로드 한다. 
+	- 깃헙에서 다운로드할 때 주의. 그냥 `.com` 주소를 붙이면 인식이 되지 않는다. 
+		[Revisions to Download single files from GitHub - Stack Overflow](https://stackoverflow.com/posts/4605068/revisions)
+
+````
+https://raw.githubusercontent.com/user/repository/branch/filename
+````
+
+이 주소 체계로 써줘야 한다.  for example 
+
+```
+? sudo wget https://raw.githubusercontent.com/kelvinks/D2Coding_Nerd/master/D2Coding%20v.1.3.2%20Nerd%20Font%20Complete.ttf`
+```
+
+### 해당 폰트 인식 
+
+```
+? sudo fc-cache -f -v 
+```
+
+- `f`: 강제로 스캔하라는 뜻, `v`: verbose 결과를 자세히 상술하라는 뜻 
+- 잘 되었나 확인은 `fc-list`
+
+### Jupyter 설정 
+
+
+```python
+import platform
+print(f"Platform is {platform.platform()}")
+import sys
+print(f"Version of python is {sys.version_info}")
+import matplotlib
+import matplotlib as mpl
+
+  
+
+print ('matplotlib 정보-------------')
+print ('버전: ', matplotlib.__version__)
+print ('설치위치: ', matplotlib.__file__)
+print ('설정: ', matplotlib.get_configdir())
+print ('캐시: ', matplotlib.get_cachedir())
+
+mpl.rcParams['font.family'] = 'D2Coding Nerd Font'
+mpl.rcParams['axes.unicode_minus']  = False
+```
+
+- 마지막 두 줄이 주피터용 폰트 설정이다.  D2Coding Nerd Font가 잘 설치되었는지는 아래와 같은 명령으로 주피터에서 확인해볼 수 있다. 
+
+```python
+import matplotlib.font_manager
+[f.name for f in matplotlib.font_manager.fontManager.ttflist if 'D2' in f.name]
+```
+
+### 체크용 코드 
+
+```python
+import numpy as np
+  
+
+data = np.random.randint(-100, 100, 50).cumsum()
+
+import matplotlib.pyplot as plt
+plt.plot(range(50), data, 'r')
+plt.title('가격변동 추이')
+plt.ylabel('가격')
+plt.show()
+```
+
+## Container 구동 
