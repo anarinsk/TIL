@@ -16,6 +16,7 @@ A collection of every tips that I learn every day.
 
 - [Tensorflow M1](conda/tensorflow-m1.md)
 - [Basics](conda/Basics.md)
+- [Codespaces](conda/codespaces.md)
 
 ### css
 
