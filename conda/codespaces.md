@@ -130,3 +130,7 @@ plt.show()
 ```
 
 ## Container 구동 
+
+## Boot up with personalized setups 
+- [Personalizing Codespaces for your account - GitHub Docs](https://docs.github.com/en/codespaces/customizing-your-codespace/personalizing-codespaces-for-your-account)
+- 
