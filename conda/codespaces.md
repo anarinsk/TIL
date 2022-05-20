@@ -55,7 +55,7 @@ $ mamba activate python10+pandas
 
 - 폰트를 저장할 주소로 이동 
 
-```
+```bash
 ? cd /usr/share/fonts/truetype/
 ? sudo mkdir d2coding 
 ? cd d2coding 
@@ -65,15 +65,22 @@ $ mamba activate python10+pandas
 	- 깃헙에서 다운로드할 때 주의. 그냥 `.com` 주소를 붙이면 인식이 되지 않는다. 
 		[Revisions to Download single files from GitHub - Stack Overflow](https://stackoverflow.com/posts/4605068/revisions)
 
-````
+```bash
 https://raw.githubusercontent.com/user/repository/branch/filename
-````
+```
 
 이 주소 체계로 써줘야 한다.  for example 
 
+```bash
+? sudo wget https://raw.githubusercontent.com/kelvinks/D2Coding_Nerd/master/D2Coding%20v.1.3.2%20Nerd%20Font%20Complete.ttf
 ```
-? sudo wget https://raw.githubusercontent.com/kelvinks/D2Coding_Nerd/master/D2Coding%20v.1.3.2%20Nerd%20Font%20Complete.ttf`
+
+```bash
+
+? sudo mkdir -p /usr/share/fonts/truetype/d2coding
+? sudo wget https://raw.githubusercontent.com/kelvinks/D2Coding_Nerd/master/D2Coding%20v.1.3.2%20Nerd%20Font%20Complete.ttf -P /usr/share/fonts/truetype/d2coding
 ```
+
 
 ### 해당 폰트 인식 
 
