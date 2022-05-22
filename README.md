@@ -113,6 +113,10 @@ A collection of every tips that I learn every day.
 - [Time Series Handling 1](python/time-series-handling-1.md)
 - [Agentpy](python/agentpy.md)
 
+### pytorch
+
+- [Install M1](pytorch/install-m1.md)
+
 ### quarto
 
 - [Basics](quarto/basics.md)
