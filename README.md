@@ -152,6 +152,7 @@ A collection of every tips that I learn every day.
 
 - [Generate Dummy File](ubuntu/generate-dummy-file.md)
 - [Ubuntu Desktop 21](ubuntu/ubuntu-desktop-21.10.md)
+- [Misc](ubuntu/MISC.md)
 - [Ubuntu Desktop 20](ubuntu/ubuntu-desktop-20.04-LTS.md)
 
 ### unclassified
