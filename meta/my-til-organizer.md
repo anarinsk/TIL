@@ -34,7 +34,7 @@
 
 - 데이터 소스 
 
-### Special Purpose Til (SPT)
+### Special Purpose Til 
 
 - 특수 목적으로 활용하는 til 
 
