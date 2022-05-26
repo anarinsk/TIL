@@ -20,7 +20,7 @@ A collection of every tips that I learn every day.
 
 ### css
 
-- [D2 coding](css/D2 Coding.md)
+- [D2 Coding](css/D2-Coding.md)
 
 ### cv
 
