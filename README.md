@@ -20,7 +20,7 @@ A collection of every tips that I learn every day.
 
 ### css
 
-- [D2 Coding](D2%20Coding.md)
+- [D2 coding](css/D2 Coding.md)
 
 ### cv
 
@@ -84,8 +84,6 @@ A collection of every tips that I learn every day.
 ### meta
 
 - [My Til Organizer](meta/my-til-organizer.md)
-- [My Fork Test](meta/my-fork-test.md)
-- [Today I Learned](meta/today-i-learned.md)
 
 ### nerdctl
 
