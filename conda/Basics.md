@@ -4,7 +4,7 @@
 4. Installing tensorflow
 
 ## Installation 
-### m1, linux
+### m1, linux (WSL)
 1. [Miniconda — Conda documentation](https://docs.conda.io/en/latest/miniconda.html)
 2. ~/Downloads 디렉으로 이동 
 	```
@@ -30,6 +30,19 @@ $ conda upgrade --all
 ```
 conda install mamba -n base -c conda-forge
 ```
+
+- `conda` 버전과 안 맞아 `mamba`가 부러지는 경우가 있다. 
+	- 2022-06-06 현재 conda 4.13.0 mamba가 조응하지 않는다. 
+
+### Uninstall 
+- miniconda를 깔았다면 그냥 날려버리면 된다. 
+
+```bash
+$ which conda 
+
+```
+
+- 해당 디렉토리를 찾아서 지우자. 
 
 ## Using env 
 - general ref: [Managing environments — conda 4.12.0.post25+90149568 documentation](https://docs.conda.io/projects/conda/en/latest/user-guide/tasks/manage-environments.html)
