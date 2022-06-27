@@ -36,32 +36,32 @@ A collection of every tips that I learn every day.
 
 ### git-and-github
 
+- [Git From Master To Main](git-and-github/git-from-master-to-main.md)
 - [Init In Existing Dir](git-and-github/init-in-existing-dir.md)
 - [Html Hosting](git-and-github/html-hosting.md)
-- [How To Copy Repo](git-and-github/how-to-copy-repo.md)
-- [Gitignore Tips](git-and-github/gitignore-tips.md)
 - [How To Update Git Ubuntu](git-and-github/how-to-update-git-ubuntu.md)
-- [Git From Master To Main](git-and-github/git-from-master-to-main.md)
 - [Github Actions](git-and-github/github-actions.md)
 - [Git And Github Windows](git-and-github/git-and-github-windows.md)
+- [How To Copy Repo](git-and-github/how-to-copy-repo.md)
+- [Gitignore Tips](git-and-github/gitignore-tips.md)
 
 ### julia
 
-- [Environment](julia/environment.md)
-- [Thinkjulia](julia/thinkjulia.md)
 - [Installation](julia/installation.md)
 - [Add Packages](julia/add-packages.md)
-- [Local Install](julia/local-install.md)
 - [Errors Solved](julia/errors-solved.md)
+- [Local Install](julia/local-install.md)
+- [Thinkjulia](julia/thinkjulia.md)
+- [Environment](julia/environment.md)
 - [Symbolic Link](julia/symbolic-link.md)
 
 ### kubernetes
 
-- [K8s Vs Code](kubernetes/k8s-vs-code.md)
 - [Trouble Shooting](kubernetes/trouble-shooting.md)
-- [Kaniko](kubernetes/kaniko.md)
-- [Commands](kubernetes/commands.md)
+- [K8s Vs Code](kubernetes/k8s-vs-code.md)
 - [Launch Dstools](kubernetes/launch-dstools.md)
+- [Commands](kubernetes/commands.md)
+- [Kaniko](kubernetes/kaniko.md)
 
 ### living
 
@@ -69,13 +69,13 @@ A collection of every tips that I learn every day.
 
 ### macos
 
-- [One Button Do Not Disturb](macos/one-button-do-not-disturb.md)
-- [Podman For M1](macos/podman-for-m1.md)
-- [Alternative To Docker Desktop](macos/alternative-to-docker-desktop.md)
 - [Rectangle](macos/rectangle.md)
-- [Fresh Install](macos/fresh-install.md)
-- [Lima](macos/lima.md)
 - [Using Terminal](macos/using-terminal.md)
+- [Lima](macos/lima.md)
+- [One Button Do Not Disturb](macos/one-button-do-not-disturb.md)
+- [Alternative To Docker Desktop](macos/alternative-to-docker-desktop.md)
+- [Fresh Install](macos/fresh-install.md)
+- [Podman For M1](macos/podman-for-m1.md)
 
 ### markdown
 
@@ -87,8 +87,8 @@ A collection of every tips that I learn every day.
 
 ### nerdctl
 
-- [Basics](nerdctl/basics.md)
 - [Compile From Files](nerdctl/compile-from-files.md)
+- [Basics](nerdctl/basics.md)
 
 ### nvidia
 
@@ -97,19 +97,20 @@ A collection of every tips that I learn every day.
 
 ### podman
 
+- [Wsl Nvidia Podman](podman/wsl-nvidia-podman.md)
 - [Basic Command](podman/basic-command.md)
 - [Wsl Podman](podman/wsl-podman.md)
 - [Ubuntu Podman](podman/ubuntu-podman.md)
-- [Wsl Nvidia Podman](podman/wsl-nvidia-podman.md)
 
 ### python
 
-- [Agentpy](python/agentpy.md)
+- [Korfont By Pip](python/korfont-by-pip.md)
 - [Scientific Python](python/scientific-python.md)
+- [Pipreqs](python/pipreqs.md)
 - [Itertools](python/itertools.md)
 - [Time Series Handling 1](python/time-series-handling-1.md)
-- [Pipreqs](python/pipreqs.md)
 - [Check Matplotlb Korfont](python/check-matplotlb-korfont.md)
+- [Agentpy](python/agentpy.md)
 
 ### pytorch
 
@@ -122,10 +123,10 @@ A collection of every tips that I learn every day.
 
 ### rstat
 
-- [Tidyverse Cookbook](rstat/tidyverse-cookbook.md)
 - [Ivreg](rstat/ivreg.md)
 - [Container Ubuntu](rstat/container-ubuntu.md)
 - [Podman Issues](rstat/podman-issues.md)
+- [Tidyverse Cookbook](rstat/tidyverse-cookbook.md)
 
 ### stocks
 
@@ -137,21 +138,21 @@ A collection of every tips that I learn every day.
 
 ### terminal
 
-- [Setup](terminal/setup.md)
-- [Command](terminal/command.md)
 - [Tools](terminal/tools.md)
+- [Command](terminal/command.md)
+- [Setup](terminal/setup.md)
 
 ### test-performance
 
-- [Python](test-performance/python.md)
 - [Container Koreanfont](test-performance/container-koreanfont.md)
+- [Python](test-performance/python.md)
 
 ### ubuntu
 
-- [Generate Dummy File](ubuntu/generate-dummy-file.md)
-- [Ubuntu Desktop 20](ubuntu/ubuntu-desktop-20.04-LTS.md)
 - [Misc](ubuntu/MISC.md)
 - [Ubuntu Desktop 21](ubuntu/ubuntu-desktop-21.10.md)
+- [Generate Dummy File](ubuntu/generate-dummy-file.md)
+- [Ubuntu Desktop 20](ubuntu/ubuntu-desktop-20.04-LTS.md)
 
 ### unclassified
 
@@ -164,8 +165,8 @@ A collection of every tips that I learn every day.
 ### vscode
 
 - [Font Setting](vscode/font-setting.md)
-- [Mac Korean Input Error](vscode/mac-korean-input-error.md)
 - [Github Extension](vscode/github-extension.md)
+- [Mac Korean Input Error](vscode/mac-korean-input-error.md)
 
 ### webpt
 
@@ -173,11 +174,11 @@ A collection of every tips that I learn every day.
 
 ### windows-management
 
+- [How To Control Update](windows-management/how-to-control-update.md)
+- [Winget](windows-management/winget.md)
 - [Image](windows-management/image.png)
 - [한영전환](windows-management/한영전환.md)
 - [Bash In Powershell](windows-management/bash-in-powershell.md)
-- [Winget](windows-management/winget.md)
-- [How To Control Update](windows-management/how-to-control-update.md)
 
 ### wsl
 
