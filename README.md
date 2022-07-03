@@ -104,9 +104,14 @@ A collection of every tips that I learn every day.
 
 ### python
 
+<<<<<<< Updated upstream
 - [Korfont By Pip](python/korfont-by-pip.md)
 - [Scientific Python](python/scientific-python.md)
 - [Pipreqs](python/pipreqs.md)
+=======
+- [Agentpy](python/agentpy.md)
+- [Scientific Python](til/python/scientific-python.md)
+>>>>>>> Stashed changes
 - [Itertools](python/itertools.md)
 - [Time Series Handling 1](python/time-series-handling-1.md)
 - [Check Matplotlb Korfont](python/check-matplotlb-korfont.md)
