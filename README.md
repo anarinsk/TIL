@@ -63,6 +63,10 @@ A collection of every tips that I learn every day.
 - [Commands](kubernetes/commands.md)
 - [Kaniko](kubernetes/kaniko.md)
 
+### latex
+
+- [Paren Series](latex/paren-series.md)
+
 ### living
 
 - [Obituary](living/obituary.md)
