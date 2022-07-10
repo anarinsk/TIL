@@ -37,12 +37,22 @@ nerdctl build -f Dockerfile.nerd -t anarinsk/jupyter-ds-korfont:m1 .
 
 ## Run 
 
+- 사제 버전
 ```
 nerdctl run -it --rm -v $PWD:/home/jovyan/work -u root -e JUPYTER_TOKEN=1022 -e GRANT_SUDO=yes -p 10000:8888 anarinsk/jupyter-ds-korfont:m1
 ```
+
+- 정식버전
+- [jupyter/datascience-notebook Tags | Docker Hub](https://hub.docker.com/r/jupyter/datascience-notebook/tags/)
+	- aarch64/v8 
+
+```
+nerdctl run -it --rm -v $PWD:/home/jovyan/work -u root -e JUPYTER_TOKEN=1022 -e GRANT_SUDO=yes -p 10000:8888 jupyter/datascience-notebook:aarch64-latest
+```
+
 - `-i`: interactive
 - `-t`: Allocate a pseudo-TTY
-- `--rm`: remove when exiting 
+- `--rm`: remove when container ends 
 - `-v`: volume 
 - `-u`: user 
 - `-e`: env 

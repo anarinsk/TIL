@@ -31,6 +31,12 @@ nerdctl run --rm hello-world
 nerdctl run --name mattermost-preview -d --publish 8065:8065 mattermost/mattermost-preview
 ```
 
+- DS container 
+
+```
+nerdctl run -it --rm -v $PWD:/home/jovyan/work -u root -e JUPYTER_TOKEN=1022 -e GRANT_SUDO=yes -p 10000:8888 jupyter/datascience-notebook:aarch64-latest
+```
+
 ## 실제 운용 
 
 [setup_netcrl](https://github.com/anarinsk/setup_nerdctl)를 참고하자. compose 기반 실전 파일들이 . 
