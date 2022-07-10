@@ -116,6 +116,7 @@ A collection of every tips that I learn every day.
 - [Scientific Python](python/scientific-python.md)
 - [Pipreqs](python/pipreqs.md)
 - [Itertools](python/itertools.md)
+- [Pip](python/PIP.md)
 - [Time Series Handling 1](python/time-series-handling-1.md)
 - [Check Matplotlb Korfont](python/check-matplotlb-korfont.md)
 - [Agentpy](python/agentpy.md)
