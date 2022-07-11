@@ -1,4 +1,4 @@
-# Ubuntu 
+## Ubuntu 
 
 - [Download Julia (julialang.org)](https://julialang.org/downloads/)
 - 다운로드 디렉토리로 이동, 압축을 풀고, 심볼릭 링크를 생성한다. 
@@ -20,10 +20,20 @@ sudo cp -r julia-1.7.2 /opt/
 sudo ln -s /opt/julia-1.7.2/bin/julia /usr/local/bin/julia
 ```
 
+## Macos 
 
-# VS Code 
+#### M1
+- Experimental을 깔았을 때 symlink 만들어주기 
+```
+sudo ln -s /Applications/Julia-1.8.app/Contents/Resources/julia/bin/julia 
+/usr/local/bin/julia
+```
 
-## WSL 2 
+
+
+## VS Code 
+
+### WSL 2 
 - WSL 2에 julialang, python 등을 설치했다고 가정하자. 
 - Windows 에서 WSL2를 연결한 후 MS가 제공하는 각종 익스텐션을 인스톨하면 된다. 
 	- Jupyter 
