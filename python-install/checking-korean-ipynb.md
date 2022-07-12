@@ -1,4 +1,4 @@
-```ipynb
+```python
 import platform
 print(f"Platform is {platform.platform()}")
   
@@ -16,7 +16,8 @@ print ('캐시: ', matplotlib.get_cachedir())
 
 - 관련 정보 프리팅
 
-```ipynb
+```python
+import platf
 import matplotlib
 import matplotlib.font_manager
 
@@ -29,7 +30,8 @@ import matplotlib.font_manager
 
 - 폰트 상태 확인 
 
-```ipynb
+```python
+import platf
 import matplotlib.pyplot as plt
 import matplotlib.font_manager as fm
 import numpy as np
@@ -43,8 +45,10 @@ fontprop = fm.FontProperties(fname=path, size=18)
 ```
 
 - 직접 폰트를 지정해 인쇄 
+- 윈도 폰트를 불러왔다. 
 
-```ipynb
+```python
+import platf
 import matplotlib.pyplot as plt
 
 plt.rcParams["font.family"] = 'D2Codingligature Nerd Font'
