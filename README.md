@@ -112,14 +112,14 @@ A collection of every tips that I learn every day.
 
 ### python
 
-- [Korfont By Pip](python/korfont-by-pip.md)
-- [Scientific Python](python/scientific-python.md)
-- [Pipreqs](python/pipreqs.md)
-- [Itertools](python/itertools.md)
-- [Pip](python/PIP.md)
-- [Time Series Handling 1](python/time-series-handling-1.md)
-- [Check Matplotlb Korfont](python/check-matplotlb-korfont.md)
-- [Agentpy](python/agentpy.md)
+- [Korfont By Pip](korfont-by-pip.md)
+- [Scientific Python](scientific-python.md)
+- [Pipreqs](til/python-practice/pipreqs.md)
+- [Itertools](til/python-practice/itertools.md)
+- [Pip](macos.md)
+- [Time Series Handling 1](til/python-practice/time-series-handling-1.md)
+- [Check Matplotlb Korfont](til/python-practice/check-matplotlb-korfont.md)
+- [Agentpy](agentpy.md)
 
 ### pytorch
 
