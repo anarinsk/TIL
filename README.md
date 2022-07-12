@@ -9,8 +9,8 @@ A collection of every tips that I learn every day.
 
 ### blogging
 
-- [Katex](blogging/katex.md)
 - [Fastpages](blogging/fastpages.md)
+- [Katex](blogging/katex.md)
 
 ### conda
 
@@ -36,31 +36,31 @@ A collection of every tips that I learn every day.
 
 ### git-and-github
 
-- [Git From Master To Main](git-and-github/git-from-master-to-main.md)
-- [Init In Existing Dir](git-and-github/init-in-existing-dir.md)
-- [Html Hosting](git-and-github/html-hosting.md)
-- [How To Update Git Ubuntu](git-and-github/how-to-update-git-ubuntu.md)
 - [Github Actions](git-and-github/github-actions.md)
 - [Git And Github Windows](git-and-github/git-and-github-windows.md)
-- [How To Copy Repo](git-and-github/how-to-copy-repo.md)
+- [Html Hosting](git-and-github/html-hosting.md)
+- [Git From Master To Main](git-and-github/git-from-master-to-main.md)
+- [Init In Existing Dir](git-and-github/init-in-existing-dir.md)
 - [Gitignore Tips](git-and-github/gitignore-tips.md)
+- [How To Update Git Ubuntu](git-and-github/how-to-update-git-ubuntu.md)
+- [How To Copy Repo](git-and-github/how-to-copy-repo.md)
 
 ### julia
 
 - [Installation](julia/installation.md)
 - [Add Packages](julia/add-packages.md)
-- [Errors Solved](julia/errors-solved.md)
-- [Local Install](julia/local-install.md)
-- [Thinkjulia](julia/thinkjulia.md)
-- [Environment](julia/environment.md)
 - [Symbolic Link](julia/symbolic-link.md)
+- [Errors Solved](julia/errors-solved.md)
+- [Thinkjulia](julia/thinkjulia.md)
+- [Local Install](julia/local-install.md)
+- [Environment](julia/environment.md)
 
 ### kubernetes
 
-- [Trouble Shooting](kubernetes/trouble-shooting.md)
 - [K8s Vs Code](kubernetes/k8s-vs-code.md)
-- [Launch Dstools](kubernetes/launch-dstools.md)
 - [Commands](kubernetes/commands.md)
+- [Launch Dstools](kubernetes/launch-dstools.md)
+- [Trouble Shooting](kubernetes/trouble-shooting.md)
 - [Kaniko](kubernetes/kaniko.md)
 
 ### latex
@@ -73,13 +73,13 @@ A collection of every tips that I learn every day.
 
 ### macos
 
-- [Rectangle](macos/rectangle.md)
-- [Using Terminal](macos/using-terminal.md)
-- [Lima](macos/lima.md)
-- [One Button Do Not Disturb](macos/one-button-do-not-disturb.md)
-- [Alternative To Docker Desktop](macos/alternative-to-docker-desktop.md)
 - [Fresh Install](macos/fresh-install.md)
+- [One Button Do Not Disturb](macos/one-button-do-not-disturb.md)
+- [Rectangle](macos/rectangle.md)
+- [Alternative To Docker Desktop](macos/alternative-to-docker-desktop.md)
+- [Lima](macos/lima.md)
 - [Podman For M1](macos/podman-for-m1.md)
+- [Using Terminal](macos/using-terminal.md)
 
 ### markdown
 
@@ -105,21 +105,26 @@ A collection of every tips that I learn every day.
 
 ### podman
 
-- [Wsl Nvidia Podman](podman/wsl-nvidia-podman.md)
 - [Basic Command](podman/basic-command.md)
-- [Wsl Podman](podman/wsl-podman.md)
+- [Wsl Nvidia Podman](podman/wsl-nvidia-podman.md)
 - [Ubuntu Podman](podman/ubuntu-podman.md)
+- [Wsl Podman](podman/wsl-podman.md)
 
-### python
+### python-install
 
-- [Korfont By Pip](korfont-by-pip.md)
-- [Scientific Python](scientific-python.md)
-- [Pipreqs](til/python-practice/pipreqs.md)
-- [Itertools](til/python-practice/itertools.md)
-- [Pip](macos.md)
-- [Time Series Handling 1](til/python-practice/time-series-handling-1.md)
-- [Check Matplotlb Korfont](til/python-practice/check-matplotlb-korfont.md)
-- [Agentpy](agentpy.md)
+- [Macos](python-install/macos.md)
+- [Checking Korean Ipynb](python-install/checking-korean-ipynb.md)
+- [Wsl](python-install/wsl.md)
+
+### python-practice
+
+- [Korfont By Pip](python-practice/korfont-by-pip.md)
+- [Agentpy](python-practice/agentpy.md)
+- [Time Series Handling 1](python-practice/time-series-handling-1.md)
+- [Check Matplotlb Korfont](python-practice/check-matplotlb-korfont.md)
+- [Scientific Python](python-practice/scientific-python.md)
+- [Itertools](python-practice/itertools.md)
+- [Pipreqs](python-practice/pipreqs.md)
 
 ### pytorch
 
@@ -133,9 +138,9 @@ A collection of every tips that I learn every day.
 ### rstat
 
 - [Ivreg](rstat/ivreg.md)
+- [Tidyverse Cookbook](rstat/tidyverse-cookbook.md)
 - [Container Ubuntu](rstat/container-ubuntu.md)
 - [Podman Issues](rstat/podman-issues.md)
-- [Tidyverse Cookbook](rstat/tidyverse-cookbook.md)
 
 ### stocks
 
@@ -153,15 +158,15 @@ A collection of every tips that I learn every day.
 
 ### test-performance
 
-- [Container Koreanfont](test-performance/container-koreanfont.md)
 - [Python](test-performance/python.md)
+- [Container Koreanfont](test-performance/container-koreanfont.md)
 
 ### ubuntu
 
-- [Misc](ubuntu/MISC.md)
-- [Ubuntu Desktop 21](ubuntu/ubuntu-desktop-21.10.md)
-- [Generate Dummy File](ubuntu/generate-dummy-file.md)
 - [Ubuntu Desktop 20](ubuntu/ubuntu-desktop-20.04-LTS.md)
+- [Generate Dummy File](ubuntu/generate-dummy-file.md)
+- [Ubuntu Desktop 21](ubuntu/ubuntu-desktop-21.10.md)
+- [Misc](ubuntu/MISC.md)
 
 ### unclassified
 
@@ -173,8 +178,8 @@ A collection of every tips that I learn every day.
 
 ### vscode
 
-- [Font Setting](vscode/font-setting.md)
 - [Github Extension](vscode/github-extension.md)
+- [Font Setting](vscode/font-setting.md)
 - [Mac Korean Input Error](vscode/mac-korean-input-error.md)
 
 ### webpt
@@ -183,11 +188,11 @@ A collection of every tips that I learn every day.
 
 ### windows-management
 
-- [How To Control Update](windows-management/how-to-control-update.md)
 - [Winget](windows-management/winget.md)
-- [Image](windows-management/image.png)
 - [한영전환](windows-management/한영전환.md)
+- [Image](windows-management/image.png)
 - [Bash In Powershell](windows-management/bash-in-powershell.md)
+- [How To Control Update](windows-management/how-to-control-update.md)
 
 ### wsl
 
