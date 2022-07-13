@@ -113,7 +113,7 @@ A collection of every tips that I learn every day.
 ### python-install
 
 - [Macos](python-install/macos.md)
-- [Checking Korean Ipynb](python-install/checking-korean-ipynb.md)
+- [Testing Module](python-install/testing-module.md)
 - [Wsl](python-install/wsl.md)
 
 ### python-practice
