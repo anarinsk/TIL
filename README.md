@@ -179,6 +179,7 @@ A collection of every tips that I learn every day.
 ### vscode
 
 - [Github Extension](vscode/github-extension.md)
+- [Windows Terminal Zsh](vscode/windows-terminal-zsh.md)
 - [Font Setting](vscode/font-setting.md)
 - [Macos Jupyter Shift Enter](vscode/macos-jupyter-shift-enter.md)
 - [Mac Korean Input Error](vscode/mac-korean-input-error.md)
