@@ -12,6 +12,10 @@ A collection of every tips that I learn every day.
 - [Fastpages](blogging/fastpages.md)
 - [Katex](blogging/katex.md)
 
+### brew
+
+- [Basics](brew/basics.md)
+
 ### conda
 
 - [Codespaces](conda/codespaces.md)
@@ -117,6 +121,10 @@ A collection of every tips that I learn every day.
 - [Macos](python-install/macos.md)
 - [Miniforge](python-install/Miniforge.md)
 - [Wsl](python-install/wsl.md)
+
+### python-matplotlib
+
+- [Fig,ax Mean](python-matplotlib/fig,ax-mean.md)
 
 ### python-practice
 
