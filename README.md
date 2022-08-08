@@ -104,6 +104,10 @@ A collection of every tips that I learn every day.
 - [Cuda](nvidia/cuda.md)
 - [Nvidia Container](nvidia/nvidia-container.md)
 
+### panel
+
+- [Basics](panel/Basics.md)
+
 ### persons-of-interest
 
 - [최보경](persons-of-interest/최보경.md)
