@@ -12,6 +12,10 @@ A collection of every tips that I learn every day.
 - [Fastpages](blogging/fastpages.md)
 - [Katex](blogging/katex.md)
 
+### brew
+
+- [Basics](brew/basics.md)
+
 ### conda
 
 - [Codespaces](conda/codespaces.md)
@@ -115,7 +119,12 @@ A collection of every tips that I learn every day.
 
 - [Testing Module](python-install/testing-module.md)
 - [Macos](python-install/macos.md)
+- [Miniforge](python-install/Miniforge.md)
 - [Wsl](python-install/wsl.md)
+
+### python-matplotlib
+
+- [Fig,ax Mean](python-matplotlib/fig,ax-mean.md)
 
 ### python-practice
 
@@ -123,6 +132,7 @@ A collection of every tips that I learn every day.
 - [Agentpy](python-practice/agentpy.md)
 - [Scientific Python](python-practice/scientific-python.md)
 - [Korfont By Pip](python-practice/korfont-by-pip.md)
+- [Life Saver](python-practice/life-saver.md)
 - [Check Matplotlb Korfont](python-practice/check-matplotlb-korfont.md)
 - [Itertools](python-practice/itertools.md)
 - [Time Series Handling 1](python-practice/time-series-handling-1.md)
@@ -139,6 +149,7 @@ A collection of every tips that I learn every day.
 ### rstat
 
 - [Ivreg](rstat/ivreg.md)
+- [Visual Studio](rstat/visual-studio.md)
 - [Container Ubuntu](rstat/container-ubuntu.md)
 - [Tidyverse Cookbook](rstat/tidyverse-cookbook.md)
 - [Podman Issues](rstat/podman-issues.md)
