@@ -23,3 +23,7 @@ $ brew list
 - zoom 
 - microsoft-edge 
 - microsoft-auto-update 
+
+## Macos, Linux 
+- wsl에서도 사용 가능할 듯? 
+- 하지만... 별로 쓸모는 없을 지도 
