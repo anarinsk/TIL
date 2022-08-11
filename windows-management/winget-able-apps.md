@@ -4,8 +4,8 @@
 
 ## 설치 가능한 앱 
 
-- quarto 
-- miniforge3 
+- ~~quarto~~
+- ~~miniforge3~~
 - Rancher Desktop 
 - Bandizip 
 - Ubuntu on WIndows 
@@ -35,6 +35,6 @@
 - python: `C:\Users\junsokhuhh\AppData\Local\Programs\Python\Python310`
 - conda: `C:\Users\junsokhuhh\AppData\Local\miniforge3\Scripts`
 	-  cmd 명령어만 해당한다. 
-	-  powershell에서 쓰려면 cmd에서 `conda init powershell` 실행 
+	-  powershell에서 쓰려면 cmd에서 `conda init powershell` 실행 conda 
 
 
