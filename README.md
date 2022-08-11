@@ -94,6 +94,10 @@ A collection of every tips that I learn every day.
 
 - [My Til Organizer](meta/my-til-organizer.md)
 
+### miniforge3
+
+- [Windows 11](miniforge3/windows-11.md)
+
 ### nerdctl
 
 - [Basics](nerdctl/basics.md)
