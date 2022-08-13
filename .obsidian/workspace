@@ -1,0 +1,140 @@
+{
+  "main": {
+    "id": "a6231e33a18947e4",
+    "type": "split",
+    "children": [
+      {
+        "id": "64e489deea90d1be",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "miniforge3/windows-11.md",
+            "mode": "source",
+            "source": false
+          }
+        }
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "02e6fba452952d43",
+    "type": "split",
+    "children": [
+      {
+        "id": "715ef3e377c5aa14",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "1d5fbb1e82ebd65a",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {}
+            }
+          },
+          {
+            "id": "1e0da36629ee4b5d",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "96b061efc2c7c763",
+            "type": "leaf",
+            "state": {
+              "type": "starred",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "3e0a4cb766ce57e3",
+    "type": "split",
+    "children": [
+      {
+        "id": "adf0e47aa2e0b15a",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "0dfb3c68f0e79acf",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "miniforge3/windows-11.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "67e7bc448268af6e",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "miniforge3/windows-11.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "f5b815132f2958f6",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "4ab122c72443fd28",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "miniforge3/windows-11.md"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "active": "64e489deea90d1be",
+  "lastOpenFiles": [
+    "conda/Basics.md",
+    "windows-management/powershell-decoration.md",
+    "windows-management/bash-in-powershell.md",
+    "windows-management/winget-able-apps.md",
+    "windows-management/path-setting.md",
+    "windows-management/image.png"
+  ]
+}
