@@ -7,6 +7,25 @@ A collection of every tips that I learn every day.
 
 ---
 
+### .obsidian
+
+- [Workspace](.obsidian/workspace)
+- [Core Plugins](.obsidian/core-plugins.json)
+- [Appearance](.obsidian/appearance.json)
+- [Hotkeys](.obsidian/hotkeys.json)
+- [App](.obsidian/app.json)
+
+### TIL
+
+
+### .obsidian
+
+- [Workspace](.obsidian/workspace)
+- [Core Plugins](.obsidian/core-plugins.json)
+- [Appearance](.obsidian/appearance.json)
+- [Hotkeys](.obsidian/hotkeys.json)
+- [App](.obsidian/app.json)
+
 ### blogging
 
 - [Fastpages](blogging/fastpages.md)
@@ -215,6 +234,7 @@ A collection of every tips that I learn every day.
 - [Winget Able Apps](windows-management/winget-able-apps.md)
 - [Bash In Powershell](windows-management/bash-in-powershell.md)
 - [How To Control Update](windows-management/how-to-control-update.md)
+- [Powershell Decoration](windows-management/powershell-decoration.md)
 - [Winget](windows-management/winget.md)
 - [한영전환](windows-management/한영전환.md)
 
