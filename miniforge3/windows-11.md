@@ -6,7 +6,8 @@
 	- 모든 사용자 용으로 설치한다. 
 - winget으로 다 까는 게 목표다. 
 	- 가상 환경 인식 문제 등등을 살펴보자. 
-	- 설치경로는 `C:\Users\test\miniforge3`
+	- 설치경로는 `C:\Users\{USER NAME}\miniforge3`
+	- 스크립터 경로는 `C:\Users\{USER NAME}\miniforge3\Script`
 	- VS Code에서 인터프리터 선택 인식에서 문제 없었다. 
 - ~~winget으로 설치하면 안되는 이유
 	- winget은 `C:\Users\{이용자ID}\appdata\miniforge3` 으로 설치되며, 가상 환경 등도 마찬가지로 설치  
