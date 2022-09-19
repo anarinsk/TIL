@@ -9,10 +9,10 @@ A collection of every tips that I learn every day.
 
 ### .obsidian
 
-- [Workspace](.obsidian/workspace)
 - [Core Plugins](.obsidian/core-plugins.json)
-- [Appearance](.obsidian/appearance.json)
 - [Hotkeys](.obsidian/hotkeys.json)
+- [Workspace](.obsidian/workspace)
+- [Appearance](.obsidian/appearance.json)
 - [App](.obsidian/app.json)
 
 ### TIL
@@ -20,16 +20,16 @@ A collection of every tips that I learn every day.
 
 ### .obsidian
 
-- [Workspace](.obsidian/workspace)
 - [Core Plugins](.obsidian/core-plugins.json)
-- [Appearance](.obsidian/appearance.json)
 - [Hotkeys](.obsidian/hotkeys.json)
+- [Workspace](.obsidian/workspace)
+- [Appearance](.obsidian/appearance.json)
 - [App](.obsidian/app.json)
 
 ### blogging
 
-- [Fastpages](blogging/fastpages.md)
 - [Katex](blogging/katex.md)
+- [Fastpages](blogging/fastpages.md)
 
 ### brew
 
@@ -59,33 +59,33 @@ A collection of every tips that I learn every day.
 
 ### git-and-github
 
-- [How To Update Git Ubuntu](git-and-github/how-to-update-git-ubuntu.md)
-- [Git From Master To Main](git-and-github/git-from-master-to-main.md)
+- [기본문법](git-and-github/기본문법.md)
 - [Init In Existing Dir](git-and-github/init-in-existing-dir.md)
 - [How To Copy Repo](git-and-github/how-to-copy-repo.md)
-- [Git And Github Windows](git-and-github/git-and-github-windows.md)
-- [Github Actions](git-and-github/github-actions.md)
-- [기본문법](git-and-github/기본문법.md)
+- [How To Update Git Ubuntu](git-and-github/how-to-update-git-ubuntu.md)
 - [Html Hosting](git-and-github/html-hosting.md)
+- [Github Actions](git-and-github/github-actions.md)
+- [Git From Master To Main](git-and-github/git-from-master-to-main.md)
 - [Gitignore Tips](git-and-github/gitignore-tips.md)
+- [Git And Github Windows](git-and-github/git-and-github-windows.md)
 
 ### julia
 
-- [Thinkjulia](julia/thinkjulia.md)
 - [Local Install](julia/local-install.md)
-- [Installation](julia/installation.md)
-- [Errors Solved](julia/errors-solved.md)
 - [Environment](julia/environment.md)
+- [Errors Solved](julia/errors-solved.md)
+- [Installation](julia/installation.md)
 - [Add Packages](julia/add-packages.md)
+- [Thinkjulia](julia/thinkjulia.md)
 - [Symbolic Link](julia/symbolic-link.md)
 
 ### kubernetes
 
-- [Commands](kubernetes/commands.md)
-- [Launch Dstools](kubernetes/launch-dstools.md)
-- [Kaniko](kubernetes/kaniko.md)
 - [Trouble Shooting](kubernetes/trouble-shooting.md)
+- [Kaniko](kubernetes/kaniko.md)
 - [K8s Vs Code](kubernetes/k8s-vs-code.md)
+- [Launch Dstools](kubernetes/launch-dstools.md)
+- [Commands](kubernetes/commands.md)
 
 ### latex
 
@@ -97,13 +97,13 @@ A collection of every tips that I learn every day.
 
 ### macos
 
+- [Rectangle](macos/rectangle.md)
+- [Alternative To Docker Desktop](macos/alternative-to-docker-desktop.md)
+- [Fresh Install](macos/fresh-install.md)
+- [Using Terminal](macos/using-terminal.md)
+- [Podman For M1](macos/podman-for-m1.md)
 - [One Button Do Not Disturb](macos/one-button-do-not-disturb.md)
 - [Lima](macos/lima.md)
-- [Alternative To Docker Desktop](macos/alternative-to-docker-desktop.md)
-- [Podman For M1](macos/podman-for-m1.md)
-- [Using Terminal](macos/using-terminal.md)
-- [Fresh Install](macos/fresh-install.md)
-- [Rectangle](macos/rectangle.md)
 
 ### markdown
 
@@ -119,8 +119,8 @@ A collection of every tips that I learn every day.
 
 ### nerdctl
 
-- [Basics](nerdctl/basics.md)
 - [Compile From Files](nerdctl/compile-from-files.md)
+- [Basics](nerdctl/basics.md)
 
 ### nvidia
 
@@ -139,15 +139,15 @@ A collection of every tips that I learn every day.
 
 - [Wsl Podman](podman/wsl-podman.md)
 - [Ubuntu Podman](podman/ubuntu-podman.md)
-- [Wsl Nvidia Podman](podman/wsl-nvidia-podman.md)
 - [Basic Command](podman/basic-command.md)
+- [Wsl Nvidia Podman](podman/wsl-nvidia-podman.md)
 
 ### python-install
 
-- [Testing Module](python-install/testing-module.md)
-- [Macos](python-install/macos.md)
 - [Miniforge](python-install/Miniforge.md)
+- [Testing Module](python-install/testing-module.md)
 - [Wsl](python-install/wsl.md)
+- [Macos](python-install/macos.md)
 
 ### python-matplotlib
 
@@ -155,14 +155,14 @@ A collection of every tips that I learn every day.
 
 ### python-practice
 
-- [Pipreqs](python-practice/pipreqs.md)
-- [Agentpy](python-practice/agentpy.md)
-- [Scientific Python](python-practice/scientific-python.md)
-- [Korfont By Pip](python-practice/korfont-by-pip.md)
 - [Life Saver](python-practice/life-saver.md)
-- [Check Matplotlb Korfont](python-practice/check-matplotlb-korfont.md)
-- [Itertools](python-practice/itertools.md)
+- [Korfont By Pip](python-practice/korfont-by-pip.md)
 - [Time Series Handling 1](python-practice/time-series-handling-1.md)
+- [Scientific Python](python-practice/scientific-python.md)
+- [Agentpy](python-practice/agentpy.md)
+- [Itertools](python-practice/itertools.md)
+- [Check Matplotlb Korfont](python-practice/check-matplotlb-korfont.md)
+- [Pipreqs](python-practice/pipreqs.md)
 
 ### pytorch
 
@@ -170,16 +170,20 @@ A collection of every tips that I learn every day.
 
 ### quarto
 
-- [Basics](quarto/basics.md)
 - [Blog](quarto/blog.md)
+- [Basics](quarto/basics.md)
 
 ### rstat
 
-- [Ivreg](rstat/ivreg.md)
 - [Visual Studio](rstat/visual-studio.md)
-- [Container Ubuntu](rstat/container-ubuntu.md)
 - [Tidyverse Cookbook](rstat/tidyverse-cookbook.md)
 - [Podman Issues](rstat/podman-issues.md)
+- [Container Ubuntu](rstat/container-ubuntu.md)
+- [Ivreg](rstat/ivreg.md)
+
+### stable-diffusion
+
+- [Diffusers Hugging Face For M1](stable-diffusion/diffusers-hugging-face-for-m1.md)
 
 ### stocks
 
@@ -191,8 +195,8 @@ A collection of every tips that I learn every day.
 
 ### terminal
 
-- [Command](terminal/command.md)
 - [Setup](terminal/setup.md)
+- [Command](terminal/command.md)
 - [Tools](terminal/tools.md)
 
 ### test-performance
@@ -202,10 +206,10 @@ A collection of every tips that I learn every day.
 
 ### ubuntu
 
-- [Misc](ubuntu/MISC.md)
-- [Generate Dummy File](ubuntu/generate-dummy-file.md)
-- [Ubuntu Desktop 21](ubuntu/ubuntu-desktop-21.10.md)
 - [Ubuntu Desktop 20](ubuntu/ubuntu-desktop-20.04-LTS.md)
+- [Generate Dummy File](ubuntu/generate-dummy-file.md)
+- [Misc](ubuntu/MISC.md)
+- [Ubuntu Desktop 21](ubuntu/ubuntu-desktop-21.10.md)
 
 ### unclassified
 
@@ -230,13 +234,13 @@ A collection of every tips that I learn every day.
 ### windows-management
 
 - [Image](windows-management/image.png)
-- [Path Setting](windows-management/path-setting.md)
 - [Winget Able Apps](windows-management/winget-able-apps.md)
-- [Bash In Powershell](windows-management/bash-in-powershell.md)
-- [How To Control Update](windows-management/how-to-control-update.md)
 - [Powershell Decoration](windows-management/powershell-decoration.md)
-- [Winget](windows-management/winget.md)
+- [Path Setting](windows-management/path-setting.md)
+- [How To Control Update](windows-management/how-to-control-update.md)
 - [한영전환](windows-management/한영전환.md)
+- [Winget](windows-management/winget.md)
+- [Bash In Powershell](windows-management/bash-in-powershell.md)
 
 ### wsl
 
