@@ -9,27 +9,27 @@ A collection of every tips that I learn every day.
 
 ### .obsidian
 
-- [Core Plugins](.obsidian/core-plugins.json)
-- [Hotkeys](.obsidian/hotkeys.json)
 - [Workspace](.obsidian/workspace)
 - [Appearance](.obsidian/appearance.json)
 - [App](.obsidian/app.json)
+- [Core Plugins](.obsidian/core-plugins.json)
+- [Hotkeys](.obsidian/hotkeys.json)
 
 ### TIL
 
 
 ### .obsidian
 
-- [Core Plugins](.obsidian/core-plugins.json)
-- [Hotkeys](.obsidian/hotkeys.json)
 - [Workspace](.obsidian/workspace)
 - [Appearance](.obsidian/appearance.json)
 - [App](.obsidian/app.json)
+- [Core Plugins](.obsidian/core-plugins.json)
+- [Hotkeys](.obsidian/hotkeys.json)
 
 ### blogging
 
-- [Katex](blogging/katex.md)
 - [Fastpages](blogging/fastpages.md)
+- [Katex](blogging/katex.md)
 
 ### brew
 
@@ -37,8 +37,8 @@ A collection of every tips that I learn every day.
 
 ### conda
 
-- [Codespaces](conda/codespaces.md)
 - [Tensorflow M1](conda/tensorflow-m1.md)
+- [Codespaces](conda/codespaces.md)
 - [Basics](conda/Basics.md)
 
 ### css
@@ -59,37 +59,39 @@ A collection of every tips that I learn every day.
 
 ### git-and-github
 
-- [기본문법](git-and-github/기본문법.md)
-- [Init In Existing Dir](git-and-github/init-in-existing-dir.md)
-- [How To Copy Repo](git-and-github/how-to-copy-repo.md)
-- [How To Update Git Ubuntu](git-and-github/how-to-update-git-ubuntu.md)
-- [Html Hosting](git-and-github/html-hosting.md)
 - [Github Actions](git-and-github/github-actions.md)
+- [Init In Existing Dir](git-and-github/init-in-existing-dir.md)
+- [기본문법](git-and-github/기본문법.md)
+- [Html Hosting](git-and-github/html-hosting.md)
 - [Git From Master To Main](git-and-github/git-from-master-to-main.md)
-- [Gitignore Tips](git-and-github/gitignore-tips.md)
 - [Git And Github Windows](git-and-github/git-and-github-windows.md)
+- [How To Update Git Ubuntu](git-and-github/how-to-update-git-ubuntu.md)
+- [How To Copy Repo](git-and-github/how-to-copy-repo.md)
+- [Gitignore Tips](git-and-github/gitignore-tips.md)
 
 ### julia
 
-- [Local Install](julia/local-install.md)
-- [Environment](julia/environment.md)
-- [Errors Solved](julia/errors-solved.md)
-- [Installation](julia/installation.md)
 - [Add Packages](julia/add-packages.md)
 - [Thinkjulia](julia/thinkjulia.md)
 - [Symbolic Link](julia/symbolic-link.md)
+- [Errors Solved](julia/errors-solved.md)
+- [Installation](julia/installation.md)
+- [Environment](julia/environment.md)
+- [Local Install](julia/local-install.md)
 
 ### kubernetes
 
-- [Trouble Shooting](kubernetes/trouble-shooting.md)
 - [Kaniko](kubernetes/kaniko.md)
-- [K8s Vs Code](kubernetes/k8s-vs-code.md)
-- [Launch Dstools](kubernetes/launch-dstools.md)
 - [Commands](kubernetes/commands.md)
+- [Launch Dstools](kubernetes/launch-dstools.md)
+- [Trouble Shooting](kubernetes/trouble-shooting.md)
+- [K8s Vs Code](kubernetes/k8s-vs-code.md)
 
 ### latex
 
+- [Install Stix2](latex/install-stix2.md)
 - [Paren Series](latex/paren-series.md)
+- [Tinytex+kotex+vscode](latex/tinytex+kotex+vscode.md)
 
 ### living
 
@@ -97,13 +99,13 @@ A collection of every tips that I learn every day.
 
 ### macos
 
-- [Rectangle](macos/rectangle.md)
-- [Alternative To Docker Desktop](macos/alternative-to-docker-desktop.md)
-- [Fresh Install](macos/fresh-install.md)
-- [Using Terminal](macos/using-terminal.md)
 - [Podman For M1](macos/podman-for-m1.md)
-- [One Button Do Not Disturb](macos/one-button-do-not-disturb.md)
+- [Alternative To Docker Desktop](macos/alternative-to-docker-desktop.md)
+- [Using Terminal](macos/using-terminal.md)
 - [Lima](macos/lima.md)
+- [One Button Do Not Disturb](macos/one-button-do-not-disturb.md)
+- [Rectangle](macos/rectangle.md)
+- [Fresh Install](macos/fresh-install.md)
 
 ### markdown
 
@@ -119,13 +121,13 @@ A collection of every tips that I learn every day.
 
 ### nerdctl
 
-- [Compile From Files](nerdctl/compile-from-files.md)
 - [Basics](nerdctl/basics.md)
+- [Compile From Files](nerdctl/compile-from-files.md)
 
 ### nvidia
 
-- [Cuda](nvidia/cuda.md)
 - [Nvidia Container](nvidia/nvidia-container.md)
+- [Cuda](nvidia/cuda.md)
 
 ### panel
 
@@ -137,17 +139,17 @@ A collection of every tips that I learn every day.
 
 ### podman
 
-- [Wsl Podman](podman/wsl-podman.md)
+- [Wsl Nvidia Podman](podman/wsl-nvidia-podman.md)
 - [Ubuntu Podman](podman/ubuntu-podman.md)
 - [Basic Command](podman/basic-command.md)
-- [Wsl Nvidia Podman](podman/wsl-nvidia-podman.md)
+- [Wsl Podman](podman/wsl-podman.md)
 
 ### python-install
 
-- [Miniforge](python-install/Miniforge.md)
-- [Testing Module](python-install/testing-module.md)
-- [Wsl](python-install/wsl.md)
 - [Macos](python-install/macos.md)
+- [Wsl](python-install/wsl.md)
+- [Testing Module](python-install/testing-module.md)
+- [Miniforge](python-install/Miniforge.md)
 
 ### python-matplotlib
 
@@ -155,31 +157,34 @@ A collection of every tips that I learn every day.
 
 ### python-practice
 
-- [Life Saver](python-practice/life-saver.md)
-- [Korfont By Pip](python-practice/korfont-by-pip.md)
 - [Time Series Handling 1](python-practice/time-series-handling-1.md)
+- [Check Matplotlb Korfont](python-practice/check-matplotlb-korfont.md)
+- [Itertools](python-practice/itertools.md)
+- [Cookies Of Coding](python-practice/cookies-of-coding.md)
 - [Scientific Python](python-practice/scientific-python.md)
 - [Agentpy](python-practice/agentpy.md)
-- [Itertools](python-practice/itertools.md)
-- [Check Matplotlb Korfont](python-practice/check-matplotlb-korfont.md)
 - [Pipreqs](python-practice/pipreqs.md)
+- [Conda Env](python-practice/conda-env.md)
+- [Korfont By Pip](python-practice/korfont-by-pip.md)
 
 ### pytorch
 
+- [Quick Silver](pytorch/quick-silver.md)
 - [Install M1](pytorch/install-m1.md)
 
 ### quarto
 
+- [Unsolved](quarto/unsolved.md)
 - [Blog](quarto/blog.md)
 - [Basics](quarto/basics.md)
 
 ### rstat
 
-- [Visual Studio](rstat/visual-studio.md)
-- [Tidyverse Cookbook](rstat/tidyverse-cookbook.md)
 - [Podman Issues](rstat/podman-issues.md)
 - [Container Ubuntu](rstat/container-ubuntu.md)
 - [Ivreg](rstat/ivreg.md)
+- [Tidyverse Cookbook](rstat/tidyverse-cookbook.md)
+- [Visual Studio](rstat/visual-studio.md)
 
 ### stable-diffusion
 
@@ -195,21 +200,21 @@ A collection of every tips that I learn every day.
 
 ### terminal
 
-- [Setup](terminal/setup.md)
 - [Command](terminal/command.md)
+- [Setup](terminal/setup.md)
 - [Tools](terminal/tools.md)
 
 ### test-performance
 
-- [Python](test-performance/python.md)
 - [Container Koreanfont](test-performance/container-koreanfont.md)
+- [Python](test-performance/python.md)
 
 ### ubuntu
 
-- [Ubuntu Desktop 20](ubuntu/ubuntu-desktop-20.04-LTS.md)
-- [Generate Dummy File](ubuntu/generate-dummy-file.md)
 - [Misc](ubuntu/MISC.md)
+- [Generate Dummy File](ubuntu/generate-dummy-file.md)
 - [Ubuntu Desktop 21](ubuntu/ubuntu-desktop-21.10.md)
+- [Ubuntu Desktop 20](ubuntu/ubuntu-desktop-20.04-LTS.md)
 
 ### unclassified
 
@@ -221,11 +226,11 @@ A collection of every tips that I learn every day.
 
 ### vscode
 
+- [Macos Jupyter Shift Enter](vscode/macos-jupyter-shift-enter.md)
+- [Mac Korean Input Error](vscode/mac-korean-input-error.md)
 - [Windows Terminal Zsh](vscode/windows-terminal-zsh.md)
 - [Github Extension](vscode/github-extension.md)
 - [Font Setting](vscode/font-setting.md)
-- [Macos Jupyter Shift Enter](vscode/macos-jupyter-shift-enter.md)
-- [Mac Korean Input Error](vscode/mac-korean-input-error.md)
 
 ### webpt
 
@@ -233,14 +238,14 @@ A collection of every tips that I learn every day.
 
 ### windows-management
 
-- [Image](windows-management/image.png)
 - [Winget Able Apps](windows-management/winget-able-apps.md)
-- [Powershell Decoration](windows-management/powershell-decoration.md)
 - [Path Setting](windows-management/path-setting.md)
-- [How To Control Update](windows-management/how-to-control-update.md)
 - [한영전환](windows-management/한영전환.md)
-- [Winget](windows-management/winget.md)
+- [Powershell Decoration](windows-management/powershell-decoration.md)
 - [Bash In Powershell](windows-management/bash-in-powershell.md)
+- [How To Control Update](windows-management/how-to-control-update.md)
+- [Winget](windows-management/winget.md)
+- [Image](windows-management/image.png)
 
 ### wsl
 
