@@ -15,22 +15,6 @@ A collection of every tips that I learn every day.
 - [Appearance](.obsidian/appearance.json)
 - [Workspace](.obsidian/workspace)
 
-### TIL
-
-
-### .obsidian
-
-- [Core Plugins](.obsidian/core-plugins.json)
-- [Hotkeys](.obsidian/hotkeys.json)
-- [App](.obsidian/app.json)
-- [Appearance](.obsidian/appearance.json)
-- [Workspace](.obsidian/workspace)
-
-### __blogging__
-
-- [Katex](__blogging__/katex.md)
-- [Fastpages](__blogging__/fastpages.md)
-
 ### brew
 
 - [Basics](brew/basics.md)
@@ -41,17 +25,9 @@ A collection of every tips that I learn every day.
 - [Tensorflow M1](conda/tensorflow-m1.md)
 - [Basics](conda/Basics.md)
 
-### css
-
-- [D2 coding](css/D2 Coding.md)
-
 ### cv
 
 - [Markdown Cv](cv/markdown-cv.md)
-
-### docker
-
-- [Docker Compose](docker/docker-compose.md)
 
 ### font
 
@@ -93,9 +69,9 @@ A collection of every tips that I learn every day.
 - [Install Stix2](latex/install-stix2.md)
 - [Paren Series](latex/paren-series.md)
 
-### living
+### life-stocks
 
-- [Obituary](living/obituary.md)
+- [양도세신고](life-stocks/양도세신고.md)
 
 ### macos
 
@@ -129,20 +105,9 @@ A collection of every tips that I learn every day.
 - [Cuda](nvidia/cuda.md)
 - [Nvidia Container](nvidia/nvidia-container.md)
 
-### panel
-
-- [Basics](panel/Basics.md)
-
 ### persons-of-interest
 
 - [최보경](persons-of-interest/최보경.md)
-
-### podman
-
-- [Ubuntu Podman](podman/ubuntu-podman.md)
-- [Basic Command](podman/basic-command.md)
-- [Wsl Nvidia Podman](podman/wsl-nvidia-podman.md)
-- [Wsl Podman](podman/wsl-podman.md)
 
 ### python-install
 
@@ -190,10 +155,6 @@ A collection of every tips that I learn every day.
 
 - [Diffusers Hugging Face For M1](stable-diffusion/diffusers-hugging-face-for-m1.md)
 
-### stocks
-
-- [양도세신고](stocks/양도세신고.md)
-
 ### streamlit
 
 - [Form](streamlit/form.md)
@@ -216,10 +177,6 @@ A collection of every tips that I learn every day.
 - [Ubuntu Desktop 20](ubuntu/ubuntu-desktop-20.04-LTS.md)
 - [Ubuntu Desktop 21](ubuntu/ubuntu-desktop-21.10.md)
 
-### unclassified
-
-- [Mermaid Examples](unclassified/mermaid-examples.md)
-
 ### unsolved
 
 - [Datascience Tools](unsolved/datascience-tools.md)
@@ -231,10 +188,6 @@ A collection of every tips that I learn every day.
 - [Font Setting](vscode/font-setting.md)
 - [Mac Korean Input Error](vscode/mac-korean-input-error.md)
 - [Github Extension](vscode/github-extension.md)
-
-### webpt
-
-- [Marp](webpt/marp.md)
 
 ### windows-management
 
@@ -255,4 +208,32 @@ A collection of every tips that I learn every day.
 
 - [Set Alias](zsh/set-alias.md)
 - [Powerlevel10k](zsh/powerlevel10k.md)
+
+### zzz_blogging
+
+- [Katex](zzz_blogging/katex.md)
+- [Fastpages](zzz_blogging/fastpages.md)
+
+### zzz_docker
+
+- [Docker Compose](zzz_docker/docker-compose.md)
+
+### zzz_life
+
+- [Obituary](zzz_life/obituary.md)
+
+### zzz_panel
+
+- [Basics](zzz_panel/Basics.md)
+
+### zzz_podman
+
+- [Ubuntu Podman](zzz_podman/ubuntu-podman.md)
+- [Basic Command](zzz_podman/basic-command.md)
+- [Wsl Nvidia Podman](zzz_podman/wsl-nvidia-podman.md)
+- [Wsl Podman](zzz_podman/wsl-podman.md)
+
+### zzz_webpt
+
+- [Marp](zzz_webpt/marp.md)
 
