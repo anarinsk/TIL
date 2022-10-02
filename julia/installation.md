@@ -25,13 +25,20 @@ sudo ln -s /opt/julia-1.7.2/bin/julia /usr/local/bin/julia
 #### M1
 - Experimental을 깔았을 때 symlink 만들어주기 
 ```
-sudo ln -s /Applications/Julia-1.8.app/Contents/Resources/julia/bin/julia 
+$ sudo ln -s /Applications/Julia-1.8.app/Contents/Resources/julia/bin/julia 
 /usr/local/bin/julia
+```
+- brew로 설치 
+```bash
+$ brew install julia 
 ```
 
 
-
 ## VS Code 
+
+### env 
+
+- 창 아래 환경을 선택하자. 해당 폴더를 택하면 된다.  
 
 ### WSL 2 
 - WSL 2에 julialang, python 등을 설치했다고 가정하자. 
@@ -39,3 +46,4 @@ sudo ln -s /Applications/Julia-1.8.app/Contents/Resources/julia/bin/julia
 	- Jupyter 
 	- Python 
 	- Julia 
+
