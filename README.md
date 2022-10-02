@@ -26,10 +26,10 @@ A collection of every tips that I learn every day.
 - [Appearance](.obsidian/appearance.json)
 - [Workspace](.obsidian/workspace)
 
-### blogging
+### __blogging__
 
-- [Katex](blogging/katex.md)
-- [Fastpages](blogging/fastpages.md)
+- [Katex](__blogging__/katex.md)
+- [Fastpages](__blogging__/fastpages.md)
 
 ### brew
 
