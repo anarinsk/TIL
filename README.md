@@ -21,6 +21,7 @@ A collection of every tips that I learn every day.
 
 ### conda
 
+- [Work Flow](conda/work-flow.md)
 - [Codespaces](conda/codespaces.md)
 - [Tensorflow M1](conda/tensorflow-m1.md)
 - [Basics](conda/Basics.md)
