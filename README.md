@@ -14,7 +14,7 @@ _108 TILs and counting..._
 ### 2 most recent TILs
 
 - [Github Actions](git_github/github-actions.md) - Mon Oct 17 08:45:22 2022 +0900
-- [](git_github/기본문법.md) - Mon Oct 17 08:45:22 2022 +0900
+- [기본문법](git_github/기본문법.md) - Mon Oct 17 08:45:22 2022 +0900
 
 ### Categories
 
@@ -77,7 +77,7 @@ _108 TILs and counting..._
 - [What](git_github/how-to-update-git-ubuntu.md)
 - [| :memo:        | html 프리뷰 방법 |](git_github/html-hosting.md)
 - [기존의 활용 폴더를 git 폴더로 만들고 github과 연결하기](git_github/init-in-existing-dir.md)
-- [](git_github/기본문법.md)
+- [기본문법](git_github/기본문법.md)
 
 ### [julia](#julia)
 - [How to add packages](julia/add-packages.md)
@@ -120,7 +120,7 @@ _108 TILs and counting..._
 
 ### [mini-tools](#mini-tools)
 - [homebrew](mini-tools/brew.md)
-- [](mini-tools/miniforge-for-win11.md)
+- [Miniforge for win11](mini-tools/miniforge-for-win11.md)
 
 ### [nerdctl](#nerdctl)
 - [nerdctl](nerdctl/basics.md)
