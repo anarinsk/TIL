@@ -1,5 +1,5 @@
 
-# Miniforge-for-win11
+# Miniforge for win11
 
 ## Why 
 - 윈도우즈 11에서 미니포지3 관리하기 

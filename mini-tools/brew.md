@@ -1,4 +1,4 @@
-# home-brew
+# homebrew
 
 ## 이유 
 - 패키지 관리가 쉽다. 
