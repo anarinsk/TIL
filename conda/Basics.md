@@ -1,3 +1,5 @@
+## Basics
+
 1. Installation 
 2. Using env
 3. Installing jupyer 
