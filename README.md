@@ -13,15 +13,15 @@ _108 TILs and counting..._
 
 ### 2 most recent TILs
 
-- [Github Actions](git and github/github-actions.md) - Mon Oct 17 08:41:59 2022 +0900
-- [# merge and rebase](git and github/기본문법.md) - Mon Oct 17 08:41:59 2022 +0900
+- [Github Actions](git_github/github-actions.md) - Mon Oct 17 08:45:22 2022 +0900
+- [](git_github/기본문법.md) - Mon Oct 17 08:45:22 2022 +0900
 
 ### Categories
 
 - [conda](#conda)
 - [cv](#cv)
 - [font](#font)
-- [git and github](#git and github)
+- [git_github](#git_github)
 - [julia](#julia)
 - [kubernetes](#kubernetes)
 - [latex](#latex)
@@ -68,16 +68,16 @@ _108 TILs and counting..._
 ### [font](#font)
 - [Recommendation for Font](font/recommend.md)
 
-### [git and github](#git and github)
-- [git-and-github-in-windows](git and github/git-and-github-windows.md)
-- [Change git main branch from `master` to `main`](git and github/git-from-master-to-main.md)
-- [Github Actions](git and github/github-actions.md)
-- [gitignore tips](git and github/gitignore-tips.md)
-- [Fork 기능 대신 순수한 카피를 원한다!](git and github/how-to-copy-repo.md)
-- [What](git and github/how-to-update-git-ubuntu.md)
-- [| :memo:        | html 프리뷰 방법 |](git and github/html-hosting.md)
-- [기존의 활용 폴더를 git 폴더로 만들고 github과 연결하기](git and github/init-in-existing-dir.md)
-- [# merge and rebase](git and github/기본문법.md)
+### [git_github](#git_github)
+- [git-and-github-in-windows](git_github/git-and-github-windows.md)
+- [Change git main branch from `master` to `main`](git_github/git-from-master-to-main.md)
+- [Github Actions](git_github/github-actions.md)
+- [gitignore tips](git_github/gitignore-tips.md)
+- [Fork 기능 대신 순수한 카피를 원한다!](git_github/how-to-copy-repo.md)
+- [What](git_github/how-to-update-git-ubuntu.md)
+- [| :memo:        | html 프리뷰 방법 |](git_github/html-hosting.md)
+- [기존의 활용 폴더를 git 폴더로 만들고 github과 연결하기](git_github/init-in-existing-dir.md)
+- [](git_github/기본문법.md)
 
 ### [julia](#julia)
 - [How to add packages](julia/add-packages.md)
