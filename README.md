@@ -63,7 +63,7 @@ _108 TILs and counting..._
 - [- 일상적인 워크플로우를 적어 본다.](conda/work-flow.md)
 
 ### [cv](#cv)
-- [Why](cv/markdown-cv.md)
+- [Why](markdown-cv.md)
 
 ### [font](#font)
 - [Recommendation for Font](font/recommend.md)

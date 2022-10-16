@@ -1,4 +1,6 @@
-# Why 
+# CV 업데이트 방법
+
+## Why 
 - cv를 만드는 여러가지 방법이 있지만 외관보다 더 신경 쓰이는 것이 유지보수다. 
 	- latex을 쓰든 rmarkdown+rstudio를 쓰든 뭔가 별도의 도구가 필요하다. 
 	- vs code 만으로 간단히 빌드하기를 소망한다. 
@@ -10,26 +12,26 @@
 	- 파일 이름이 index.md일 경우에는 github pages의 대문으로도 기능한다. 
 	- 최소한으로 게으르게 css를 손봐서 쓸만한 cv를 만들도록 하자. 
 
-# Missions 
+## Missions 
 1. LaTeX이 포함되게 한다. 
 2. 폰트 변경 및 글자 크기 변동을 가능하게 한다. 
 
-# How to build 
+## How to build 
 
-## fork repo 
+### fork repo 
 [elipapa/markdown-cv: a simple template to write your CV in a readable markdown file and use CSS to publish/print it. (github.com)](https://github.com/elipapa/markdown-cv)
 
 **forked repo** 
 [anarinsk/markdown-cv: a simple template to write your CV in a readable markdown file and use CSS to publish/print it. (github.com)](https://github.com/anarinsk/markdown-cv)
 
-## modification 
+### modification 
 
 - `index.md`: cv 내용이다. 
 -  `_config.yml`: 빌드를 위한 yml 설정 
 - `_layout/cv.html`: 헤드를 손봐야 한다. 
 - `media`: 폴더 안에 css가 들어 있다. 커스터마이즈가 필요하다. 
 
-## `_config.yml`
+### `_config.yml`
 
 ```yml
 markdown:   kramdown
@@ -41,7 +43,7 @@ style:  davewhipp
 - `style`: css 중에서 어떤 스타일을 쓸 것인지 결정한다. 
 	- devewhipp, kjhealy 두 개가 있다. 전자를 쓸 것이다. 
 
-## `_layout/cv.html`
+### `_layout/cv.html`
 ```html
 <link href="media/styles.css" type="text/css" rel="stylesheet" media="screen">
 
@@ -57,9 +59,9 @@ style:  davewhipp
 - 뒤의 세 라인은 katex의 math engine을 로드한다. 
 - 처음 두 라인은 특화된 css를 로딩하기 위한 설정이다. 
 
-## media 
+### media 
 
-### `daveshipp-.css`
+#### `daveshipp-.css`
 - 어떤 스타일을 쓰는지에 따라서 고쳐야 하는 부분이 다르다. 
 - 끝이 `-print`로 끝나는 것과 `-screen`으로 끝나는 것이 있다. 전자는 인쇄용, 후자는 화면 열람용이다. 둘 다 대동소이하다. 
 - 제목이 너무 커서 h1 사이즈를 수정했다. 원래 `3em`으로 설정된 것을 `150%` 수정 
@@ -75,7 +77,7 @@ h1 {
 
 ```
 
-### `styles.css 
+#### `styles.css 
 - 블로그에 썼던 스타일을 그대로 가져왔다. 
 - 폰트 설정하는 것 이외에는 하는 일이 없다. 
 
@@ -112,5 +114,7 @@ p {
 }
 ```
 
-# Output 
+## Related Posting
+
+
 [Junsok Huhh's CV | CV (anarinsk.github.io)](https://anarinsk.github.io/markdown-cv/)
