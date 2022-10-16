@@ -13,7 +13,7 @@ _108 TILs and counting..._
 
 ### 2 most recent TILs
 
-- [Basics](brew/basics.md) - Mon Oct 17 08:23:26 2022 +0900
+- [Basics](brew.md) - Mon Oct 17 08:23:26 2022 +0900
 - [# Pytorch Test](pytorch/quick-silver.md) - Fri Sep 23 07:49:13 2022 +0900
 
 ### Categories
@@ -58,7 +58,7 @@ _108 TILs and counting..._
 - [zzz_webpt](#zzz_webpt)
 
 ### [brew](#brew)
-- [Basics](brew/basics.md)
+- [Basics](brew.md)
 
 ### [conda](#conda)
 - [# Basics](conda/Basics.md)
@@ -123,7 +123,7 @@ _108 TILs and counting..._
 - [My TIL organizer](meta/my-til-organizer.md)
 
 ### [miniforge3](#miniforge3)
-- [# Why](miniforge3/windows-11.md)
+- [# Why](miniforge-for-win11.md)
 
 ### [nerdctl](#nerdctl)
 - [nerdctl](nerdctl/basics.md)

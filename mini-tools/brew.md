@@ -1,4 +1,4 @@
-# Basics 
+# home-brew
 
 ## 이유 
 - 패키지 관리가 쉽다. 
