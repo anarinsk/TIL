@@ -13,7 +13,7 @@ _108 TILs and counting..._
 
 ### 2 most recent TILs
 
-- [## 이유](brew/basics.md) - Mon Oct 17 08:23:26 2022 +0900
+- [# Basics](brew/basics.md) - Mon Oct 17 08:23:26 2022 +0900
 - [# Pytorch Test](pytorch/quick-silver.md) - Fri Sep 23 07:49:13 2022 +0900
 
 ### Categories
@@ -58,11 +58,11 @@ _108 TILs and counting..._
 - [zzz_webpt](#zzz_webpt)
 
 ### [brew](#brew)
-- [## 이유](brew/basics.md)
+- [# Basics](brew/basics.md)
 
 ### [conda](#conda)
-- [1. Installation](conda/Basics.md)
-- [총평](conda/codespaces.md)
+- [# Basics](conda/Basics.md)
+- [](conda/codespaces.md)
 - [Why](conda/tensorflow-m1.md)
 - [- 일상적인 워크플로우를 적어 본다.](conda/work-flow.md)
 
