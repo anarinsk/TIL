@@ -13,7 +13,7 @@ _108 TILs and counting..._
 
 ### 2 most recent TILs
 
-- [home-brew](mini-tools/brew.md) - Mon Oct 17 08:36:07 2022 +0900
+- [homebrew](mini-tools/brew.md) - Mon Oct 17 08:36:07 2022 +0900
 - [](mini-tools/miniforge-for-win11.md) - Mon Oct 17 08:36:07 2022 +0900
 
 ### Categories
@@ -119,7 +119,7 @@ _108 TILs and counting..._
 - [My TIL organizer](meta/my-til-organizer.md)
 
 ### [mini-tools](#mini-tools)
-- [home-brew](mini-tools/brew.md)
+- [homebrew](mini-tools/brew.md)
 - [](mini-tools/miniforge-for-win11.md)
 
 ### [nerdctl](#nerdctl)
