@@ -11,3 +11,10 @@
 - Project.toml, Manifest.toml이 있다고 하자. 
 	- 해당 디렉토리에서 Pkg 모드에서 `activate .`
 	- `instantiate`를 실행하면 헤당 디렉토리에 패키지를 세팅한다. 
+
+## Julia 버전 업 시 
+```bash
+$ activate . 
+$ instantiate 
+```
+- 사이클을 반복해준다. 
