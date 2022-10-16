@@ -13,13 +13,12 @@ _108 TILs and counting..._
 
 ### 2 most recent TILs
 
-- [Github Actions](git_github/github-actions.md) - Mon Oct 17 08:45:22 2022 +0900
-- [기본문법](git_github/기본문법.md) - Mon Oct 17 08:45:22 2022 +0900
+- [CV 업데이트 방법](mini-tools/markdown-cv.md) - Mon Oct 17 08:50:37 2022 +0900
+- [| :memo:        | html 프리뷰 방법 |](git_github/html-hosting.md) - Mon Oct 17 08:45:22 2022 +0900
 
 ### Categories
 
 - [conda](#conda)
-- [cv](#cv)
 - [font](#font)
 - [git_github](#git_github)
 - [julia](#julia)
@@ -61,9 +60,6 @@ _108 TILs and counting..._
 - [](conda/codespaces.md)
 - [Why](conda/tensorflow-m1.md)
 - [- 일상적인 워크플로우를 적어 본다.](conda/work-flow.md)
-
-### [cv](#cv)
-- [Why](markdown-cv.md)
 
 ### [font](#font)
 - [Recommendation for Font](font/recommend.md)
@@ -120,6 +116,7 @@ _108 TILs and counting..._
 
 ### [mini-tools](#mini-tools)
 - [homebrew](mini-tools/brew.md)
+- [CV 업데이트 방법](mini-tools/markdown-cv.md)
 - [Miniforge for win11](mini-tools/miniforge-for-win11.md)
 
 ### [nerdctl](#nerdctl)
