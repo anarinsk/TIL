@@ -13,12 +13,11 @@ _108 TILs and counting..._
 
 ### 2 most recent TILs
 
-- [Basics](brew.md) - Mon Oct 17 08:23:26 2022 +0900
-- [# Pytorch Test](pytorch/quick-silver.md) - Fri Sep 23 07:49:13 2022 +0900
+- [home-brew](mini-tools/brew.md) - Mon Oct 17 08:36:07 2022 +0900
+- [](mini-tools/miniforge-for-win11.md) - Mon Oct 17 08:36:07 2022 +0900
 
 ### Categories
 
-- [brew](#brew)
 - [conda](#conda)
 - [cv](#cv)
 - [font](#font)
@@ -30,7 +29,7 @@ _108 TILs and counting..._
 - [macos](#macos)
 - [markdown](#markdown)
 - [meta](#meta)
-- [miniforge3](#miniforge3)
+- [mini-tools](#mini-tools)
 - [nerdctl](#nerdctl)
 - [nvidia](#nvidia)
 - [persons-of-interest](#persons-of-interest)
@@ -56,9 +55,6 @@ _108 TILs and counting..._
 - [zzz_panel](#zzz_panel)
 - [zzz_podman](#zzz_podman)
 - [zzz_webpt](#zzz_webpt)
-
-### [brew](#brew)
-- [Basics](brew.md)
 
 ### [conda](#conda)
 - [# Basics](conda/Basics.md)
@@ -122,8 +118,9 @@ _108 TILs and counting..._
 ### [meta](#meta)
 - [My TIL organizer](meta/my-til-organizer.md)
 
-### [miniforge3](#miniforge3)
-- [# Why](miniforge-for-win11.md)
+### [mini-tools](#mini-tools)
+- [home-brew](mini-tools/brew.md)
+- [](mini-tools/miniforge-for-win11.md)
 
 ### [nerdctl](#nerdctl)
 - [nerdctl](nerdctl/basics.md)
