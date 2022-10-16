@@ -33,7 +33,7 @@ A collection of every tips that I learn every day.
 
 ### brew
 
-- [Basics](brew/basics.md)
+- [Basics](til/brew/##%20basics.md)
 
 ### conda
 

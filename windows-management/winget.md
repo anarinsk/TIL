@@ -52,3 +52,20 @@ Add-AppxPackage <file.appx>
 - 같은 방식으로 winget을 설치할 수 있다. 파일 경우른 다음과 같다. 
 - https://github.com/microsoft/winget-cli/releases
 - 여기서 `appxbundle` 확장자 파일을 다운로드 받는다. 
+
+## 업그레이드에 문제가 있을 경우 
+
+- 아직 winget의 통제와 윈도의 레거시 통제 사이에 해결되지 않은 문제가 있는 듯 하다. 
+
+>[!info]
+> `winget upgrade --all`을 통해 업데이트를 했음에도 계속 같은 업데이트가 뜰 경우 
+
+- 같은 ID 값을 지닌 앱이 두 개가 설치되어 있어 생기는 이슈로 추정 
+- 찾기 -> 제어판 -> 프로그램 및 기능 
+	- 여기서 해당 앱을 직접 지워주자. 
+
+
+
+
+
+
