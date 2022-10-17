@@ -92,12 +92,12 @@ _108 TILs and counting..._
 - [# yaml이 vs code에서 보기 흉할 때](kubernetes/trouble-shooting.md)
 
 ### [latex](#latex)
-- [](latex/install-stix2.md)
-- [# What](latex/paren-series.md)
-- [# Why](latex/tinytex+kotex+vscode.md)
+- [stix2 폰트 설치](latex/install-stix2.md)
+- [$\rm\LaTeX$ 괄호 처리](latex/paren-series.md)
+- [Tinytex 활용하기](latex/tinytex+kotex+vscode.md)
 
 ### [life-stocks](#life-stocks)
-- [기본 정보](life-stocks/양도세신고.md)
+- [해외 주식 양도세 신고](life-stocks/양도세신고.md)
 
 ### [macos](#macos)
 - [Alternative to Docker Desktop](macos/alternative-to-docker-desktop.md)
