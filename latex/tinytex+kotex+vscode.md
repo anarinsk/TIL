@@ -1,3 +1,5 @@
+# Tinytex 활용하기 
+
 ## Why 
 - texlive 설치 없이, tlmgr을 활용할 방법을 모색하기 
 - cross-platform 
