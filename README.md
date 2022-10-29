@@ -7,14 +7,14 @@ repository after reading Simon Wilson's [hacker new post][1], and he was
 apparently inspired by Josh Branchaud's [TIL collection][2].
 
 
-_108 TILs and counting..._
+_106 TILs and counting..._
 
 ---
 
 ### 2 most recent TILs
 
-- [Alias setting](shell/set-alias.md) - Sat Oct 29 21:05:17 2022 +0900
 - [](shell/Basics.md) - Sat Oct 29 21:05:17 2022 +0900
+- [Alias setting](shell/set-alias.md) - Sat Oct 29 21:05:17 2022 +0900
 
 ### Categories
 
@@ -202,11 +202,9 @@ _108 TILs and counting..._
 - [# 윈도우에서 terminal zsh로 바꾸기](vscode/windows-terminal-zsh.md)
 
 ### [windows-management](#windows-management)
-- [Using bash commands in Powershell](windows-management/bash-in-powershell.md)
-- [문제](windows-management/how-to-control-update.md)
-- [# 절차](windows-management/path-setting.md)
+- [파워셸에서 bash 쓰기](windows-management/bash-in-powershell.md)
+- [path 세팅하는 법](windows-management/path-setting.md)
 - [Powershell의 데코레이션 요소를 모아보자.](windows-management/powershell-decoration.md)
-- [# Winget 앱은 어디서 찾는가?](windows-management/winget-able-apps.md)
 - [Winget으로 설치하자.](windows-management/winget.md)
 - [한영 전환 하는 바꾸는 법](windows-management/한영전환.md)
 
