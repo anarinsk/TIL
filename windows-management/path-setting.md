@@ -1,3 +1,5 @@
+# path 세팅하는 법 
+
 ## 절차 
 
 - Windows + I 

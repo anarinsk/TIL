@@ -1,4 +1,4 @@
-# Using bash commands in Powershell
+# 파워셸에서 bash 쓰기 
 
 https://github.com/mikebattista/PowerShell-WSL-Interop
 

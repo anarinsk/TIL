@@ -64,6 +64,9 @@ Add-AppxPackage <file.appx>
 - 찾기 -> 제어판 -> 프로그램 및 기능 
 	- 여기서 해당 앱을 직접 지워주자. 
 
+## winget으로 앱 설치하는 방법 
+
+[winstall - GUI for Windows Package Manager](https://winstall.app/)
 
 
 
