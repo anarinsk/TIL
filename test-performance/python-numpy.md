@@ -1,4 +1,4 @@
-# With numpy 
+# numpy 성능 체크 
 
 ```
 import numpy as np

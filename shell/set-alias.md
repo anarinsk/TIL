@@ -1,4 +1,4 @@
-# Alias setting 
+# Alias 설저하기 
 
 ## Purpose 
 

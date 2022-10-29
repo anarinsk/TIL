@@ -1,9 +1,9 @@
-## Pytorch Test 
+# Pytorch 설치를 테스트하자 
 
-### Fashion MNIST
+## Fashion MNIST
 [anarinsk/test_pytorch-tutorial (github.com)](https://github.com/anarinsk/test_pytorch-tutorial-
 
-#### Tested 
+###  Tested 
 - Windows 11 + Nvidia GPU 
 - MacOS + M1 Pro 
 

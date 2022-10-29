@@ -183,7 +183,7 @@ _106 TILs and counting..._
 
 ### [test-performance](#test-performance)
 - [[setup_k8s/testing at main · anarinsk/setup_k8s (github.com)](https://github.com/anarinsk/setup_k8s/tree/main/testing)](test-performance/container-koreanfont.md)
-- [With numpy](test-performance/python.md)
+- [With numpy](python-numpy.md)
 
 ### [ubuntu](#ubuntu)
 - [더미파일 만들기](ubuntu/generate-dummy-file.md)

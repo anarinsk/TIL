@@ -1,4 +1,4 @@
-# Ubuntu use 
+# Ubuntu에서 활용
 
 ## Problem 
 
