@@ -1,4 +1,4 @@
-## Basics
+# Basics
 
 1. Installation 
 2. Using env

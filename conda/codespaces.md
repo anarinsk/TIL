@@ -1,19 +1,18 @@
+# Codespaces 
 
-## Codespaces 
-
-### 총평 
+## 총평 
 - 베타권 받아서 해봤다. 
 - 의외로 아주 편하다. 
 
-### Activate 
+## Activate 
 - 깃헙 리포를 먼저 만들고
 - 이 녀석을 코드 스페이스로 연결해주면 기본 세팅은 끝 
 
-### VS Code extension 
+## VS Code extension 
 
 - VS Code 원격 접속 항목에 "코드공간에 연결"이 생긴다. 
 
-#### python_tutorials 
+### python_tutorials 
 
 #### Installation 
 - 미니 콘다부터 설치. 터미날에서 설치한다. 
@@ -42,7 +41,7 @@ $ mamba activate python10+pandas
 
 ```
 
-#### Jupyter 
+### Jupyter 
 - 안에서 주피터 파일(`.ipynb`)을 띄우면 커맨드 창에 알아서 설치 명령어가 뜬다. 그대로 terminal에 복붙에서 실행하면 된다. 
 
 ## Problems to be solved 
@@ -93,7 +92,7 @@ https://raw.githubusercontent.com/user/repository/branch/filename
 - `f`: 강제로 스캔하라는 뜻, `v`: verbose 결과를 자세히 상술하라는 뜻 
 - 잘 되었나 확인은 `fc-list`
 
-#### Jupyter 설정 
+### Jupyter 설정 
 
 
 ```python
@@ -123,7 +122,7 @@ import matplotlib.font_manager
 [f.name for f in matplotlib.font_manager.fontManager.ttflist if 'D2' in f.name]
 ```
 
-#### 체크용 코드 
+### 체크용 코드 
 
 ```python
 import numpy as np
@@ -138,7 +137,7 @@ plt.ylabel('가격')
 plt.show()
 ```
 
-### Container 구동 
+## Container 구동 
 
 ### Boot up with personalized setups 
 - [Personalizing Codespaces for your account - GitHub Docs](https://docs.github.com/en/codespaces/customizing-your-codespace/personalizing-codespaces-for-your-account)
