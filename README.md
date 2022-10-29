@@ -7,14 +7,14 @@ repository after reading Simon Wilson's [hacker new post][1], and he was
 apparently inspired by Josh Branchaud's [TIL collection][2].
 
 
-_102 TILs and counting..._
+_103 TILs and counting..._
 
 ---
 
 ### 2 most recent TILs
 
+- [TIL 빌더](meta/builder.md) - Sat Oct 29 22:52:04 2022 +0900
 - [ax 활용하기](python-matplotlib/figax-mean.md) - Sat Oct 29 22:00:51 2022 +0900
-- [우분투 git 버전 업데이트](git_github/how-to-update-git-ubuntu.md) - Sat Oct 29 21:52:31 2022 +0900
 
 ### Categories
 
@@ -109,6 +109,7 @@ _102 TILs and counting..._
 - [How to render latex in github flavored markdown](markdown/how-to-use-latex-in-github-markdown.md)
 
 ### [meta](#meta)
+- [TIL 빌더](meta/builder.md)
 - [My TIL organizer](meta/my-til-organizer.md)
 
 ### [mini-tools](#mini-tools)
