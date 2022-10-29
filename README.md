@@ -7,7 +7,7 @@ repository after reading Simon Wilson's [hacker new post][1], and he was
 apparently inspired by Josh Branchaud's [TIL collection][2].
 
 
-_104 TILs and counting..._
+_103 TILs and counting..._
 
 ---
 
@@ -55,10 +55,9 @@ _104 TILs and counting..._
 - [zzz_webpt](#zzz_webpt)
 
 ### [conda](#conda)
-- [# Basics](conda/Basics.md)
-- [](conda/codespaces.md)
-- [Why](conda/tensorflow-m1.md)
-- [- 일상적인 워크플로우를 적어 본다.](conda/work-flow.md)
+- [Basics](conda/Basics.md)
+- [Codespaces](conda/codespaces.md)
+- [Quick use](conda/work-flow.md)
 
 ### [font](#font)
 - [Recommendation for Font](font/recommend.md)
