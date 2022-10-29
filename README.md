@@ -205,7 +205,7 @@ _108 TILs and counting..._
 - [Using bash commands in Powershell](windows-management/bash-in-powershell.md)
 - [문제](windows-management/how-to-control-update.md)
 - [# 절차](windows-management/path-setting.md)
-- [# Powershell의 데코레이션 요소를 모아보자.](windows-management/powershell-decoration.md)
+- [Powershell의 데코레이션 요소를 모아보자.](windows-management/powershell-decoration.md)
 - [# Winget 앱은 어디서 찾는가?](windows-management/winget-able-apps.md)
 - [Winget으로 설치하자.](windows-management/winget.md)
 - [한영 전환 하는 바꾸는 법](windows-management/한영전환.md)
