@@ -13,11 +13,12 @@ _93 TILs and counting..._
 
 ### 2 most recent TILs
 
-- [TIL 빌더](builder.md) - Sat Oct 29 22:52:04 2022 +0900
-- [기존의 활용 폴더를 git 폴더로 만들고 github과 연결하기](git_github/init-in-existing-dir.md) - Sat Oct 29 21:52:31 2022 +0900
+- [TIL 빌더](_meta/builder.md) - Sun Oct 30 08:13:56 2022 +0900
+- [My TIL organizer](_meta/my-til-organizer.md) - Sun Oct 30 08:13:56 2022 +0900
 
 ### Categories
 
+- [_meta](#_meta)
 - [conda](#conda)
 - [font](#font)
 - [git_github](#git_github)
@@ -27,7 +28,6 @@ _93 TILs and counting..._
 - [life-stocks](#life-stocks)
 - [macos](#macos)
 - [markdown](#markdown)
-- [meta](#meta)
 - [mini-tools](#mini-tools)
 - [nerdctl](#nerdctl)
 - [nvidia](#nvidia)
@@ -51,6 +51,10 @@ _93 TILs and counting..._
 - [zzz_panel](#zzz_panel)
 - [zzz_podman](#zzz_podman)
 - [zzz_webpt](#zzz_webpt)
+
+### [_meta](#_meta)
+- [TIL 빌더](_meta/builder.md)
+- [My TIL organizer](_meta/my-til-organizer.md)
 
 ### [conda](#conda)
 - [Basics](conda/Basics.md)
@@ -106,10 +110,6 @@ _93 TILs and counting..._
 ### [markdown](#markdown)
 - [How to render latex in github flavored markdown](markdown/how-to-use-latex-in-github-markdown.md)
 
-### [meta](#meta)
-- [TIL 빌더](builder.md)
-- [My TIL organizer](my-til-organizer.md)
-
 ### [mini-tools](#mini-tools)
 - [homebrew](mini-tools/brew.md)
 - [CV 업데이트 방법](mini-tools/markdown-cv.md)
@@ -156,7 +156,7 @@ _93 TILs and counting..._
 
 ### [terminal](#terminal)
 - [명령어 주소](terminal/command.md)
-- [Setup terminal](terminal/setup.md)
+- [터미널 설정하기](terminal/setup.md)
 - [보조 도구](terminal/tools.md)
 
 ### [test-performance](#test-performance)
