@@ -1,4 +1,6 @@
 
+# Basics
+
 ## Definition 
 
 [shell 쉘이란? 그리고 bash,zsh 등등 :: 코딩소년 - 기술블로그 (tistory.com)](https://codingboycc.tistory.com/91)
@@ -21,3 +23,4 @@
 - Powershell을 쓰자. 
 - Powershell의 경우 별도의 항목을 만들거나, 공식 가이드를 참고하자. 
 - [PowerShell이란? - PowerShell | Microsoft Learn](https://learn.microsoft.com/ko-kr/powershell/scripting/overview?view=powershell-7.2)
+- [til/powershell-decoration.md at master · anarinsk/til (github.com)](https://github.com/anarinsk/til/blob/master/windows-management/powershell-decoration.md)
