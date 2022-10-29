@@ -13,7 +13,7 @@ _93 TILs and counting..._
 
 ### 2 most recent TILs
 
-- [TIL 빌더](meta/builder.md) - Sat Oct 29 22:52:04 2022 +0900
+- [TIL 빌더](builder.md) - Sat Oct 29 22:52:04 2022 +0900
 - [기존의 활용 폴더를 git 폴더로 만들고 github과 연결하기](git_github/init-in-existing-dir.md) - Sat Oct 29 21:52:31 2022 +0900
 
 ### Categories
@@ -107,8 +107,8 @@ _93 TILs and counting..._
 - [How to render latex in github flavored markdown](markdown/how-to-use-latex-in-github-markdown.md)
 
 ### [meta](#meta)
-- [TIL 빌더](meta/builder.md)
-- [My TIL organizer](meta/my-til-organizer.md)
+- [TIL 빌더](builder.md)
+- [My TIL organizer](my-til-organizer.md)
 
 ### [mini-tools](#mini-tools)
 - [homebrew](mini-tools/brew.md)

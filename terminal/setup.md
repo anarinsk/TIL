@@ -1,4 +1,4 @@
-# Setup terminal 
+# 터미널 설정하기
 
 ## Fonts 
 
