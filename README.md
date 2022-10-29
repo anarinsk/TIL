@@ -79,7 +79,7 @@ _102 TILs and counting..._
 - [Errors Solved](julia/errors-solved.md)
 - [설치하기](julia/installation.md)
 - [심볼릭링크가 만들어지지 않을 때](julia/symbolic-link.md)
-- [](julia/thinkjulia.md)
+- [Think Julia 책](julia/thinkjulia.md)
 
 ### [kubernetes](#kubernetes)
 - [commands](kubernetes/commands.md)
