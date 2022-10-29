@@ -211,7 +211,7 @@ _108 TILs and counting..._
 
 ### [zsh](#zsh)
 - [Powerlevel 10K](zsh/powerlevel10k.md)
-- [Alias setting](zsh/set-alias.md)
+- [Alias setting](set-alias.md)
 
 ### [zzz_blogging](#zzz_blogging)
 - [Fastpages 블로그 유지보수 하기](zzz_blogging/fastpages.md)
