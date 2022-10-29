@@ -1,4 +1,4 @@
-# Github extension for VS code 
+# Github 확장 관리
 
 ## Why 
 
