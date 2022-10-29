@@ -1,4 +1,4 @@
-# Native Ubuntu Installation 
+# 21.10 설치
 
 ## Setting 
 

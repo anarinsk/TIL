@@ -1,4 +1,4 @@
-# Native Ubuntu Installation 
+# 20.04 설치 
 
 ## Setting 
 
