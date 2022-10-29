@@ -1,4 +1,4 @@
-# gitignore tips
+# gitignore 팁
 
 | :memo:        | `.gitignore` 관련 팁을 모아보자.      |
 |---------------|:------------------------|

@@ -1,4 +1,4 @@
-# Change git main branch from `master` to `main`
+#  git main을 `master` 에서 `main`으로 바꾸기
 
 ## Where 
 

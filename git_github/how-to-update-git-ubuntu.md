@@ -1,12 +1,12 @@
-# What 
+# 우분투 git 버전 업데이트  
 
 Ubuntu에서 git 버전이 최신 버전이 아닐 때 업데이트하는 방법 
 
-# Why 
+## Why 
 
 - `git init -b` 등의 최신 명령어를 쓸 수 없기 때문이다! 
 
-# How 
+## How 
 
 ```shell
 $ sudo add-apt-repository ppa:git-core/ppa -y 
