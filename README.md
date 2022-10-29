@@ -7,14 +7,14 @@ repository after reading Simon Wilson's [hacker new post][1], and he was
 apparently inspired by Josh Branchaud's [TIL collection][2].
 
 
-_103 TILs and counting..._
+_102 TILs and counting..._
 
 ---
 
 ### 2 most recent TILs
 
-- [리포 카피하기](git_github/how-to-copy-repo.md) - Sat Oct 29 21:52:31 2022 +0900
-- [기존의 활용 폴더를 git 폴더로 만들고 github과 연결하기](git_github/init-in-existing-dir.md) - Sat Oct 29 21:52:31 2022 +0900
+- [ax 활용하기](python-matplotlib/figax-mean.md) - Sat Oct 29 22:00:51 2022 +0900
+- [우분투 git 버전 업데이트](git_github/how-to-update-git-ubuntu.md) - Sat Oct 29 21:52:31 2022 +0900
 
 ### Categories
 
@@ -75,23 +75,22 @@ _103 TILs and counting..._
 
 ### [julia](#julia)
 - [How to add packages](julia/add-packages.md)
-- [Overview](julia/environment.md)
+- [환경 이해하기](julia/environment.md)
 - [Errors Solved](julia/errors-solved.md)
-- [# Ubuntu](julia/installation.md)
-- [Platform](julia/local-install.md)
-- [- 줄리아를 설치하고도 심볼릭 링크 만들어져  있지 않은 경우가 있다.](julia/symbolic-link.md)
-- [Where](julia/thinkjulia.md)
+- [설치하기](julia/installation.md)
+- [심볼릭링크가 만들어지지 않을 때](julia/symbolic-link.md)
+- [](julia/thinkjulia.md)
 
 ### [kubernetes](#kubernetes)
 - [commands](kubernetes/commands.md)
 - [Connect kubernetes with vs code](kubernetes/k8s-vs-code.md)
 - [How to make custom build with kaniko](kubernetes/kaniko.md)
 - [Launching Data Science Tools](kubernetes/launch-dstools.md)
-- [# yaml이 vs code에서 보기 흉할 때](kubernetes/trouble-shooting.md)
+- [문제 해결](kubernetes/trouble-shooting.md)
 
 ### [latex](#latex)
 - [stix2 폰트 설치](latex/install-stix2.md)
-- [$\rm\LaTeX$ 괄호 처리](latex/paren-series.md)
+- [괄호 처리](latex/paren-series.md)
 - [Tinytex 활용하기](latex/tinytex+kotex+vscode.md)
 
 ### [life-stocks](#life-stocks)
@@ -99,7 +98,7 @@ _103 TILs and counting..._
 
 ### [macos](#macos)
 - [Alternative to Docker Desktop](macos/alternative-to-docker-desktop.md)
-- [](macos/fresh-install.md)
+- [깨끗한 설치](macos/fresh-install.md)
 - [LIMA](macos/lima.md)
 - [One Button Do Not Disturb](macos/one-button-do-not-disturb.md)
 - [Podman for M1](macos/podman-for-m1.md)
@@ -129,13 +128,13 @@ _103 TILs and counting..._
 - [인과 추론을 관심있게 공부하는 분](persons-of-interest/최보경.md)
 
 ### [python-install](#python-install)
-- [# Why](python-install/Miniforge.md)
+- [미니포지 설치](python-install/Miniforge.md)
 - [Macos without conda](python-install/macos.md)
-- [# 한글 폰트](python-install/testing-module.md)
+- [테스트 모듈들](python-install/testing-module.md)
 - [WSL에 conda 없이 Python 설치](python-install/wsl.md)
 
 ### [python-matplotlib](#python-matplotlib)
-- [[Why do many examples use `fig, ax = plt.subplots()` in Matplotlib/pyplot/python - Stack Overflow](figax-mean.md)
+- [ax 활용하기](python-matplotlib/figax-mean.md)
 
 ### [python-practice](#python-practice)
 - [ABM을 구현해주는 파이썬 패키지](python-practice/agentpy.md)
@@ -176,7 +175,7 @@ _103 TILs and counting..._
 - [보조 도구](terminal/tools.md)
 
 ### [test-performance](#test-performance)
-- [](test-performance/container-koreanfont.md)
+- [콘테이너 한글 폰트](test-performance/container-koreanfont.md)
 - [numpy 성능 체크](test-performance/python-numpy.md)
 
 ### [ubuntu](#ubuntu)
