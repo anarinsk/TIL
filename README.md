@@ -188,8 +188,8 @@ _106 TILs and counting..._
 ### [ubuntu](#ubuntu)
 - [더미파일 만들기](ubuntu/generate-dummy-file.md)
 - [matrix 효과](ubuntu/matrix-effect.md)
-- [Native Ubuntu Installation](ubuntu/ubuntu-desktop-20.04-LTS.md)
-- [Native Ubuntu Installation](ubuntu/ubuntu-desktop-21.10.md)
+- [20.04 설치](ubuntu/ubuntu-desktop-20.04-LTS.md)
+- [21.10 설치](ubuntu/ubuntu-desktop-21.10.md)
 
 ### [unsolved](#unsolved)
 - [Datasicence tools](unsolved/datascience-tools.md)
