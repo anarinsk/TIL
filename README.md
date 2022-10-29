@@ -195,11 +195,11 @@ _106 TILs and counting..._
 - [Datasicence tools](unsolved/datascience-tools.md)
 
 ### [vscode](#vscode)
-- [](vscode/font-setting.md)
-- [Github extension for VS code](vscode/github-extension.md)
+- [폰트 설정하기](vscode/font-setting.md)
+- [Github 확장 관리](vscode/github-extension.md)
 - [Why](vscode/mac-korean-input-error.md)
 - [맥OS VS Code에서 Shift + Enter](vscode/macos-jupyter-shift-enter.md)
-- [# 윈도우에서 terminal zsh로 바꾸기](vscode/windows-terminal-zsh.md)
+- [윈도우에서 terminal zsh로 바꾸기](vscode/windows-terminal-zsh.md)
 
 ### [windows-management](#windows-management)
 - [파워셸에서 bash 쓰기](windows-management/bash-in-powershell.md)
