@@ -197,7 +197,7 @@ _106 TILs and counting..._
 ### [vscode](#vscode)
 - [폰트 설정하기](vscode/font-setting.md)
 - [Github 확장 관리](vscode/github-extension.md)
-- [Why](vscode/mac-korean-input-error.md)
+- [한글 버벅거리는 문제](vscode/mac-korean-input-error.md)
 - [맥OS VS Code에서 Shift + Enter](vscode/macos-jupyter-shift-enter.md)
 - [윈도우에서 terminal zsh로 바꾸기](vscode/windows-terminal-zsh.md)
 
