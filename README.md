@@ -186,7 +186,7 @@ _106 TILs and counting..._
 - [With numpy](test-performance/python.md)
 
 ### [ubuntu](#ubuntu)
-- [# matrix 효과](ubuntu/MISC.md)
+- [# matrix 효과](matrix-effect.md)
 - [더미파일 만들기](ubuntu/generate-dummy-file.md)
 - [Native Ubuntu Installation](ubuntu/ubuntu-desktop-20.04-LTS.md)
 - [Native Ubuntu Installation](ubuntu/ubuntu-desktop-21.10.md)

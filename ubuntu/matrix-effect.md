@@ -1,4 +1,4 @@
-## matrix 효과 
+# matrix 효과 
 
 ```bash 
 ? sudo apt install cmatrix
