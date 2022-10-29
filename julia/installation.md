@@ -1,3 +1,5 @@
+# 설치하기 
+
 ## Ubuntu 
 
 - [Download Julia (julialang.org)](https://julialang.org/downloads/)

@@ -1,3 +1,5 @@
+# 문제 해결 
+
 ## yaml이 vs code에서 보기 흉할 때 
 
 [R, Python 분석과 프로그래밍의 친구 (by R Friend) :: [Visual Studio Code] Kubernetes YAML 확장 팩 설치 및 YAML 언어 설정 (tistory.com)](https://rfriend.tistory.com/695)

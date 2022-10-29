@@ -135,7 +135,7 @@ _103 TILs and counting..._
 - [WSL에 conda 없이 Python 설치](python-install/wsl.md)
 
 ### [python-matplotlib](#python-matplotlib)
-- [[Why do many examples use `fig, ax = plt.subplots()` in Matplotlib/pyplot/python - Stack Overflow](https://stackoverflow.com/questions/34162443/why-do-many-examples-use-fig-ax-plt-subplots-in-matplotlib-pyplot-python)](python-matplotlib/fig,ax-mean.md)
+- [[Why do many examples use `fig, ax = plt.subplots()` in Matplotlib/pyplot/python - Stack Overflow](figax-mean.md)
 
 ### [python-practice](#python-practice)
 - [ABM을 구현해주는 파이썬 패키지](python-practice/agentpy.md)
