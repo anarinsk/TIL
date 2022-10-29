@@ -13,8 +13,8 @@ _108 TILs and counting..._
 
 ### 2 most recent TILs
 
-- [CV 업데이트 방법](mini-tools/markdown-cv.md) - Mon Oct 17 08:50:37 2022 +0900
-- [| :memo:        | html 프리뷰 방법 |](git_github/html-hosting.md) - Mon Oct 17 08:45:22 2022 +0900
+- [Alias setting](shell/set-alias.md) - Sat Oct 29 21:05:17 2022 +0900
+- [](shell/Basics.md) - Sat Oct 29 21:05:17 2022 +0900
 
 ### Categories
 
@@ -38,6 +38,7 @@ _108 TILs and counting..._
 - [pytorch](#pytorch)
 - [quarto](#quarto)
 - [rstat](#rstat)
+- [shell](#shell)
 - [stable-diffusion](#stable-diffusion)
 - [streamlit](#streamlit)
 - [terminal](#terminal)
@@ -47,7 +48,6 @@ _108 TILs and counting..._
 - [vscode](#vscode)
 - [windows-management](#windows-management)
 - [wsl](#wsl)
-- [zsh](#zsh)
 - [zzz_blogging](#zzz_blogging)
 - [zzz_docker](#zzz_docker)
 - [zzz_life](#zzz_life)
@@ -166,6 +166,10 @@ _108 TILs and counting..._
 - [Tidyverse Cookbook](rstat/tidyverse-cookbook.md)
 - [[R in Visual Studio Code](https://code.visualstudio.com/docs/languages/r)](rstat/visual-studio.md)
 
+### [shell](#shell)
+- [](shell/Basics.md)
+- [Alias setting](shell/set-alias.md)
+
 ### [stable-diffusion](#stable-diffusion)
 - [# Install & Use](stable-diffusion/diffusers-hugging-face-for-m1.md)
 
@@ -208,10 +212,6 @@ _108 TILs and counting..._
 
 ### [wsl](#wsl)
 - [WSL 설치 관련된 기본 사항을 정리해둔다.](wsl/basics.md)
-
-### [zsh](#zsh)
-- [Powerlevel 10K](zsh/powerlevel10k.md)
-- [Alias setting](set-alias.md)
 
 ### [zzz_blogging](#zzz_blogging)
 - [Fastpages 블로그 유지보수 하기](zzz_blogging/fastpages.md)
