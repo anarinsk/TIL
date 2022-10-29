@@ -13,7 +13,7 @@ _106 TILs and counting..._
 
 ### 2 most recent TILs
 
-- [](shell/Basics.md) - Sat Oct 29 21:05:17 2022 +0900
+- [matrix 효과](ubuntu/matrix-effect.md) - Sat Oct 29 21:27:45 2022 +0900
 - [Alias setting](shell/set-alias.md) - Sat Oct 29 21:05:17 2022 +0900
 
 ### Categories
@@ -186,8 +186,8 @@ _106 TILs and counting..._
 - [With numpy](test-performance/python.md)
 
 ### [ubuntu](#ubuntu)
-- [# matrix 효과](matrix-effect.md)
 - [더미파일 만들기](ubuntu/generate-dummy-file.md)
+- [matrix 효과](ubuntu/matrix-effect.md)
 - [Native Ubuntu Installation](ubuntu/ubuntu-desktop-20.04-LTS.md)
 - [Native Ubuntu Installation](ubuntu/ubuntu-desktop-21.10.md)
 
