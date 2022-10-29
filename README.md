@@ -7,14 +7,14 @@ repository after reading Simon Wilson's [hacker new post][1], and he was
 apparently inspired by Josh Branchaud's [TIL collection][2].
 
 
-_106 TILs and counting..._
+_104 TILs and counting..._
 
 ---
 
 ### 2 most recent TILs
 
+- [numpy 성능 체크](test-performance/python-numpy.md) - Sat Oct 29 21:43:14 2022 +0900
 - [matrix 효과](ubuntu/matrix-effect.md) - Sat Oct 29 21:27:45 2022 +0900
-- [Alias setting](shell/set-alias.md) - Sat Oct 29 21:05:17 2022 +0900
 
 ### Categories
 
@@ -40,7 +40,6 @@ _106 TILs and counting..._
 - [rstat](#rstat)
 - [shell](#shell)
 - [stable-diffusion](#stable-diffusion)
-- [streamlit](#streamlit)
 - [terminal](#terminal)
 - [test-performance](#test-performance)
 - [ubuntu](#ubuntu)
@@ -152,29 +151,25 @@ _106 TILs and counting..._
 
 ### [pytorch](#pytorch)
 - [What](pytorch/install-m1.md)
-- [# Pytorch Test](pytorch/quick-silver.md)
+- [Pytorch 설치를 테스트하자](pytorch/quick-silver.md)
 
 ### [quarto](#quarto)
 - [Install](quarto/basics.md)
 - [Install blog](quarto/blog.md)
-- [- math font 바꾸기](quarto/unsolved.md)
+- [미해결 문제들](quarto/unsolved.md)
 
 ### [rstat](#rstat)
-- [Ubuntu use](rstat/container-ubuntu.md)
-- [https://www.zeileis.org/news/ivreg/](rstat/ivreg.md)
-- [Podman Issues](rstat/podman-issues.md)
+- [Ubuntu에서 활용](rstat/container-ubuntu.md)
+- [ivreg 활용](rstat/ivreg.md)
 - [Tidyverse Cookbook](rstat/tidyverse-cookbook.md)
-- [[R in Visual Studio Code](https://code.visualstudio.com/docs/languages/r)](rstat/visual-studio.md)
+- [VS Code에서 R 쓰기](rstat/visual-studio.md)
 
 ### [shell](#shell)
-- [](shell/Basics.md)
-- [Alias setting](shell/set-alias.md)
+- [Basics](shell/Basics.md)
+- [Alias 설저하기](shell/set-alias.md)
 
 ### [stable-diffusion](#stable-diffusion)
-- [# Install & Use](stable-diffusion/diffusers-hugging-face-for-m1.md)
-
-### [streamlit](#streamlit)
-- [Form](streamlit/form.md)
+- [허깅페이스로 설치하기](stable-diffusion/diffusers-hugging-face-for-m1.md)
 
 ### [terminal](#terminal)
 - [명령어 주소](terminal/command.md)
@@ -182,8 +177,8 @@ _106 TILs and counting..._
 - [보조 도구](terminal/tools.md)
 
 ### [test-performance](#test-performance)
-- [[setup_k8s/testing at main · anarinsk/setup_k8s (github.com)](https://github.com/anarinsk/setup_k8s/tree/main/testing)](test-performance/container-koreanfont.md)
-- [With numpy](python-numpy.md)
+- [](test-performance/container-koreanfont.md)
+- [numpy 성능 체크](test-performance/python-numpy.md)
 
 ### [ubuntu](#ubuntu)
 - [더미파일 만들기](ubuntu/generate-dummy-file.md)
