@@ -148,7 +148,7 @@ _93 TILs and counting..._
 - [VS Code에서 R 쓰기](visual-studio.md)
 
 ### [shell](#shell)
-- [basics](TIL/shell/basics.md)
+- [Basics](TIL/shell/Basics.md)
 - [Alias 설저하기](set-alias.md)
 
 ### [stable-diffusion](#stable-diffusion)

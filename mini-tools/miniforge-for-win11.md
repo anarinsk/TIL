@@ -17,17 +17,20 @@
 	- 이 경우 VS Code 등에서 python 인터프리터가 인식된다.
 
 ## 설정 
-- miniforge 프롬프트가 같이 설치된다. 애를 먼저 띄운다. 
-- 창에 'conda init powershell'을 실행한다. 
-- 이러면 WT에서 파워셸로 그냥 쓸 수 있는 상태가 된다. 
+- ~~miniforge 프롬프트가 같이 설치된다. 애를 먼저 띄운다.~~
+	- ~~창에 'conda init powershell'을 실행한다. ~~
+	- ~~이러면 WT에서 파워셸로 그냥 쓸 수 있는 상태가 된다. ~~
 - 소프트웨어가 설치되는 경로는 다음과 같다. 
-	- `C:\ProgramData\miniforge3`
-- 만일 path를 설정해야 한다면 다음과 같이 하면 된다. 
+	- 다운로드 받아서 설치하면 `C:\ProgramData\miniforge3`
+	-  winget은 `C:\Users\{이용자ID}\appdata\local\miniforge3` 으로 설치
+	- 가상환경은 `{적당한 공통 항목}\minforge3\envs`
+- path를 설정하자. 그래야 터미널, 파워셸에서 `conda` 명령이 인식된다. 
 	- Windows + I -> 정보 
 	- 장치 사양 아래 "고급 시스템 설정" 
 	- "환경 변수"
 	- "유저 변수" 아래 Path 클릭 
 	- 여기에 `C:\ProgramData\miniforge3\Script`를 추가하도록 하자. 
+	- 패스는 한번 잡으면 다시 지우고 설치해도 그대로 유지된다. 
 
 ## VS Code 
 - 대체로 문제 없이 잘 된다. 

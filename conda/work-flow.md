@@ -20,5 +20,18 @@ $ conda install {YOUR-PACKAGE-INSTALLING}(=x.x.x)
 $ conda remove {YOUR-PACKAGE-REMOVING}
 ```
 
+## Example from scratch 
+
+```shell
+$ conda crate --name python10+pandas python=3.10 # 3.10 버전 설치 
+$ conda activate python10+pandas # 환경 활성화 
+$ conda install matplotlib # matplotlib 설치 
+$ pip install koreanize-matplitlib # matplotlib 한글화 설치 
+$ conda install pandas 
+$ conda deactivate 
+```
+
+
+
 
 
