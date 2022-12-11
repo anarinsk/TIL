@@ -133,8 +133,13 @@ _93 TILs and counting..._
 - [WSL에 conda 없이 Python 설치](python-install/wsl.md)
 
 ### [pytorch](#pytorch)
+<<<<<<< Updated upstream
 - [What](pytorch/install-m1.md)
 - [Pytorch 설치를 테스트하자](pytorch/quick-silver.md)
+=======
+- [What](install.md)
+- [Pytorch 설치를 테스트하자](quick-silver.md)
+>>>>>>> Stashed changes
 
 ### [quarto](#quarto)
 - [Install](quarto/basics.md)
