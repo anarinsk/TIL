@@ -7,14 +7,14 @@ repository after reading Simon Wilson's [hacker new post][1], and he was
 apparently inspired by Josh Branchaud's [TIL collection][2].
 
 
-_95 TILs and counting..._
+_97 TILs and counting..._
 
 ---
 
 ### 2 most recent TILs
 
-- [](git_github/forced-reset.md) - Sun Dec 11 19:04:37 2022 +0900
-- [[anarinsk/test_pytorch-install: testing installing pytorch (github.com)](https://github.com/anarinsk/test_pytorch-install)](pytorch/install.md) - Sun Dec 11 19:04:37 2022 +0900
+- [](jupyter/jupyterlite.md) - Tue Dec 13 08:52:40 2022 +0900
+- [Powershell 설정](windows-management/powershell-setting.md) - Tue Dec 13 08:52:40 2022 +0900
 
 ### Categories
 
@@ -23,6 +23,7 @@ _95 TILs and counting..._
 - [font](#font)
 - [git_github](#git_github)
 - [julia](#julia)
+- [jupyter](#jupyter)
 - [kubernetes](#kubernetes)
 - [latex](#latex)
 - [life-stocks](#life-stocks)
@@ -83,6 +84,9 @@ _95 TILs and counting..._
 - [설치하기](julia/installation.md)
 - [심볼릭링크가 만들어지지 않을 때](julia/symbolic-link.md)
 - [Think Julia 책](julia/thinkjulia.md)
+
+### [jupyter](#jupyter)
+- [](jupyter/jupyterlite.md)
 
 ### [kubernetes](#kubernetes)
 - [commands](kubernetes/commands.md)
@@ -185,6 +189,7 @@ _95 TILs and counting..._
 - [파워셸에서 bash 쓰기](windows-management/bash-in-powershell.md)
 - [path 세팅하는 법](windows-management/path-setting.md)
 - [Powershell의 데코레이션 요소를 모아보자.](windows-management/powershell-decoration.md)
+- [Powershell 설정](windows-management/powershell-setting.md)
 - [Winget으로 설치하자.](windows-management/winget.md)
 - [한영 전환 하는 바꾸는 법](windows-management/한영전환.md)
 
