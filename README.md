@@ -7,14 +7,14 @@ repository after reading Simon Wilson's [hacker new post][1], and he was
 apparently inspired by Josh Branchaud's [TIL collection][2].
 
 
-_93 TILs and counting..._
+_95 TILs and counting..._
 
 ---
 
 ### 2 most recent TILs
 
-- [TIL 빌더](_meta/builder.md) - Sun Oct 30 08:13:56 2022 +0900
-- [My TIL organizer](_meta/my-til-organizer.md) - Sun Oct 30 08:13:56 2022 +0900
+- [](git_github/forced-reset.md) - Sun Dec 11 19:04:37 2022 +0900
+- [[anarinsk/test_pytorch-install: testing installing pytorch (github.com)](https://github.com/anarinsk/test_pytorch-install)](pytorch/install.md) - Sun Dec 11 19:04:37 2022 +0900
 
 ### Categories
 
@@ -65,6 +65,7 @@ _93 TILs and counting..._
 - [권장 폰트](font/recommend.md)
 
 ### [git_github](#git_github)
+- [](git_github/forced-reset.md)
 - [git-and-github-in-windows](git_github/git-and-github-windows.md)
 - [git main을 `master` 에서 `main`으로 바꾸기](git_github/git-from-master-to-main.md)
 - [Github Actions](git_github/github-actions.md)
@@ -133,7 +134,7 @@ _93 TILs and counting..._
 - [WSL에 conda 없이 Python 설치](python-install/wsl.md)
 
 ### [pytorch](#pytorch)
-- [What](pytorch/install-m1.md)
+- [[anarinsk/test_pytorch-install: testing installing pytorch (github.com)](https://github.com/anarinsk/test_pytorch-install)](pytorch/install.md)
 - [Pytorch 설치를 테스트하자](pytorch/quick-silver.md)
 
 ### [quarto](#quarto)
@@ -173,6 +174,7 @@ _93 TILs and counting..._
 - [Datasicence tools](unsolved/datascience-tools.md)
 
 ### [vscode](#vscode)
+- [](vscode/extension-list.md)
 - [폰트 설정하기](vscode/font-setting.md)
 - [Github 확장 관리](vscode/github-extension.md)
 - [한글 버벅거리는 문제](vscode/mac-korean-input-error.md)
