@@ -13,7 +13,7 @@ _99 TILs and counting..._
 
 ### 2 most recent TILs
 
-- [>[!WHAT TO DO]](quarto/vs-code-python-env.md) - Sun Dec 18 08:53:01 2022 +0900
+- [qmd 내 가상환경 선택](quarto/vs-code-python-env.md) - Sun Dec 18 08:53:01 2022 +0900
 - [그림 크기 조절 및 배열 정렬하는 다양한 방법](quarto/figure-size-align.md) - Sun Dec 18 08:41:29 2022 +0900
 
 ### Categories
@@ -146,7 +146,7 @@ _99 TILs and counting..._
 - [Install blog](quarto/blog.md)
 - [그림 크기 조절 및 배열 정렬하는 다양한 방법](quarto/figure-size-align.md)
 - [미해결 문제들](quarto/unsolved.md)
-- [>[!WHAT TO DO]](quarto/vs-code-python-env.md)
+- [qmd 내 가상환경 선택](quarto/vs-code-python-env.md)
 
 ### [rstat](#rstat)
 - [Ubuntu에서 활용](rstat/container-ubuntu.md)
