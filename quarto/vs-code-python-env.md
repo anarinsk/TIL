@@ -5,4 +5,4 @@
 
 # Solution 
   
-F1 > python 검색 / "Python: 인터프리터 선택" > 필요한 가상 환경 선택s
+F1 > python 검색 / "Python: 인터프리터 선택" > 필요한 가상 환경 선택
