@@ -7,14 +7,14 @@ repository after reading Simon Wilson's [hacker new post][1], and he was
 apparently inspired by Josh Branchaud's [TIL collection][2].
 
 
-_99 TILs and counting..._
+_100 TILs and counting..._
 
 ---
 
 ### 2 most recent TILs
 
+- [](ubuntu/Generic.md) - Mon Dec 19 08:39:54 2022 +0900
 - [qmd 내 가상환경 선택](quarto/vs-code-python-env.md) - Sun Dec 18 08:53:01 2022 +0900
-- [그림 크기 조절 및 배열 정렬하는 다양한 방법](quarto/figure-size-align.md) - Sun Dec 18 08:41:29 2022 +0900
 
 ### Categories
 
@@ -171,6 +171,7 @@ _99 TILs and counting..._
 - [numpy 성능 체크](test-performance/python-numpy.md)
 
 ### [ubuntu](#ubuntu)
+- [](ubuntu/Generic.md)
 - [더미파일 만들기](ubuntu/generate-dummy-file.md)
 - [matrix 효과](ubuntu/matrix-effect.md)
 - [20.04 설치](ubuntu/ubuntu-desktop-20.04-LTS.md)
