@@ -7,7 +7,7 @@ repository after reading Simon Wilson's [hacker new post][1], and he was
 apparently inspired by Josh Branchaud's [TIL collection][2].
 
 
-_100 TILs and counting..._
+_101 TILs and counting..._
 
 ---
 
@@ -66,7 +66,7 @@ _100 TILs and counting..._
 - [권장 폰트](font/recommend.md)
 
 ### [git_github](#git_github)
-- [](git_github/forced-reset.md)
+- [ls](git_github/forced-reset.md)
 - [git-and-github-in-windows](git_github/git-and-github-windows.md)
 - [git main을 `master` 에서 `main`으로 바꾸기](git_github/git-from-master-to-main.md)
 - [Github Actions](git_github/github-actions.md)
@@ -189,6 +189,7 @@ _100 TILs and counting..._
 - [윈도우에서 terminal zsh로 바꾸기](vscode/windows-terminal-zsh.md)
 
 ### [windows-management](#windows-management)
+- [](windows-management/Edge 설정.md)
 - [파워셸에서 bash 쓰기](windows-management/bash-in-powershell.md)
 - [path 세팅하는 법](windows-management/path-setting.md)
 - [Powershell의 데코레이션 요소를 모아보자.](windows-management/powershell-decoration.md)
