@@ -10,6 +10,19 @@
 [Windows 터미널 사용자 지정 프롬프트 설정 | Microsoft Docs](https://docs.microsoft.com/ko-kr/windows/terminal/tutorials/custom-prompt-setup)
 
 [Oh My Posh - winstall](https://winstall.app/apps/JanDeDobbeleer.OhMyPosh)
-위 안내 페이지 따라서 설정한다. 
+- 위 안내 페이지 따라서 설정한다. 
+- Nerd 폰트도 설치할 수 있다. 
 
+### 간단 요약 
+
+- 테마 설치 https://ohmyposh.dev/docs/themes
+- 테마 적용 https://learn.microsoft.com/ko-kr/windows/terminal/tutorials/custom-prompt-setup#choose-and-apply-a-powershell-prompt-theme
+	- `"$env:POSH_THEMES_PATH\paradox.omp.json"` | 이 부분에서 테마 이름은 {파일-이름}.omp.json 
+	- "agnosterplus"를 권한다. 
+		- agnoster를 쓰니 conda env가 나오지 않더라... 
+
+### 주의 사항 
+- Python(conda) 가상 환경은 `~`에서는 표시되지 않는다!
+- 특정 디렉토리를 옮기면 거기서 표현된다. 
+- git도 마찬가지 
 
