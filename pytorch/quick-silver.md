@@ -1,7 +1,7 @@
 # Pytorch 설치를 테스트하자 
 
 ## Fashion MNIST
-[anarinsk/test_pytorch-tutorial (github.com)](https://github.com/anarinsk/test_pytorch-tutorial-
+[Quickstart — PyTorch Tutorials 2.0.0+cu117 documentation](https://pytorch.org/tutorials/beginner/basics/quickstart_tutorial.html)
 
 ###  Tested 
 - Windows 11 + Nvidia GPU 
