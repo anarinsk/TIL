@@ -138,7 +138,7 @@ _101 TILs and counting..._
 - [WSL에 conda 없이 Python 설치](python-install/wsl.md)
 
 ### [pytorch](#pytorch)
-- [[anarinsk/test_pytorch-install: testing installing pytorch (github.com)](https://github.com/anarinsk/test_pytorch-install)](pytorch/install.md)
+- [](pytorch/install.md)
 - [Pytorch 설치를 테스트하자](pytorch/quick-silver.md)
 
 ### [quarto](#quarto)
