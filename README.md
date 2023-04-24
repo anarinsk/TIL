@@ -7,14 +7,14 @@ repository after reading Simon Wilson's [hacker new post][1], and he was
 apparently inspired by Josh Branchaud's [TIL collection][2].
 
 
-_101 TILs and counting..._
+_104 TILs and counting..._
 
 ---
 
 ### 2 most recent TILs
 
-- [](ubuntu/Generic.md) - Mon Dec 19 08:39:54 2022 +0900
-- [qmd 내 가상환경 선택](quarto/vs-code-python-env.md) - Sun Dec 18 08:53:01 2022 +0900
+- [Google Domains + Github Pages](web/domain-setting.md) - Mon Apr 24 22:03:11 2023 +0900
+- [](conda/Q_and_A.md) - Mon Apr 24 22:03:11 2023 +0900
 
 ### Categories
 
@@ -44,6 +44,7 @@ _101 TILs and counting..._
 - [ubuntu](#ubuntu)
 - [unsolved](#unsolved)
 - [vscode](#vscode)
+- [web](#web)
 - [windows-management](#windows-management)
 - [wsl](#wsl)
 - [zzz_blogging](#zzz_blogging)
@@ -59,6 +60,7 @@ _101 TILs and counting..._
 
 ### [conda](#conda)
 - [Basics](conda/Basics.md)
+- [](conda/Q_and_A.md)
 - [Codespaces](conda/codespaces.md)
 - [Quick use](conda/work-flow.md)
 
@@ -172,6 +174,7 @@ _101 TILs and counting..._
 
 ### [ubuntu](#ubuntu)
 - [](ubuntu/Generic.md)
+- [목적](ubuntu/UTM-on-m1.md)
 - [더미파일 만들기](ubuntu/generate-dummy-file.md)
 - [matrix 효과](ubuntu/matrix-effect.md)
 - [20.04 설치](ubuntu/ubuntu-desktop-20.04-LTS.md)
@@ -187,6 +190,9 @@ _101 TILs and counting..._
 - [한글 버벅거리는 문제](vscode/mac-korean-input-error.md)
 - [맥OS VS Code에서 Shift + Enter](vscode/macos-jupyter-shift-enter.md)
 - [윈도우에서 terminal zsh로 바꾸기](vscode/windows-terminal-zsh.md)
+
+### [web](#web)
+- [Google Domains + Github Pages](web/domain-setting.md)
 
 ### [windows-management](#windows-management)
 - [](windows-management/Edge 설정.md)
