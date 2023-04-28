@@ -20,6 +20,22 @@
 	- `"$env:POSH_THEMES_PATH\paradox.omp.json"` | 이 부분에서 테마 이름은 {파일-이름}.omp.json 
 	- "agnosterplus"를 권한다. 
 		- agnoster를 쓰니 conda env가 나오지 않더라... 
+	- conda env가 나오게 하려면 아래 부분이 있는지 체크해보자. 
+```
+	{
+  "foreground": "#FFE873",
+  "leading_diamond": "\ue0b6",
+  "style": "diamond",
+  "properties": {
+    "fetch_virtual_env": true,
+    "display_mode": "environment",
+    "home_enabled": true
+  },
+  "template": "\ue235 {{ if .Error }}{{ .Error }}{{ else }}{{ if .Venv }}{{ .Venv }} {{ end }}{{ .Full }}{{ end }}",
+  "trailing_diamond": "\ue0b4 ",
+  "type": "python"
+}
+```
 
 ### 주의 사항 
 - Python(conda) 가상 환경은 `~`에서는 표시되지 않는다!
