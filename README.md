@@ -7,14 +7,14 @@ repository after reading Simon Wilson's [hacker new post][1], and he was
 apparently inspired by Josh Branchaud's [TIL collection][2].
 
 
-_105 TILs and counting..._
+_104 TILs and counting..._
 
 ---
 
 ### 2 most recent TILs
 
 - [](windows-management/winget-install.md) - Fri Apr 28 19:09:17 2023 +0900
-- [](conda/Q_and_A.md) - Mon Apr 24 22:03:11 2023 +0900
+- [Google Domains + Github Pages](web/domain-setting.md) - Mon Apr 24 22:03:11 2023 +0900
 
 ### Categories
 
@@ -141,7 +141,6 @@ _105 TILs and counting..._
 
 ### [pytorch](#pytorch)
 - [](pytorch/install.md)
-- [Pytorch 설치를 테스트하자](pytorch/quick-silver.md)
 
 ### [quarto](#quarto)
 - [Install](quarto/basics.md)
