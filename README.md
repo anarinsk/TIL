@@ -7,14 +7,14 @@ repository after reading Simon Wilson's [hacker new post][1], and he was
 apparently inspired by Josh Branchaud's [TIL collection][2].
 
 
-_104 TILs and counting..._
+_106 TILs and counting..._
 
 ---
 
 ### 2 most recent TILs
 
-- [](windows-management/winget-install.md) - Fri Apr 28 19:09:17 2023 +0900
-- [Google Domains + Github Pages](web/domain-setting.md) - Mon Apr 24 22:03:11 2023 +0900
+- [](windows-management/powershell-ultimate.md) - Wed May 10 13:01:14 2023 +0900
+- [Hack Nerd Font (NF)](windows-management/Fonts.md) - Wed May 10 13:01:14 2023 +0900
 
 ### Categories
 
@@ -195,10 +195,12 @@ _104 TILs and counting..._
 
 ### [windows-management](#windows-management)
 - [](windows-management/Edge 설정.md)
+- [Hack Nerd Font (NF)](windows-management/Fonts.md)
 - [파워셸에서 bash 쓰기](windows-management/bash-in-powershell.md)
 - [path 세팅하는 법](windows-management/path-setting.md)
 - [Powershell의 데코레이션 요소를 모아보자.](windows-management/powershell-decoration.md)
 - [Powershell 설정](windows-management/powershell-setting.md)
+- [](windows-management/powershell-ultimate.md)
 - [](windows-management/winget-install.md)
 - [Winget으로 설치하자.](windows-management/winget.md)
 - [한영 전환 하는 바꾸는 법](windows-management/한영전환.md)
