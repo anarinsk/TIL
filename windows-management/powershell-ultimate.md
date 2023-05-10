@@ -75,6 +75,14 @@ oh-my-posh init pwsh --config "$env:POSH_THEMES_PATH/jandedobbeleer.omp.json" | 
 > oh-my-posh init pwsh --config "$env:POSH_THEMES_PATH/powerlevel10k_modern.omp.json" | Invoke-Expression
 ```
 
+#### 업데이트 시 테마가 초기화되는 문제 
+
+- `$env:POSH_THEMES_PATH`의 위치에 따라서 업데이트 시 테마까지 통으로 업데이트가 된다. 
+- 해결책 
+	- github https://github.com/anarinsk/setup_posh/ 클론
+	- themes에서 필요한 테마 선정 
+	- `$profile`을 열어서 테마의 위치 부분은 위의 깃헙 클론 주소로 바꿔준다. 
+
 ### Python 가상 환경 이슈 
 
 - 테마에서 conda, python의 가상 환경이 안보일 때가 있다. 
@@ -92,6 +100,12 @@ oh-my-posh init pwsh --config "$env:POSH_THEMES_PATH/jandedobbeleer.omp.json" | 
 ```
 
 
+## 일상적인 관리 
+
+```shell
+> winget update --all
+> conda update --all # 해당 환경에서 실행 
+```
 
 
 
