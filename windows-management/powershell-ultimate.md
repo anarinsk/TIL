@@ -81,7 +81,7 @@ oh-my-posh init pwsh --config "$env:POSH_THEMES_PATH/jandedobbeleer.omp.json" | 
 - 해결책 
 	- github https://github.com/anarinsk/setup_posh/ 클론
 	- themes에서 필요한 테마 선정 
-	- `$profile`을 열어서 테마의 위치 부분은 위의 깃헙 클론 주소로 바꿔준다. 
+	- `$profile`을 열어서 테마의 위치 부분을 위의 깃헙 클론 주소로 바꿔준다. 
 
 ### Python 가상 환경 이슈 
 
