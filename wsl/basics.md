@@ -12,25 +12,50 @@ https://github.com/anarinsk/setup-wsl-daily_use
 
 https://www.guide2wsl.com
 
-## nerdctl 
+## nerdctl 설치 
 
 https://www.guide2wsl.com/nerdctl/#setuid-bit-tells-nerdctl-which-user-to-use
 
-### 설치시 주의사항 
+### Attention
 
-- 내부의 명령어를 풀어서 이해하면 된다. 
+- [배포 버전](https://github.com/containerd/nerdctl/releases)
+- sh 스크립트를 만들지 않고 명령어를 풀어서 실행해도 된다. 
+- 위 가이드를 응용해서 zsh에 설치하는 명령어는 아래와 같다. 
+- 테스트는 링크의 내용을 참고하라. 
 
-```shell=
-wget -q "https://github.com/containerd/nerdctl/releases/download/v${NERDCTL_VERSION}/nerdctl-full-${NERDCTL_VERSION}-linux-${archType}.tar.gz" -O /tmp/nerdctl.tar.gz
-```
-
-- 파일 링크를 `" "` 안에 직접 써주면 된다. 
 
 ```shell=
-echo -e '\nexport PATH="${PATH}:~/.local/bin"' >> ~/.bashrc
+# Containerd 설치 
+> sudo apt install containerd
+
+# nerdctl 다운로드 
+# verion 정보와 platform 정보 확인해서 고쳐라. 
+# 파일은 /tmp.nerdctl.tar.gz로 저장된다. 
+> wget -q "https://github.com/containerd/nerdctl/releases/download/v1.4.0/nerdctl-full-1.4.0-linux-amd64.tar.gz" -O /tmp/nerdctl.tar.gz
+> mkdir -p ~/.local/bin
+> tar -C ~/.local/bin/ -xzf /tmp/nerdctl.tar.gz --strip-components 1 bin/nerdctl
+
+> echo -e '\nexport PATH="${PATH}:/home/{유저 네임}/.local/bin"' >> ~/.zshrc
+> source ~/.zshrc
 ```
 
-`~/.local/bin` 대신 `/home/{유저이름}/.local/bin`으로 명시하자. 
+이후 설정은 아래를 참고하라. 
+
+```shell=
+# SETUID bit tells nerdctl which user to use
+> sudo chown root "$(which nerdctl)"
+> sudo chmod +s "$(which nerdctl)"
+
+#Start containerd
+> sudo echo -n ; sudo containerd &
+sudo chgrp "$(id -gn)" /run/containerd/containerd.sock
+
+#Install the CNI Plugin
+> tar -C ~/.local -xzf /tmp/nerdctl.tar.gz libexec
+> echo 'export CNI_PATH=/home/{유저 네임}/.local/libexec/cni' >> ~/.zshrc
+> source ~/.zshrc
+```
+
 
 
 
