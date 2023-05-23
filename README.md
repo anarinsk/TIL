@@ -204,7 +204,7 @@ _104 TILs and counting..._
 - [한영 전환 하는 바꾸는 법](windows-management/한영전환.md)
 
 ### [wsl](#wsl)
-- [WSL 설치 관련된 기본 사항을 정리해둔다.](wsl/basics.md)
+- [WSL Basics](wsl/basics.md)
 
 ### [zzz_blogging](#zzz_blogging)
 - [Fastpages 블로그 유지보수 하기](zzz_blogging/fastpages.md)
