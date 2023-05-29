@@ -7,14 +7,14 @@ repository after reading Simon Wilson's [hacker new post][1], and he was
 apparently inspired by Josh Branchaud's [TIL collection][2].
 
 
-_104 TILs and counting..._
+_105 TILs and counting..._
 
 ---
 
 ### 2 most recent TILs
 
+- [](macos/brew.md) - Mon May 29 10:12:31 2023 +0900
 - [Hack Nerd Font (NF)](windows-management/Fonts.md) - Wed May 10 13:01:14 2023 +0900
-- [](windows-management/powershell-ultimate.md) - Wed May 10 13:01:14 2023 +0900
 
 ### Categories
 
@@ -107,6 +107,7 @@ _104 TILs and counting..._
 
 ### [macos](#macos)
 - [Alternative to Docker Desktop](macos/alternative-to-docker-desktop.md)
+- [](macos/brew.md)
 - [깨끗한 설치](macos/fresh-install.md)
 - [LIMA](macos/lima.md)
 - [One Button Do Not Disturb](macos/one-button-do-not-disturb.md)
